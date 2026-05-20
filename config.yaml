@@ -1,0 +1,41 @@
+---
+excludes:
+  - markdown
+
+generator_args:
+  excel:
+    mergeimports: true
+  owl:
+    mergeimports: true
+    metaclasses: false
+    type_objects: false
+    add_root_classes: true
+    mixins_as_expressions: true
+  markdown:
+    mergeimports: true
+    directory: "docs/elements"
+  graphql:
+    mergeimports: true
+  jsonld:
+    mergeimports: true
+  jsonschema:
+    mergeimports: true
+  jsonldcontext:
+    mergeimports: true
+  python:
+    mergeimports: true
+  prefixmap:
+    mergeimports: true
+  proto:
+    mergeimports: true
+  shacl:
+    mergeimports: true
+  shex:
+    mergeimports: true
+  sqlddl:
+    mergeimports: true
+  typescript:
+    mergeimports: true
+    metadata: true
+
+...

@@ -1,0 +1,275 @@
+id: https://w3id.org/site-kb
+name: site_kb
+title: Environmental Research Site Knowledge Base
+description: >-
+  A unified registry of environmental research and observation sites across
+  networks (DEIMS/LTER, NEON, ARM, AmeriFlux, ESS-DIVE, FLUXNET, ICOS),
+  with harmonized variable/measurement metadata and ontology bindings.
+license: MIT
+see_also:
+  - https://github.com/cmungall/site-kb
+
+imports:
+  - linkml:types
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  site_kb: https://w3id.org/site-kb/
+  schema: http://schema.org/
+  dcterms: http://purl.org/dc/terms/
+  skos: http://www.w3.org/2004/02/skos/core#
+  ENVO: http://purl.obolibrary.org/obo/ENVO_
+  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
+  UO: http://purl.obolibrary.org/obo/UO_
+  GAZ: http://purl.obolibrary.org/obo/GAZ_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  IAO: http://purl.obolibrary.org/obo/IAO_
+  MIXS: http://purl.obolibrary.org/obo/MIXS_
+  orcid: https://orcid.org/
+  ror: https://ror.org/
+  doi: https://doi.org/
+  deims: https://deims.org/
+
+default_prefix: site_kb
+default_range: string
+
+classes:
+
+  SiteCollection:
+    description: A collection of environmental research sites.
+    tree_root: true
+    attributes:
+      sites:
+        description: The sites in this collection.
+        range: Site
+        multivalued: true
+        inlined_as_list: true
+
+  Site:
+    description: >-
+      A physical environmental research or observation site. Represents
+      a single real-world location that may be registered in multiple networks.
+    attributes:
+      id:
+        description: A unique identifier for this site within the knowledge base.
+        identifier: true
+        range: uriorcurie
+      name:
+        description: The canonical name for this site.
+        required: true
+      aliases:
+        description: Alternative names for this site across networks.
+        multivalued: true
+      description:
+        description: A textual description of the site and its research focus.
+      location:
+        description: The geographic location of the site.
+        range: Location
+        inlined: true
+      ecosystem_terms:
+        description: ENVO terms describing the ecosystem(s) at this site.
+        range: OntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      network_registrations:
+        description: >-
+          Registrations of this site in external networks/registries.
+        range: NetworkRegistration
+        multivalued: true
+        inlined_as_list: true
+      variables:
+        description: Variables measured or observed at this site.
+        range: Variable
+        multivalued: true
+        inlined_as_list: true
+      contacts:
+        description: People or organizations responsible for this site.
+        range: Contact
+        multivalued: true
+        inlined_as_list: true
+      status:
+        description: Operational status of the site.
+        range: SiteStatusEnum
+      established:
+        description: Date the site was established (ISO 8601).
+        range: date
+      closed:
+        description: Date the site was decommissioned, if applicable (ISO 8601).
+        range: date
+      notes:
+        description: Free-text notes about this site.
+
+  Location:
+    description: A geographic location with coordinates and optional metadata.
+    attributes:
+      latitude:
+        description: Latitude in decimal degrees (WGS84).
+        range: float
+        required: true
+      longitude:
+        description: Longitude in decimal degrees (WGS84).
+        range: float
+        required: true
+      elevation_meters:
+        description: Elevation above sea level in meters.
+        range: float
+      country:
+        description: Country where the site is located.
+      state_province:
+        description: State, province, or administrative region.
+      region_term:
+        description: Ontology term for the geographic region (GAZ).
+        range: OntologyTerm
+        inlined: true
+
+  NetworkRegistration:
+    description: >-
+      A site's identity and metadata within a specific observation network
+      or registry.
+    attributes:
+      network:
+        description: The network or registry this registration belongs to.
+        range: NetworkEnum
+        required: true
+      network_id:
+        description: >-
+          The identifier for this site within the network (e.g., UUID,
+          site code, or other network-specific identifier).
+        required: true
+      network_url:
+        description: Canonical URL for this site in the network's registry.
+        range: uri
+      name:
+        description: The name of the site as registered in this network.
+      site_type:
+        description: The type/classification of the site within this network.
+
+  Variable:
+    description: >-
+      A variable measured or observed at a site. Links to ontology terms
+      for semantic interoperability across networks.
+    attributes:
+      name:
+        description: Human-readable name of the variable.
+        required: true
+      description:
+        description: Description of what is measured and how.
+      term:
+        description: >-
+          Primary ontology term for this variable (preferably BERVO,
+          also ENVO, OBI, or other relevant ontology).
+        range: OntologyTerm
+        inlined: true
+      additional_terms:
+        description: Additional ontology terms for this variable.
+        range: OntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      units:
+        description: Unit of measurement (UO term).
+        range: OntologyTerm
+        inlined: true
+      capability:
+        description: >-
+          The instrument or platform capability that provides this
+          measurement (OBI term).
+        range: OntologyTerm
+        inlined: true
+      temporal_resolution:
+        description: >-
+          Typical temporal resolution of measurements (e.g., "1 minute",
+          "hourly", "daily", "monthly").
+      network_variable_id:
+        description: >-
+          The identifier for this variable in the source network's
+          data system.
+
+  Contact:
+    description: A person or organization associated with a site.
+    attributes:
+      name:
+        description: Name of the person or organization.
+        required: true
+      role:
+        description: Role at the site (e.g., PI, site manager).
+      email:
+        description: Contact email address.
+      orcid:
+        description: ORCID identifier for a person.
+        range: uriorcurie
+      organization:
+        description: Affiliated organization.
+      ror_id:
+        description: ROR identifier for the organization.
+        range: uriorcurie
+
+  OntologyTerm:
+    description: >-
+      A reference to an ontology term with its identifier and label.
+      Labels are validated against the source ontology by linkml-term-validator.
+    attributes:
+      id:
+        description: The CURIE of the ontology term.
+        range: uriorcurie
+        required: true
+      label:
+        description: >-
+          The label of the ontology term. Must match the canonical label
+          in the source ontology.
+        required: true
+
+enums:
+
+  NetworkEnum:
+    description: Environmental research and observation networks.
+    permissible_values:
+      DEIMS:
+        description: >-
+          Dynamic Ecological Information Management System - Site and
+          Dataset Registry. Primarily LTER/eLTER sites.
+      NEON:
+        description: >-
+          National Ecological Observatory Network. US-based ecological
+          observation network.
+      ARM:
+        description: >-
+          Atmospheric Radiation Measurement. DOE facility for atmospheric
+          and climate research.
+      AMERIFLUX:
+        description: >-
+          AmeriFlux network of eddy covariance flux tower sites across
+          the Americas.
+      FLUXNET:
+        description: >-
+          Global network of micrometeorological flux measurement sites.
+      ICOS:
+        description: >-
+          Integrated Carbon Observation System. European greenhouse gas
+          monitoring network.
+      ESS_DIVE:
+        description: >-
+          Environmental System Science Data Infrastructure for a Virtual
+          Ecosystem. DOE data repository.
+      CZO:
+        description: >-
+          Critical Zone Observatory network (now part of CZNet).
+      LTER:
+        description: >-
+          Long Term Ecological Research network (US).
+      ILTER:
+        description: >-
+          International Long-Term Ecological Research network.
+
+  SiteStatusEnum:
+    description: Operational status of a research site.
+    permissible_values:
+      ACTIVE:
+        description: Site is currently operational and collecting data.
+      INACTIVE:
+        description: Site exists but is not currently collecting data.
+      DECOMMISSIONED:
+        description: Site has been permanently closed.
+      PLANNED:
+        description: Site is planned but not yet operational.

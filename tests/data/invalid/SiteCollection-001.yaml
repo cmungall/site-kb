@@ -1,0 +1,7 @@
+# Invalid: missing required name field on Site
+sites:
+  - id: site_kb:bad-site
+    description: This site has no name.
+    location:
+      latitude: 0.0
+      longitude: 0.0

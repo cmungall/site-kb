@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[project]
+name = "site_kb"
+description = "Environmental Research Site Knowledge Base — unified registry of sites across DEIMS, NEON, ARM, AmeriFlux, and other networks."
+authors = [
+  {name = "Chris Mungall", email = "cjmungall@lbl.gov"},
+]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dynamic = ["version"]
+
+dependencies = [
+  "linkml-runtime>=1.9.4",
+  "linkml-reference-validator>=0.1.6",
+  "oaklib>=0.6.0",
+  "httpx>=0.28.1",
+  "pyyaml>=6.0",
+  "typer>=0.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "linkml>=1.9.3",
+    "linkml-term-validator>=0.3.0",
+    "mkdocs-material>=8.2.8",
+    "mkdocs-mermaid2-plugin>=1.1.1",
+    "pytest>=8.0",
+]
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv-dynamic-versioning]
+vcs = "git"
+style = "pep440"
+fallback-version = "0.0.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.codespell]
+skip = [
+  "LICENSE",
+  "pyproject.toml",
+  "uv.lock",
+  "project/*",
+  "src/site_kb/datamodel/site_kb_pydantic.py",
+  "src/site_kb/datamodel/site_kb.py",
+]
+quiet-level = 3

@@ -1,0 +1,49 @@
+# OAK Configuration for site-kb term validation
+# Maps ontology prefixes to OAK adapter strings
+#
+# Adapter types:
+#   sqlite:obo:<name>  - Pre-built SQLite databases (fast, offline, recommended)
+#   ols:               - Ontology Lookup Service (EBI, online)
+#   ""                 - Skip validation for this prefix
+
+ontology_adapters:
+  # Environment ontology (ecosystems, biomes, habitats)
+  ENVO: sqlite:obo:envo
+
+  # Biome, Environment, and Research Variable Ontology
+  BERVO: sqlite:obo:bervo
+
+  # Ontology for Biomedical Investigations (instruments, assays)
+  OBI: sqlite:obo:obi
+
+  # Units of measurement
+  UO: sqlite:obo:uo
+
+  # Gazetteer (geographic regions)
+  GAZ: sqlite:obo:gaz
+
+  # Taxonomy
+  NCBITaxon: sqlite:obo:ncbitaxon
+
+  # MIxS terms
+  MIXS: sqlite:obo:mixs
+
+  # Phenotype and Trait Ontology
+  PATO: sqlite:obo:pato
+
+  # Information Artifact Ontology
+  IAO: sqlite:obo:iao
+
+  # Skip validation for these common prefixes
+  linkml: ""
+  schema: ""
+  dcterms: ""
+  skos: ""
+  xsd: ""
+  rdf: ""
+  rdfs: ""
+  owl: ""
+  orcid: ""
+  ror: ""
+  doi: ""
+  deims: ""

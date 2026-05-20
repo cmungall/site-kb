@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# uv
+uv.lock
+
+# Generated project artifacts
+project/
+
+# Generated datamodel (except __init__.py)
+src/site_kb/datamodel/*.py
+!src/site_kb/datamodel/__init__.py
+
+# Documentation build
+site/
+
+# Cache
+cache/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local

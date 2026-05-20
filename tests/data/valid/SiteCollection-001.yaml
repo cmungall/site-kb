@@ -1,0 +1,56 @@
+sites:
+  - id: site_kb:harvard-forest
+    name: Harvard Forest
+    description: >-
+      Long-term ecological research site in central Massachusetts,
+      studying temperate forest dynamics since 1907.
+    status: ACTIVE
+    established: "1907-01-01"
+    location:
+      latitude: 42.5369
+      longitude: -72.1727
+      elevation_meters: 340.0
+      country: United States
+      state_province: Massachusetts
+    ecosystem_terms:
+      - id: ENVO:01000174
+        label: forest biome
+    network_registrations:
+      - network: NEON
+        network_id: HARV
+        network_url: https://www.neonscience.org/field-sites/harv
+        name: Harvard Forest & Quabbin Watershed NEON
+      - network: DEIMS
+        network_id: 9dbbd9ea-21dc-43e3-b55d-42623427e642
+        network_url: https://deims.org/9dbbd9ea-21dc-43e3-b55d-42623427e642
+        name: Harvard Forest LTER
+      - network: AMERIFLUX
+        network_id: US-Ha1
+        name: Harvard Forest EMS Tower (HFR1)
+      - network: LTER
+        network_id: HFR
+        name: Harvard Forest
+    variables:
+      - name: Net ecosystem exchange of CO2
+        term:
+          id: BERVO:0000105
+          label: net ecosystem exchange of carbon dioxide
+        units:
+          id: UO:0010049
+          label: micromole per square meter per second
+        capability:
+          id: OBI:0002983
+          label: eddy covariance flux measurement
+        temporal_resolution: 30 minutes
+      - name: Air temperature
+        term:
+          id: ENVO:09200001
+          label: temperature of air
+        units:
+          id: UO:0000027
+          label: degree Celsius
+        temporal_resolution: 1 minute
+    contacts:
+      - name: Audrey Barker Plotkin
+        role: Site Director
+        organization: Harvard University
