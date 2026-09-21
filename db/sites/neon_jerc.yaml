@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-jerc
+  name: The Jones Center At Ichauway NEON
+  location:
+    latitude: 31.194839
+    longitude: -84.468623
+    country: United States
+    state_province: Georgia
+  network_registrations:
+  - network: NEON
+    network_id: JERC
+    network_url: https://www.neonscience.org/field-sites/jerc
+    name: The Jones Center At Ichauway NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 2592b8ed-e6cf-4854-9488-e9459b9b458c
+    network_url: https://deims.org/2592b8ed-e6cf-4854-9488-e9459b9b458c
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

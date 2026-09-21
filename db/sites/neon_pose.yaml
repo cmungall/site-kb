@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-pose
+  name: Posey Creek NEON
+  location:
+    latitude: 38.89431
+    longitude: -78.147258
+    country: United States
+    state_province: Virginia
+  network_registrations:
+  - network: NEON
+    network_id: POSE
+    network_url: https://www.neonscience.org/field-sites/pose
+    name: Posey Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: c49d2b32-a013-4e69-b995-115515712449
+    network_url: https://deims.org/c49d2b32-a013-4e69-b995-115515712449
+  status: ACTIVE
+  notes: 'NEON Domain: D02 (Mid-Atlantic)'

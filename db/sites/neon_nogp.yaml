@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-nogp
+  name: Northern Great Plains Research Laboratory NEON
+  location:
+    latitude: 46.76972
+    longitude: -100.91535
+    country: United States
+    state_province: North Dakota
+  network_registrations:
+  - network: NEON
+    network_id: NOGP
+    network_url: https://www.neonscience.org/field-sites/nogp
+    name: Northern Great Plains Research Laboratory NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 6d07b95f-37ef-467f-afc7-e69bbafbba39
+    network_url: https://deims.org/6d07b95f-37ef-467f-afc7-e69bbafbba39
+  status: ACTIVE
+  notes: 'NEON Domain: D09 (Northern Plains)'

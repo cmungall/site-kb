@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-took
+  name: Toolik Lake NEON
+  location:
+    latitude: 68.630692
+    longitude: -149.610636
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: TOOK
+    network_url: https://www.neonscience.org/field-sites/took
+    name: Toolik Lake NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 489ae6a6-9dbe-4677-9fe7-7c82e85341b6
+    network_url: https://deims.org/489ae6a6-9dbe-4677-9fe7-7c82e85341b6
+  status: ACTIVE
+  notes: 'NEON Domain: D18 (Tundra)'

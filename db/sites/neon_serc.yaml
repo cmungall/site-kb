@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-serc
+  name: Smithsonian Environmental Research Center NEON
+  location:
+    latitude: 38.890131
+    longitude: -76.560014
+    country: United States
+    state_province: Maryland
+  network_registrations:
+  - network: NEON
+    network_id: SERC
+    network_url: https://www.neonscience.org/field-sites/serc
+    name: Smithsonian Environmental Research Center NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 2d69f93e-743b-40d7-bda8-59c49767e7a4
+    network_url: https://deims.org/2d69f93e-743b-40d7-bda8-59c49767e7a4
+  status: ACTIVE
+  notes: 'NEON Domain: D02 (Mid-Atlantic)'

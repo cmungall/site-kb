@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-konz
+  name: Konza Prairie Biological Station NEON
+  location:
+    latitude: 39.100774
+    longitude: -96.563075
+    country: United States
+    state_province: Kansas
+  network_registrations:
+  - network: NEON
+    network_id: KONZ
+    network_url: https://www.neonscience.org/field-sites/konz
+    name: Konza Prairie Biological Station NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: d3c55759-78e7-4936-8bc5-7ee4c0938058
+    network_url: https://deims.org/d3c55759-78e7-4936-8bc5-7ee4c0938058
+  status: ACTIVE
+  notes: 'NEON Domain: D06 (Prairie Peninsula)'

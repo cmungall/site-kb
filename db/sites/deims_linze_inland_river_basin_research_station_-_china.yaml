@@ -1,0 +1,25 @@
+sites:
+- id: site_kb:deims-linze_inland_river_basin_research_station_-_china
+  name: Linze Inland River Basin Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: b14f4ada-d4d5-4241-ae85-400b46b73da9
+    network_url: https://deims.org/b14f4ada-d4d5-4241-ae85-400b46b73da9
+    name: Linze Inland River Basin Research Station - China
+  description: Linze Inland River Basin Comprehensive Research Station (Linze Staion),
+    located in Linze County (39o21'N，100o07' E, a.s.l. 1367m), in the middle of the
+    Hexi Corridor of Gansu Province, Northwest China, was first set up in 1975. It
+    is subordinate to the Cold and Arid Regions Environmental and Engineering Research
+    Institute, CAS. Since 2000, intensive research work has being carried out in Linze
+    Station in response to the Knowledge Innovation Project of the Chinese Academy
+    of Sciences and the Cold and Arid Regions Environmental and Engineering Research
+    Institute. Linze Station was expanded and re-equipped in 2000 and was listed as
+    a desert ecosystem research station of Chinese Ecosystem Research Network (CERN)
+    in 2003. As the only station which can provide related conditions to conduct comprehensive
+    studies on hydrology, soil, atmosphere and biology in Heihe river basin in China,
+    Linze station undertakes to the long-term monitoring of the evolution of both
+    desert ecosystem and oasis agricultural ecosystem and dedicates to the ecosystem
+    management of the inland river basin, the rehabilitation of the ecological environments
+    and the sustainable development of oasis.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

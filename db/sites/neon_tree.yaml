@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-tree
+  name: Treehaven NEON
+  location:
+    latitude: 45.49369
+    longitude: -89.58571
+    country: United States
+    state_province: Wisconsin
+  network_registrations:
+  - network: NEON
+    network_id: TREE
+    network_url: https://www.neonscience.org/field-sites/tree
+    name: Treehaven NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: c42b2e3e-598f-4048-822b-56c64748542b
+    network_url: https://deims.org/c42b2e3e-598f-4048-822b-56c64748542b
+  status: ACTIVE
+  notes: 'NEON Domain: D05 (Great Lakes)'

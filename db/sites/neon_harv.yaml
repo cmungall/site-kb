@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-harv
+  name: Harvard Forest & Quabbin Watershed NEON
+  location:
+    latitude: 42.53691
+    longitude: -72.17265
+    country: United States
+    state_province: Massachusetts
+  network_registrations:
+  - network: NEON
+    network_id: HARV
+    network_url: https://www.neonscience.org/field-sites/harv
+    name: Harvard Forest & Quabbin Watershed NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 9dbbd9ea-21dc-43e3-b55d-42623427e642
+    network_url: https://deims.org/9dbbd9ea-21dc-43e3-b55d-42623427e642
+  status: ACTIVE
+  notes: 'NEON Domain: D01 (Northeast)'

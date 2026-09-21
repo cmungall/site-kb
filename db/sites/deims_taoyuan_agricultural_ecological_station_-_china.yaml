@@ -1,0 +1,25 @@
+sites:
+- id: site_kb:deims-taoyuan_agricultural_ecological_station_-_china
+  name: Taoyuan Agricultural Ecological Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+    network_url: https://deims.org/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+    name: Taoyuan Agricultural Ecological Station - China
+  description: 'Taoyuan Station of Agro-ecosystem Research(TYA) is located in Taoyuan
+    county, Hunan province (111o27’E, 28o55’N) and was established in 1978, a section
+    of the Institute of Subtropical Agriculture（ISA）. TYA represents southern combined
+    ecosystem of agriculture and forestry in hilly region with red clay soil, and
+    is responsible for the monitoring the successions of agro-ecosystem in the region.
+    The main research fields cover: the succession of agro-ecosystem and key environmental
+    elements; the variations and adjustments of soil nutrient cycling and soil fertility;
+    irrigation techniques and increase of water use efficiency in agricultural system;
+    the biogeochemical processes and microbial functions of soil carbon and nitrogen
+    cycling and restoration of degraded ecosystem. As a base for researches for agricultural
+    and forestry ecosystems in red-earth hilly region, It has been certified as a
+    member of the Chinese Ecosystem Research Network (CERN), the National Field Research
+    Stations of China (CNERN)and International Long Term Ecological Research（ILTER）.
+    Besides, the station was qualified as a national base of scientific training for
+    teenagers.'
+  notes: 'DEIMS country: China'
+  status: ACTIVE

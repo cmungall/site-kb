@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-leco
+  name: LeConte Creek NEON
+  location:
+    latitude: 35.690428
+    longitude: -83.50379
+    country: United States
+    state_province: Tennessee
+  network_registrations:
+  - network: NEON
+    network_id: LECO
+    network_url: https://www.neonscience.org/field-sites/leco
+    name: LeConte Creek NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 68d82455-3f56-45d3-a9c1-643f73744fef
+    network_url: https://deims.org/68d82455-3f56-45d3-a9c1-643f73744fef
+  status: ACTIVE
+  notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'

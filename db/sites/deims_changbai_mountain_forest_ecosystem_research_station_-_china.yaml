@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-changbai_mountain_forest_ecosystem_research_station_-_china
+  name: Changbai Mountain Forest Ecosystem Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+    network_url: https://deims.org/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+    name: Changbai Mountain Forest Ecosystem Research Station - China
+  description: Changbai mountain station is located in National Nature Reserve of
+    Changbai Mountain,Jinlin Province.The zonal vegetation is broad leaved Korean
+    pine forest,There are more than 1000 kinds of plants.The main forest types are  broad
+    leaved Korean pine forest,Spruce fir forest,betula ermanii forest,alpine tundra.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

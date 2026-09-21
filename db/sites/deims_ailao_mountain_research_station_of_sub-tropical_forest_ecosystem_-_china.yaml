@@ -1,0 +1,16 @@
+sites:
+- id: site_kb:deims-ailao_mountain_research_station_of_sub-tropical_forest_ecosystem_-_china
+  name: Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 13f23bec-9cc6-4b31-9032-fcbe850b448c
+    network_url: https://deims.org/13f23bec-9cc6-4b31-9032-fcbe850b448c
+    name: Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China
+  description: Located in Jingdong County, Yunnan Province, China. The annual mean
+    air temperature was 11.3 °C, with a minimum monthly mean temperature of 5.7 °C
+    in January and a maximum monthly mean temperature of 15.6 °C in July. Average
+    annual rainfall was 1778 mm, with 86.0% of this falling in the rainy season (May–October).
+    The dominant tree species in the forest are Lithocarpus xylocarpus, Lithocarpus
+    hancei, and Castanopsis wattii.
+  notes: 'DEIMS country: China; DEIMS average elevation: 2500 m'
+  status: ACTIVE

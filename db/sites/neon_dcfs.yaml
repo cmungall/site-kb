@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-dcfs
+  name: Dakota Coteau Field Site NEON
+  location:
+    latitude: 47.16165
+    longitude: -99.10656
+    country: United States
+    state_province: North Dakota
+  network_registrations:
+  - network: NEON
+    network_id: DCFS
+    network_url: https://www.neonscience.org/field-sites/dcfs
+    name: Dakota Coteau Field Site NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 8d00bd9f-3bee-4d10-ade1-499fb061b7ff
+    network_url: https://deims.org/8d00bd9f-3bee-4d10-ade1-499fb061b7ff
+  status: ACTIVE
+  notes: 'NEON Domain: D09 (Northern Plains)'

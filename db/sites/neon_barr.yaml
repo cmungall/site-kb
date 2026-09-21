@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-barr
+  name: Utqiaġvik NEON
+  location:
+    latitude: 71.28241
+    longitude: -156.61936
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: BARR
+    network_url: https://www.neonscience.org/field-sites/barr
+    name: Utqiaġvik NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 7abf28d7-7fbc-45fd-acf6-d33cb9e3348f
+    network_url: https://deims.org/7abf28d7-7fbc-45fd-acf6-d33cb9e3348f
+  status: ACTIVE
+  notes: 'NEON Domain: D18 (Tundra)'

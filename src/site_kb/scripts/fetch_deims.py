@@ -34,27 +34,83 @@ def fetch_site_detail(resource_id: str) -> dict:
     return resp.json()
 
 
+def _as_text(value: object) -> str | None:
+    """Normalize DEIMS scalar/list values to a schema-compatible string."""
+    if value is None:
+        return None
+    if isinstance(value, list):
+        parts = [str(v).strip() for v in value if v is not None and str(v).strip()]
+        return ", ".join(parts) if parts else None
+    text = str(value).strip()
+    return text or None
+
+
+def _as_float(value: object) -> float | None:
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _parse_coordinates(value: object) -> tuple[float | None, float | None]:
+    """Return latitude and longitude from common DEIMS coordinate shapes."""
+    if not value:
+        return None, None
+    if isinstance(value, str):
+        coords = [part.strip() for part in value.split(",")]
+        if len(coords) >= 2:
+            return _as_float(coords[1]), _as_float(coords[0])
+    if isinstance(value, dict):
+        lat = _as_float(value.get("latitude") or value.get("lat"))
+        lon = _as_float(value.get("longitude") or value.get("lon") or value.get("lng"))
+        return lat, lon
+    if isinstance(value, (list, tuple)) and len(value) >= 2:
+        return _as_float(value[1]), _as_float(value[0])
+    return None, None
+
+
+def _as_dict(value: object) -> dict:
+    return value if isinstance(value, dict) else {}
+
+
+def _site_id_from_summary(summary: dict) -> str:
+    id_value = summary.get("id")
+    if isinstance(id_value, dict):
+        return _as_text(id_value.get("suffix") or id_value.get("id")) or ""
+    return _as_text(id_value) or ""
+
+
+def _elevation_from_geographic(geo: dict) -> float | None:
+    elevation = geo.get("elevation")
+    if isinstance(elevation, dict):
+        return _as_float(elevation.get("avg") or elevation.get("mean") or elevation.get("value"))
+    return _as_float(elevation)
+
+
 def deims_to_site(summary: dict, detail: dict) -> dict:
     """Convert DEIMS API response to site-kb Site format."""
-    site_id = summary.get("id", {}).get("suffix", "")
-    title = summary.get("title", "Unknown")
+    title = _as_text(summary.get("title")) or "Unknown"
+    site_id = _site_id_from_summary(summary) or sanitize_filename(title)
 
     # Extract coordinates
-    coords = summary.get("coordinates", "").split(",") if summary.get("coordinates") else []
-    lat = float(coords[1].strip()) if len(coords) >= 2 else None
-    lon = float(coords[0].strip()) if len(coords) >= 2 else None
+    lat, lon = _parse_coordinates(summary.get("coordinates"))
 
     location = {}
-    if lat is not None:
+    if lat is not None and lon is not None:
         location["latitude"] = lat
         location["longitude"] = lon
 
     # Extract country from detail
-    geo = detail.get("attributes", {}).get("geographic", {})
-    if geo.get("country"):
-        location["country"] = geo["country"]
-    if geo.get("elevation", {}).get("avg"):
-        location["elevation_meters"] = float(geo["elevation"]["avg"])
+    attributes = _as_dict(detail.get("attributes"))
+    geo = _as_dict(attributes.get("geographic"))
+    country = _as_text(geo.get("country"))
+    if location and country:
+        location["country"] = country
+    elevation = _elevation_from_geographic(geo)
+    if location and elevation is not None:
+        location["elevation_meters"] = elevation
 
     site = {
         "id": f"site_kb:deims-{sanitize_filename(title)}",
@@ -73,14 +129,24 @@ def deims_to_site(summary: dict, detail: dict) -> dict:
         site["location"] = location
 
     # Extract description
-    general = detail.get("attributes", {}).get("general", {})
-    if general.get("abstract"):
-        site["description"] = general["abstract"]
+    general = _as_dict(attributes.get("general"))
+    abstract = _as_text(general.get("abstract"))
+    if abstract:
+        site["description"] = abstract
 
     # Extract ecosystem from environmental characteristics
-    env_chars = detail.get("attributes", {}).get("environmentalCharacteristics", {})
-    if env_chars and env_chars.get("biogeographicalRegion"):
-        site["notes"] = f"Biogeographical region: {env_chars['biogeographicalRegion']}"
+    env_chars = _as_dict(attributes.get("environmentalCharacteristics"))
+    notes = []
+    biogeographical_region = _as_text(env_chars.get("biogeographicalRegion"))
+    if biogeographical_region:
+        notes.append(f"Biogeographical region: {biogeographical_region}")
+    if not location:
+        if country:
+            notes.append(f"DEIMS country: {country}")
+        if elevation is not None:
+            notes.append(f"DEIMS average elevation: {elevation:g} m")
+    if notes:
+        site["notes"] = "; ".join(notes)
 
     site["status"] = "ACTIVE"
 
@@ -90,6 +156,7 @@ def deims_to_site(summary: dict, detail: dict) -> dict:
 @app.command()
 def main(
     limit: int = typer.Option(0, help="Limit number of sites to fetch (0 = all)"),
+    offset: int = typer.Option(0, help="Number of sites to skip before applying limit"),
     output_dir: Path = typer.Option(OUTPUT_DIR, help="Output directory"),
     detail: bool = typer.Option(True, help="Fetch detailed metadata for each site"),
     summary_only: bool = typer.Option(False, help="Print summary statistics only"),
@@ -101,6 +168,8 @@ def main(
     sites = fetch_site_list()
     typer.echo(f"Found {len(sites)} sites")
 
+    if offset > 0:
+        sites = sites[offset:]
     if limit > 0:
         sites = sites[:limit]
 
@@ -109,8 +178,8 @@ def main(
         return
 
     for i, summary in enumerate(sites):
-        title = summary.get("title", "Unknown")
-        site_id = summary.get("id", {}).get("suffix", "")
+        title = _as_text(summary.get("title")) or "Unknown"
+        site_id = _site_id_from_summary(summary)
         typer.echo(f"[{i+1}/{len(sites)}] {title}")
 
         detail_data = {}

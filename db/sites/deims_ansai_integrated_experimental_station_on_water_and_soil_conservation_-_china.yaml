@@ -1,0 +1,24 @@
+sites:
+- id: site_kb:deims-ansai_integrated_experimental_station_on_water_and_soil_conservation_-_china
+  name: Ansai Integrated Experimental Station on Water and Soil Conservation - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 970314a3-1e0e-4b35-9b35-a7fb3155b045
+    network_url: https://deims.org/970314a3-1e0e-4b35-9b35-a7fb3155b045
+    name: Ansai Integrated Experimental Station on Water and Soil Conservation - China
+  description: Ansai Integrated Experimental Station on Water and Soil Conservation
+    is a part of Chinese Ecosystem Research Network, which located in the  typical
+    loess hilly and gully region and situates near the center of the Loess Plateau
+    in the Shaanxi Province. The loess-derived soils are fertile but extremely susceptible
+    to erosion. Soil erosion in the study area is much higher than that in the southern
+    part of the Loess Plateau. The climate belongs to transition zone of warm temperate
+    semi-humid to semi-arid, which is dry and windy in spring, hot and rainy in summer,
+    and dry and cold in winter. The mean annual temperature is 8.8 °C. The minimum
+    and maximum temperatures are −23.6 °C in February and 36.8 °C in July. The frost-free
+    period is 157 days. The mean annual precipitation is 505 mm, 70% of which falls
+    between July and September in the form of short heavy storm. The soil is silt
+    loam with the contents of sand, silt, and clay being 24%, 65%, and 11%. Ansai
+    station mainly focus on vegetation rehabilitation, monitoring and assessment of
+    rehabilitation, and  monitoring in watershed.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

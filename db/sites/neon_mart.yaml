@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-mart
+  name: Martha Creek NEON
+  location:
+    latitude: 45.790835
+    longitude: -121.933788
+    country: United States
+    state_province: Washington
+  network_registrations:
+  - network: NEON
+    network_id: MART
+    network_url: https://www.neonscience.org/field-sites/mart
+    name: Martha Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 32c023e0-e828-4152-9942-d65d64c97b8e
+    network_url: https://deims.org/32c023e0-e828-4152-9942-d65d64c97b8e
+  status: ACTIVE
+  notes: 'NEON Domain: D16 (Pacific Northwest)'

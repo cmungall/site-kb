@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-flnt
+  name: Flint River NEON
+  location:
+    latitude: 31.185424
+    longitude: -84.437403
+    country: United States
+    state_province: Georgia
+  network_registrations:
+  - network: NEON
+    network_id: FLNT
+    network_url: https://www.neonscience.org/field-sites/flnt
+    name: Flint River NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 923f4698-f04d-49df-a963-693310ac97a9
+    network_url: https://deims.org/923f4698-f04d-49df-a963-693310ac97a9
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

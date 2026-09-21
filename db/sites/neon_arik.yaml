@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-arik
+  name: Arikaree River NEON
+  location:
+    latitude: 39.758206
+    longitude: -102.447148
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: ARIK
+    network_url: https://www.neonscience.org/field-sites/arik
+    name: Arikaree River NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 18c5101c-60b1-4551-9c12-c9839dc3b958
+    network_url: https://deims.org/18c5101c-60b1-4551-9c12-c9839dc3b958
+  status: ACTIVE
+  notes: 'NEON Domain: D10 (Central Plains)'

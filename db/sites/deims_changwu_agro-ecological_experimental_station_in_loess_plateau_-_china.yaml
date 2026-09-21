@@ -1,0 +1,30 @@
+sites:
+- id: site_kb:deims-changwu_agro-ecological_experimental_station_in_loess_plateau_-_china
+  name: Changwu Agro-Ecological Experimental Station in Loess Plateau - China
+  network_registrations:
+  - network: DEIMS
+    network_id: b72a0976-15c0-4c8e-9254-b3bcbb42f95f
+    network_url: https://deims.org/b72a0976-15c0-4c8e-9254-b3bcbb42f95f
+    name: Changwu Agro-Ecological Experimental Station in Loess Plateau - China
+  description: "Changwu station was found in 1984 as one of field experiment stations\
+    \ of Institute of Soil and Water Conservation, Chinese Academy of Sciences (ISWC,\
+    \ CAS). It joined the Chinese Ecosystem Research Network (CERN) organized by CAS\
+    \ in 1991 and the National Ecosystem Research Network of China (CNERN) in 2005\
+    \ by the Ministry of Science and Technology of the People’s Republic of China.\r\
+    \n\r\nThe station located in Wangdong Village, Hongjia town, Changwu County, Shaanxi\
+    \ Province, 200 km away from Xi’an city. Its location is E107°41′ and N35°12′,\
+    \ south of the Loess Plateau.\r\n\r\nIt belongs to the warm temperate semi-humid\
+    \ continental monsoon climate. Mean annual precipitation is 580mm and temperature\
+    \ 9.1℃, frost-free day 171. The elevation is about 1200 m and the depth of ground\
+    \ water is 50-80m. Main crops are winter wheat, spring maize, potato, sorghum,\
+    \ millet, beans and so on. The zonal soil is called Heilu soil with a parent material\
+    \ of clay loam Malan loess paleosol soil with an average depth in excess of 100m\
+    \ that were deposited during the Quaternary period. It belongs to the high table\
+    \ land - gully region, and a typical rain-fed agricultural area on the Loess Plateau.\r\
+    \n\r\nWangdong small watershed, which the station located in, is 6.3km2. Three\
+    \ landform types are high table land, slop land called “Liang” and valley, which\
+    \ occupy the total area of watershed with 35%, 35.6% and 29.4%, respectively.\
+    \ The soil is deep and has good physical properties, like reservoir, support the\
+    \ agro-ecological system."
+  notes: 'DEIMS country: China'
+  status: ACTIVE

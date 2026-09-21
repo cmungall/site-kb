@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:deims-kasuya_research_forest_-_japan
+  name: Kasuya Research Forest - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 3a9bbd87-171b-4250-954e-7dc8916d95c1
+    network_url: https://deims.org/3a9bbd87-171b-4250-954e-7dc8916d95c1
+    name: Kasuya Research Forest - Japan
+  description: The Kasuya Research Forest (KRF) is located in the northern part of
+    Kyushu Island. The elevation ranges from 30 to 553m. About 100ha of there forests
+    is on hilly Tertiary mountains lower than 100m in altitude, and other forests
+    are on the steep mountains over the Paleozoic strata. Most of the natural forests
+    consist of warm temperate evergreen broad-leaved trees such as Quercus sp., Castanopsis
+    sp., Machilus thunbergii, Morella rubra, etc. The drier ridge sites are covered
+    by deciduous broad-leaved trees such as Carpinus tschonoskii, Quercus serrata,
+    Castanea crenata, etc. Plantation forests composed predominantly of Cryptomeria
+    japonica and Chamaecyparis obtusa cover about 70% of the total forest area.
+  notes: 'DEIMS country: Japan; DEIMS average elevation: 242 m'
+  status: ACTIVE

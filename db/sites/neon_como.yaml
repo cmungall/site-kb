@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-como
+  name: Como Creek NEON
+  location:
+    latitude: 40.034962
+    longitude: -105.544164
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: COMO
+    network_url: https://www.neonscience.org/field-sites/como
+    name: Como Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: b8747933-d367-4508-ad6e-f472419439ed
+    network_url: https://deims.org/b8747933-d367-4508-ad6e-f472419439ed
+  status: ACTIVE
+  notes: 'NEON Domain: D13 (Southern Rockies and Colorado Plateau)'

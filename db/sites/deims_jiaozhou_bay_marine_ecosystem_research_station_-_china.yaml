@@ -1,0 +1,25 @@
+sites:
+- id: site_kb:deims-jiaozhou_bay_marine_ecosystem_research_station_-_china
+  name: Jiaozhou Bay Marine Ecosystem Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: d785f0be-0a48-4b5c-a57e-3660e960b53c
+    network_url: https://deims.org/d785f0be-0a48-4b5c-a57e-3660e960b53c
+    name: Jiaozhou Bay Marine Ecosystem Research Station - China
+  description: The Jiaozhou Bay, covering an area of 390 km2 between 3538′ and 3618′
+    N and 12004′ and 12023′ E, surrounded by the Qingdao city. As a semi-enclosed,
+    fan-shaped bay, the narrowest place at the channel connecting with the Yellow
+    Sea, from the Tuan Island to the Xuejia Island, is only 3000 m wide. Its average
+    depth is 6-7 m, with most part of the bayshallower than 5 m, and the tidal zone
+    adds up to 125 km2. The tide of Jiaozhou Bay is  regular semidiurnal type. The
+    speed of the flood is greater than that of the ebb, and the duration of the flood
+    is shorter than that of the ebb. There are many peninsulas and islands in the
+    bay, so  the circulation inside is complicated. After the residual current analysis,
+    six circulation systems were observed in Jiaozhou Bay. Marine biodiversity and
+    productivity is high in the bay. With the development of Qingao City, the population
+    is increasing quickly around Jiaozhou Bay. Farms, factories, highways, ports,
+    tourism etc. can all affect the environments of the bay. Most of the land-sourced
+    input are from several rivers, such as the Dagu, Haibo, Licun and Nan Jiaolai
+    rivers.
+  notes: 'DEIMS country: China; DEIMS average elevation: 7 m'
+  status: ACTIVE

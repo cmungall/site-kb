@@ -1,0 +1,22 @@
+sites:
+- id: site_kb:deims-sanjiang_plain_marsh_ecological_experimental_station_-_china
+  name: Sanjiang Plain Marsh Ecological Experimental Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: c9ba2a84-6fb3-4061-a9ec-529954b948c8
+    network_url: https://deims.org/c9ba2a84-6fb3-4061-a9ec-529954b948c8
+    name: Sanjiang Plain Marsh Ecological Experimental Station - China
+  description: Sanjiang Plain Marsh Ecological Experimental Station (SJM) is located
+    in one of the largest marshes distribution areas, Sanjiang Plain, which is a low
+    plain formed by the Heilongjiang River, Songhua River, Wusuli River. The station
+    (133°31′E，47°35′N) has an  altitude of ~56 m.a.s.l, belongs to the temperate continental
+    monsoon climate zone, with the mean annual temperature of 1.9℃, and annual rainfall
+    of ~600 mm. The area has an annual frost-free period of 125 d and is a typical
+    seasonal frozen area with the freezing and thawing period from early November
+    until the middle of June in the next year. The dominated vegetation composition
+    are Carex lasiocapa, Carex pseudocuraica, Carex meyeriana, Glyceria spiculosa,
+    Deyeuxia angustifolia, and the soil types are mainly meadow bog soil, humus bog
+    soil and gley white paper clay, white pulp meadow soil, etc.The main crops are
+    soybeans and rice in this area.
+  notes: 'DEIMS country: China; DEIMS average elevation: 56 m'
+  status: ACTIVE

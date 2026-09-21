@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-sugg
+  name: Lake Suggs NEON
+  location:
+    latitude: 29.68778
+    longitude: -82.017745
+    country: United States
+    state_province: Florida
+  network_registrations:
+  - network: NEON
+    network_id: SUGG
+    network_url: https://www.neonscience.org/field-sites/sugg
+    name: Lake Suggs NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: ff8f509e-f06b-4d62-bd64-d53241fceee2
+    network_url: https://deims.org/ff8f509e-f06b-4d62-bd64-d53241fceee2
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

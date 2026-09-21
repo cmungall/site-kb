@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-senda_darwin_biological_station_-_chile
+  name: Senda Darwin Biological Station - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: 133ec196-71c4-4f33-a230-56723bee35fb
+    network_url: https://deims.org/133ec196-71c4-4f33-a230-56723bee35fb
+    name: Senda Darwin Biological Station - Chile
+  description: Senda Darwin Biological Station is located along Route 5 south, at
+    a distance of 14 kilometers from the city of Ancud, in the north of Chiloe Island.
+    It aims to facilitate scientific research, environmental education and the application
+    of knowledge for temperate forests conservation.
+  notes: 'DEIMS country: Chile; DEIMS average elevation: 75 m'
+  status: ACTIVE

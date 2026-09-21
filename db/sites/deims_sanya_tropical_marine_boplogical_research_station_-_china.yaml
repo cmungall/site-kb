@@ -1,0 +1,20 @@
+sites:
+- id: site_kb:deims-sanya_tropical_marine_boplogical_research_station_-_china
+  name: Sanya Tropical Marine Boplogical Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 24d01731-4775-48cd-932c-5009cf742357
+    network_url: https://deims.org/24d01731-4775-48cd-932c-5009cf742357
+    name: Sanya Tropical Marine Boplogical Research Station - China
+  description: The Sany Bay, covering an area of 120 km2 between 109.3333 and 109.5
+    E and 18.183 and 18.3 N, surrounded by the Sanya city.  It is a typical tropical
+    bay in China. Dongmao Island, Ximao Island and Luhuitou, located in the bay mouth,
+    possess mostly coastal coral reefs. The Sanya River, located in the eastern part
+    of the bay, has many kinds of tropical habitats including coral reefs, mangroves,
+    rocky and sandy shores, mudflats, etc. The coral reefs and mangroves have special
+    resource value and ecological benefits and are, therefore very important to the
+    sustainable social and economical development in these tropical coastal areas.
+    Coral reefs and mangrove areas have important relationships to the regulation
+    and optimization of the tropical marine environments.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

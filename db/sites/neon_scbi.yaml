@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-scbi
+  name: Smithsonian Conservation Biology Institute NEON
+  location:
+    latitude: 38.892925
+    longitude: -78.139494
+    country: United States
+    state_province: Virginia
+  network_registrations:
+  - network: NEON
+    network_id: SCBI
+    network_url: https://www.neonscience.org/field-sites/scbi
+    name: Smithsonian Conservation Biology Institute NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 91af4ae3-c169-46f2-87d4-a0b836849596
+    network_url: https://deims.org/91af4ae3-c169-46f2-87d4-a0b836849596
+  status: ACTIVE
+  notes: 'NEON Domain: D02 (Mid-Atlantic)'

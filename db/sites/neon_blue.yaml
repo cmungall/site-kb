@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-blue
+  name: Blue River NEON
+  location:
+    latitude: 34.444218
+    longitude: -96.624201
+    country: United States
+    state_province: Oklahoma
+  network_registrations:
+  - network: NEON
+    network_id: BLUE
+    network_url: https://www.neonscience.org/field-sites/blue
+    name: Blue River NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: dc1d92be-7677-4bcb-8cab-6178a8132d07
+    network_url: https://deims.org/dc1d92be-7677-4bcb-8cab-6178a8132d07
+  status: ACTIVE
+  notes: 'NEON Domain: D11 (Southern Plains)'

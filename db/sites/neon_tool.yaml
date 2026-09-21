@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-tool
+  name: Toolik Field Station NEON
+  location:
+    latitude: 68.66109
+    longitude: -149.37047
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: TOOL
+    network_url: https://www.neonscience.org/field-sites/tool
+    name: Toolik Field Station NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 0154f730-1434-4597-9f59-c6320cfec41b
+    network_url: https://deims.org/0154f730-1434-4597-9f59-c6320cfec41b
+  status: ACTIVE
+  notes: 'NEON Domain: D18 (Tundra)'

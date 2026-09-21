@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-cram
+  name: Crampton Lake NEON
+  location:
+    latitude: 46.209675
+    longitude: -89.473688
+    country: United States
+    state_province: Wisconsin
+  network_registrations:
+  - network: NEON
+    network_id: CRAM
+    network_url: https://www.neonscience.org/field-sites/cram
+    name: Crampton Lake NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 02958637-043a-4e79-96be-31b47dab72bc
+    network_url: https://deims.org/02958637-043a-4e79-96be-31b47dab72bc
+  status: ACTIVE
+  notes: 'NEON Domain: D05 (Great Lakes)'

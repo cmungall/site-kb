@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-dinghu_mountain_research_of_forest_ecosystem_-_china
+  name: Dinghu Mountain Research of Forest Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 9b883551-d6a5-42be-9c46-d785a1e38911
+    network_url: https://deims.org/9b883551-d6a5-42be-9c46-d785a1e38911
+    name: Dinghu Mountain Research of Forest Ecosystem - China
+  description: DHS has well protected monsoon evergreen broadleaf forest and its successional
+    forests. Therefore, DHS is an ideal place to research successional processes and
+    patterns of subtropical forest ecosystems, as well as to restore or rehabilitate
+    the degraded forest ecosystems in subtropics of China.
+  notes: 'DEIMS country: China; DEIMS average elevation: 300 m'
+  status: ACTIVE

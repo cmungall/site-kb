@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-king
+  name: Kings Creek NEON
+  location:
+    latitude: 39.105061
+    longitude: -96.603829
+    country: United States
+    state_province: Kansas
+  network_registrations:
+  - network: NEON
+    network_id: KING
+    network_url: https://www.neonscience.org/field-sites/king
+    name: Kings Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 0f2b496c-af20-404d-8100-9e5ed7f42b66
+    network_url: https://deims.org/0f2b496c-af20-404d-8100-9e5ed7f42b66
+  status: ACTIVE
+  notes: 'NEON Domain: D06 (Prairie Peninsula)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-cper
+  name: Central Plains Experimental Range NEON
+  location:
+    latitude: 40.815536
+    longitude: -104.745591
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: CPER
+    network_url: https://www.neonscience.org/field-sites/cper
+    name: Central Plains Experimental Range NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 0f2005e9-bfe6-438b-8242-116a9457ce45
+    network_url: https://deims.org/0f2005e9-bfe6-438b-8242-116a9457ce45
+  status: ACTIVE
+  notes: 'NEON Domain: D10 (Central Plains)'

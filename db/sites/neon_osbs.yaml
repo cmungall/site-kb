@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-osbs
+  name: Ordway-Swisher Biological Station NEON
+  location:
+    latitude: 29.689282
+    longitude: -81.993431
+    country: United States
+    state_province: Florida
+  network_registrations:
+  - network: NEON
+    network_id: OSBS
+    network_url: https://www.neonscience.org/field-sites/osbs
+    name: Ordway-Swisher Biological Station NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 6de989a9-acb8-4a03-83f6-a9a43465152f
+    network_url: https://deims.org/6de989a9-acb8-4a03-83f6-a9a43465152f
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

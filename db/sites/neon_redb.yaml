@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-redb
+  name: Red Butte Creek NEON
+  location:
+    latitude: 40.783934
+    longitude: -111.797887
+    country: United States
+    state_province: Utah
+  network_registrations:
+  - network: NEON
+    network_id: REDB
+    network_url: https://www.neonscience.org/field-sites/redb
+    name: Red Butte Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 49d06c87-07ea-45b6-8762-fcc4989890de
+    network_url: https://deims.org/49d06c87-07ea-45b6-8762-fcc4989890de
+  status: ACTIVE
+  notes: 'NEON Domain: D15 (Great Basin)'

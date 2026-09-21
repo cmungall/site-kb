@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-rmnp
+  name: Rocky Mountains NEON
+  location:
+    latitude: 40.275903
+    longitude: -105.545955
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: RMNP
+    network_url: https://www.neonscience.org/field-sites/rmnp
+    name: Rocky Mountains NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 871aaf92-3609-452e-aceb-a30b7a04d3bd
+    network_url: https://deims.org/871aaf92-3609-452e-aceb-a30b7a04d3bd
+  status: ACTIVE
+  notes: 'NEON Domain: D10 (Central Plains)'

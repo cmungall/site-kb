@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-clbj
+  name: Lyndon B. Johnson National Grassland NEON
+  location:
+    latitude: 33.40123
+    longitude: -97.57
+    country: United States
+    state_province: Texas
+  network_registrations:
+  - network: NEON
+    network_id: CLBJ
+    network_url: https://www.neonscience.org/field-sites/clbj
+    name: Lyndon B. Johnson National Grassland NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: fa10b3cb-44a1-430e-9310-d0433b6cc484
+    network_url: https://deims.org/fa10b3cb-44a1-430e-9310-d0433b6cc484
+  status: ACTIVE
+  notes: 'NEON Domain: D11 (Southern Plains)'

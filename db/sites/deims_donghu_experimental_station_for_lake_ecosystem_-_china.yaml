@@ -1,0 +1,12 @@
+sites:
+- id: site_kb:deims-donghu_experimental_station_for_lake_ecosystem_-_china
+  name: Donghu Experimental Station for Lake Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba
+    network_url: https://deims.org/bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba
+    name: Donghu Experimental Station for Lake Ecosystem - China
+  description: Donghu Experimental Station for Lake Ecosystem (Donghu Station) located
+    in west of Donghu Lake, Wuhan, China.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

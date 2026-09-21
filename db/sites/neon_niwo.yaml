@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-niwo
+  name: Niwot Ridge NEON
+  location:
+    latitude: 40.05425
+    longitude: -105.58237
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: NIWO
+    network_url: https://www.neonscience.org/field-sites/niwo
+    name: Niwot Ridge NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: bd3322ed-0ae8-4da5-beb5-1bd5c9205fa1
+    network_url: https://deims.org/bd3322ed-0ae8-4da5-beb5-1bd5c9205fa1
+  status: ACTIVE
+  notes: 'NEON Domain: D13 (Southern Rockies and Colorado Plateau)'

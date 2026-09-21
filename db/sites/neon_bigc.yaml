@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-bigc
+  name: Upper Big Creek NEON
+  location:
+    latitude: 37.059719
+    longitude: -119.257549
+    country: United States
+    state_province: California
+  network_registrations:
+  - network: NEON
+    network_id: BIGC
+    network_url: https://www.neonscience.org/field-sites/bigc
+    name: Upper Big Creek NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: a594cbf0-27ed-42b5-bcec-1b09635dba09
+    network_url: https://deims.org/a594cbf0-27ed-42b5-bcec-1b09635dba09
+  status: ACTIVE
+  notes: 'NEON Domain: D17 (Pacific Southwest)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-soap
+  name: Soaproot Saddle NEON
+  location:
+    latitude: 37.03337
+    longitude: -119.26219
+    country: United States
+    state_province: California
+  network_registrations:
+  - network: NEON
+    network_id: SOAP
+    network_url: https://www.neonscience.org/field-sites/soap
+    name: Soaproot Saddle NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: d070b1b9-76fe-4e91-a280-7f7476ae78df
+    network_url: https://deims.org/d070b1b9-76fe-4e91-a280-7f7476ae78df
+  status: ACTIVE
+  notes: 'NEON Domain: D17 (Pacific Southwest)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-mayf
+  name: Mayfield Creek NEON
+  location:
+    latitude: 32.960365
+    longitude: -87.407688
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: MAYF
+    network_url: https://www.neonscience.org/field-sites/mayf
+    name: Mayfield Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 14630518-52a8-4ad6-b0e4-e1e814d2a043
+    network_url: https://deims.org/14630518-52a8-4ad6-b0e4-e1e814d2a043
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

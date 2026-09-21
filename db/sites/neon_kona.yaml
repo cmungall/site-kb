@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-kona
+  name: Konza Prairie Agroecosystem NEON
+  location:
+    latitude: 39.110446
+    longitude: -96.612935
+    country: United States
+    state_province: Kansas
+  network_registrations:
+  - network: NEON
+    network_id: KONA
+    network_url: https://www.neonscience.org/field-sites/kona
+    name: Konza Prairie Agroecosystem NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 14360240-f2ac-4b93-9b0e-a4713d493e05
+    network_url: https://deims.org/14360240-f2ac-4b93-9b0e-a4713d493e05
+  status: ACTIVE
+  notes: 'NEON Domain: D06 (Prairie Peninsula)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-tall
+  name: Talladega National Forest NEON
+  location:
+    latitude: 32.95047
+    longitude: -87.393259
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: TALL
+    network_url: https://www.neonscience.org/field-sites/tall
+    name: Talladega National Forest NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: a262f449-d36d-4c94-93b8-d0dac260f5dc
+    network_url: https://deims.org/a262f449-d36d-4c94-93b8-d0dac260f5dc
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-blan
+  name: Blandy Experimental Farm NEON
+  location:
+    latitude: 39.033698
+    longitude: -78.041788
+    country: United States
+    state_province: Virginia
+  network_registrations:
+  - network: NEON
+    network_id: BLAN
+    network_url: https://www.neonscience.org/field-sites/blan
+    name: Blandy Experimental Farm NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 1a5fbe95-b936-4a0e-8cf5-bbed079cb76e
+    network_url: https://deims.org/1a5fbe95-b936-4a0e-8cf5-bbed079cb76e
+  status: ACTIVE
+  notes: 'NEON Domain: D02 (Mid-Atlantic)'

@@ -1,0 +1,27 @@
+sites:
+- id: site_kb:deims-huitong_research_station_of_forest_ecosystem_-_china
+  name: Huitong Research Station of Forest Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 3ebcafd9-1489-408c-a6a2-dd21f71e6c87
+    network_url: https://deims.org/3ebcafd9-1489-408c-a6a2-dd21f71e6c87
+    name: Huitong Research Station of Forest Ecosystem - China
+  description: "Located in Huitong County, Hunan Province (26°45´N and 109°30´E),\
+    \ Huitong National Research Station of Forest Ecosystem is affiliated to the Institute\
+    \ of Applied Ecology of Chinese Academy of Sciences.\r\nThis region marks a transition\
+    \ from Yun-Gui Plateau to the hills along the southern bank of Yangtze River and\
+    \ belongs to the up reach of Yuan River, a tributary of the Yangtze. The altitude\
+    \ ranges from 300 m to 1100 m above the sea level. The densely grouped hills and\
+    \ valleys feature the topography in this region, which determining forestry to\
+    \ be the major method of land use in this County. The mother rock mainly consists\
+    \ of grayish green slate, metamorphic rock and sandy shale. With relatively deeper\
+    \ layer, red earth or reddish yellow earth are generally distributed from 300m\
+    \ to 600m above sea level, and mountainous yellow earth above 600m. This region\
+    \ has a typical climate of Central Subtropical Zone, with average annual temperature\
+    \ of 16.5℃. The annual rainfall and annual evaporation range from 1200 to 1400mm\
+    \ and from 1100 to 1300mm, respectively, with average relative humidity of 83%\
+    \ and 300 days of frost-free period. The zonal vegetation is evergreen broad-leaved\
+    \ forest typical of subtropics, with the major species component of Castanopsis\
+    \ spp.and Lithocarpus spp."
+  notes: 'DEIMS country: China'
+  status: ACTIVE

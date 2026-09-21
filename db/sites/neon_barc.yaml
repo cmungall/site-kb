@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-barc
+  name: Lake Barco NEON
+  location:
+    latitude: 29.675982
+    longitude: -82.008414
+    country: United States
+    state_province: Florida
+  network_registrations:
+  - network: NEON
+    network_id: BARC
+    network_url: https://www.neonscience.org/field-sites/barc
+    name: Lake Barco NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: fc3606ae-df89-4e21-96df-cc380bb0d89d
+    network_url: https://deims.org/fc3606ae-df89-4e21-96df-cc380bb0d89d
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-ster
+  name: North Sterling NEON
+  location:
+    latitude: 40.461894
+    longitude: -103.02929
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: STER
+    network_url: https://www.neonscience.org/field-sites/ster
+    name: North Sterling NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 5d4a0457-aff6-410b-b43a-2b3a00fba990
+    network_url: https://deims.org/5d4a0457-aff6-410b-b43a-2b3a00fba990
+  status: ACTIVE
+  notes: 'NEON Domain: D10 (Central Plains)'

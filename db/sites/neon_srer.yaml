@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-srer
+  name: Santa Rita Experimental Range NEON
+  location:
+    latitude: 31.91068
+    longitude: -110.83549
+    country: United States
+    state_province: Arizona
+  network_registrations:
+  - network: NEON
+    network_id: SRER
+    network_url: https://www.neonscience.org/field-sites/srer
+    name: Santa Rita Experimental Range NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+    network_url: https://deims.org/8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+  status: ACTIVE
+  notes: 'NEON Domain: D14 (Desert Southwest)'

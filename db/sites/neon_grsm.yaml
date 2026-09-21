@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-grsm
+  name: Great Smoky Mountains National Park NEON
+  location:
+    latitude: 35.68896
+    longitude: -83.50195
+    country: United States
+    state_province: Tennessee
+  network_registrations:
+  - network: NEON
+    network_id: GRSM
+    network_url: https://www.neonscience.org/field-sites/grsm
+    name: Great Smoky Mountains National Park NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 30f887c3-135b-41e8-9f44-9b084ce2b3bd
+    network_url: https://deims.org/30f887c3-135b-41e8-9f44-9b084ce2b3bd
+  status: ACTIVE
+  notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'

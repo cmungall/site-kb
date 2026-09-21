@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-abby
+  name: Abby Road NEON
+  location:
+    latitude: 45.762439
+    longitude: -122.330317
+    country: United States
+    state_province: Washington
+  network_registrations:
+  - network: NEON
+    network_id: ABBY
+    network_url: https://www.neonscience.org/field-sites/abby
+    name: Abby Road NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 0e39569d-ff81-4b78-9c34-b07309504d80
+    network_url: https://deims.org/0e39569d-ff81-4b78-9c34-b07309504d80
+  status: ACTIVE
+  notes: 'NEON Domain: D16 (Pacific Northwest)'

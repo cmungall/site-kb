@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-blwa
+  name: Black Warrior River NEON
+  location:
+    latitude: 32.541529
+    longitude: -87.798151
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: BLWA
+    network_url: https://www.neonscience.org/field-sites/blwa
+    name: Black Warrior River NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: afc73ef8-d5fc-477e-8c05-d98cb671ce76
+    network_url: https://deims.org/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

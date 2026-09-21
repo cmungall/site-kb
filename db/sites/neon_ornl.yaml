@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-ornl
+  name: Oak Ridge NEON
+  location:
+    latitude: 35.964128
+    longitude: -84.282588
+    country: United States
+    state_province: Tennessee
+  network_registrations:
+  - network: NEON
+    network_id: ORNL
+    network_url: https://www.neonscience.org/field-sites/ornl
+    name: Oak Ridge NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+    network_url: https://deims.org/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+  status: ACTIVE
+  notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'

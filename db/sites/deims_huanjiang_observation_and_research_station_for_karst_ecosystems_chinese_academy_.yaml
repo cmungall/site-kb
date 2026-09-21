@@ -1,0 +1,34 @@
+sites:
+- id: site_kb:deims-huanjiang_observation_and_research_station_for_karst_ecosystems_chinese_academy_
+  name: Huanjiang Observation and Research Station for Karst Ecosystems, Chinese Academy
+    of Sciences - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 013f0ab4-a999-40ff-960d-2a8f89428969
+    network_url: https://deims.org/013f0ab4-a999-40ff-960d-2a8f89428969
+    name: Huanjiang Observation and Research Station for Karst Ecosystems, Chinese
+      Academy of Sciences - China
+  description: "Hunagjiang station, established in 1999, is one of the field stations\
+    \ of the Chinese Ecosystem Research Network (CERN) and a member of Global Terrestrial\
+    \ Observation System (GTOS). The station aims at developing the monitoring approaches\
+    \ for the mechanism (succession, degeneration and responses) of Karst ecosystems,\
+    \ the evaluation of ecosystem service functions and health, the development techniques\
+    \ of sustainable and optimized  for Karst ecosystems, and is also a demonstration\
+    \ base for technologies of Rocky Desertification Treatment in Guangxi Zhuang Autonomous\
+    \ Region. In 2005, the station became one of the stations of the China National\
+    \ Ecosystem Observation and Research Network（CNERN）.\r\n   Hunagjiang Station\
+    \ is located in Hunagjiang county of Guangxi Zhuang Autonomous Region(24°44' N,\
+    \ 108°19'E and elevation at 272.0～647.2 m), represents the Karst peak-cluster\
+    \ depression area in the southwest China. By the prominent contradiction between\
+    \ human and nature resources,  human unreasonable land use caused serious soil\
+    \ and water loss, so bare rock desertification has become the main problem that\
+    \ threatens the sustainability of Karst ecosystems in this area.\r\n    The researches\
+    \ conducted at the station focus on the long-term investigations of Karst ecosystem,\
+    \ ecological reconstruction of degradating peak-cluster depression ecosystem,\
+    \ exploring karst ecosystem succession process, and providing the demonstration(technology\
+    \ source, research platform) for the ecological reconstruction model.. The station\
+    \ has 146.1 ha land for field research and provides accommodation for scientists\
+    \ and students to stay. There are laboratories, field research infrastructure\
+    \ and equipments to be used for different experiments."
+  notes: 'DEIMS country: China; DEIMS average elevation: 459.6 m'
+  status: ACTIVE

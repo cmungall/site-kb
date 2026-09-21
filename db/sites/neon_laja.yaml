@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-laja
+  name: Lajas Experimental Station NEON
+  location:
+    latitude: 18.021261
+    longitude: -67.076889
+    country: United States
+    state_province: Puerto Rico
+  network_registrations:
+  - network: NEON
+    network_id: LAJA
+    network_url: https://www.neonscience.org/field-sites/laja
+    name: Lajas Experimental Station NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 348d9d4f-d936-469b-b394-c63ec31ac33b
+    network_url: https://deims.org/348d9d4f-d936-469b-b394-c63ec31ac33b
+  status: ACTIVE
+  notes: 'NEON Domain: D04 (Atlantic Neotropical)'

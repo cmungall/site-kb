@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-oksr
+  name: Oksrukuyik Creek NEON
+  location:
+    latitude: 68.669753
+    longitude: -149.143018
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: OKSR
+    network_url: https://www.neonscience.org/field-sites/oksr
+    name: Oksrukuyik Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: ebd8e698-157d-429f-8c8c-19f35a8bc86f
+    network_url: https://deims.org/ebd8e698-157d-429f-8c8c-19f35a8bc86f
+  status: ACTIVE
+  notes: 'NEON Domain: D18 (Tundra)'

@@ -1,0 +1,38 @@
+sites:
+- id: site_kb:deims-yucheng_comprehensive_experiment_station_-_china
+  name: Yucheng Comprehensive Experiment Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5b374ace-5bc3-4e07-8dbc-ff0914302ae6
+    network_url: https://deims.org/5b374ace-5bc3-4e07-8dbc-ff0914302ae6
+    name: Yucheng Comprehensive Experiment Station - China
+  description: "The Yucheng Comprehensive Experiment Station (YCES) of Chinese Academy\
+    \ of Sciences (CAS) is located at the irrigation district of the Yellow River\
+    \ Basin in the Huang-Huai-Hai Plain, also called North China Plain. Physiognomy\
+    \ is characterized as hinterland covered mainly by fluvo-aquic soil (Fluvisol\
+    \ or cambisal) and salinized fluvo-aquic soil in the Yellow River Alluvial Plain.\
+    \ This region is dominated by warm-temperate semi-humid monsoon climate with ample\
+    \ energy and water resources. Historically, natural disasters such as drought,\
+    \ waterlogging, salinization, and wind erosion frequently occurred, resulting\
+    \ in vulnerable ecological environment and low grain production. Integrated improvements\
+    \ and managements were deployed in last several decades, and this region has become\
+    \ suitable for planting winter wheat, corn, cotton, and soybean with high yields\
+    \ in the Huang-Huai-Hai Plain.\r\nResearch objectives and contents\r\n\r\nObjectives:\r\
+    \n regional sustainable agriculture\r\n rational utilization of natural resources\
+    \ such as water, land, climate, biomass, etc.\r\n\r\nContents:\r\n conducting\
+    \ long-term observations and experiments\r\n understanding the mechanism of energy\
+    \ transfer and mass cycle in farmlands\r\n developing models from point to regional\
+    \ scales\r\n improving and developing instruments and measurement methods\r\n\
+     improving agro-ecosystem managements\r\n demonstrating research results and\
+    \ technologies\r\n\r\nResearch achievements:\r\nOutstanding research results and\
+    \ massive experiment data have been achieved at the YCES. The achievements cover\
+    \ research fields of farmland evapotranspiration, crop\r\nwater use, water transfer\
+    \ mechanism, experimental remote sensing techniques, regional agriculture demonstration,\
+    \ and technology transfer. More than 1,000 papers,\r\n15 monograph books, and\
+    \ 5 data sets have been published. A number of awards were granted by national,\
+    \ CAS, and international academic organizations, for example,\r\n Agriculture\
+    \ Prize granted by the Third World Academy of Sciences\r\n Science and Technology\
+    \ Progress Award by Chinese Academy of Sciences\r\n National Top Award of Science\
+    \ and Technology Progress\r\n"
+  notes: 'DEIMS country: China; DEIMS average elevation: 23 m'
+  status: ACTIVE

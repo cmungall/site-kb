@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-yell
+  name: Yellowstone National Park NEON
+  location:
+    latitude: 44.95348
+    longitude: -110.53914
+    country: United States
+    state_province: Wyoming
+  network_registrations:
+  - network: NEON
+    network_id: YELL
+    network_url: https://www.neonscience.org/field-sites/yell
+    name: Yellowstone National Park NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 942f7e22-f099-4dd0-a586-ffcbb1d3d530
+    network_url: https://deims.org/942f7e22-f099-4dd0-a586-ffcbb1d3d530
+  status: ACTIVE
+  notes: 'NEON Domain: D12 (Northern Rockies)'

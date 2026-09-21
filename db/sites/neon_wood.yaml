@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-wood
+  name: Chase Lake National Wildlife Refuge NEON
+  location:
+    latitude: 47.1282
+    longitude: -99.241334
+    country: United States
+    state_province: North Dakota
+  network_registrations:
+  - network: NEON
+    network_id: WOOD
+    network_url: https://www.neonscience.org/field-sites/wood
+    name: Chase Lake National Wildlife Refuge NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 7b37ec94-7b2e-4122-b3fc-8583d0f3e978
+    network_url: https://deims.org/7b37ec94-7b2e-4122-b3fc-8583d0f3e978
+  status: ACTIVE
+  notes: 'NEON Domain: D09 (Northern Plains)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-mlbs
+  name: Mountain Lake Biological Station NEON
+  location:
+    latitude: 37.378314
+    longitude: -80.524847
+    country: United States
+    state_province: Virginia
+  network_registrations:
+  - network: NEON
+    network_id: MLBS
+    network_url: https://www.neonscience.org/field-sites/mlbs
+    name: Mountain Lake Biological Station NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 892320ed-6877-4400-b0e0-5ad6750f621d
+    network_url: https://deims.org/892320ed-6877-4400-b0e0-5ad6750f621d
+  status: ACTIVE
+  notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'

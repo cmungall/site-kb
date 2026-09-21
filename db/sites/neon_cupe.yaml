@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-cupe
+  name: Río Cupeyes NEON
+  location:
+    latitude: 18.11352
+    longitude: -66.98676
+    country: United States
+    state_province: Puerto Rico
+  network_registrations:
+  - network: NEON
+    network_id: CUPE
+    network_url: https://www.neonscience.org/field-sites/cupe
+    name: Río Cupeyes NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 34666650-817c-40e6-8b09-768f2223f4f8
+    network_url: https://deims.org/34666650-817c-40e6-8b09-768f2223f4f8
+  status: ACTIVE
+  notes: 'NEON Domain: D04 (Atlantic Neotropical)'

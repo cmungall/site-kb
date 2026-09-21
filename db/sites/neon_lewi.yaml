@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-lewi
+  name: Lewis Run NEON
+  location:
+    latitude: 39.095637
+    longitude: -77.983216
+    country: United States
+    state_province: Virginia
+  network_registrations:
+  - network: NEON
+    network_id: LEWI
+    network_url: https://www.neonscience.org/field-sites/lewi
+    name: Lewis Run NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: cc3c35c0-69c0-41d8-9d71-b1fb6be15842
+    network_url: https://deims.org/cc3c35c0-69c0-41d8-9d71-b1fb6be15842
+  status: ACTIVE
+  notes: 'NEON Domain: D02 (Mid-Atlantic)'

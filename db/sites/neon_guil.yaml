@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-guil
+  name: Río Yahuecas NEON
+  location:
+    latitude: 18.17406
+    longitude: -66.79868
+    country: United States
+    state_province: Puerto Rico
+  network_registrations:
+  - network: NEON
+    network_id: GUIL
+    network_url: https://www.neonscience.org/field-sites/guil
+    name: Río Yahuecas NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 0b6a046a-1097-4aea-8095-73cfa9940eac
+    network_url: https://deims.org/0b6a046a-1097-4aea-8095-73cfa9940eac
+  status: ACTIVE
+  notes: 'NEON Domain: D04 (Atlantic Neotropical)'

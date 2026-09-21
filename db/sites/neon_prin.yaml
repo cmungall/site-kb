@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-prin
+  name: Pringle Creek NEON
+  location:
+    latitude: 33.378517
+    longitude: -97.782312
+    country: United States
+    state_province: Texas
+  network_registrations:
+  - network: NEON
+    network_id: PRIN
+    network_url: https://www.neonscience.org/field-sites/prin
+    name: Pringle Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: e9636471-06b8-4bc7-a14b-e6a4a698a838
+    network_url: https://deims.org/e9636471-06b8-4bc7-a14b-e6a4a698a838
+  status: ACTIVE
+  notes: 'NEON Domain: D11 (Southern Plains)'

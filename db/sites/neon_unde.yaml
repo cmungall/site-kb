@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-unde
+  name: University of Notre Dame Environmental Research Center NEON
+  location:
+    latitude: 46.23391
+    longitude: -89.537254
+    country: United States
+    state_province: Michigan
+  network_registrations:
+  - network: NEON
+    network_id: UNDE
+    network_url: https://www.neonscience.org/field-sites/unde
+    name: University of Notre Dame Environmental Research Center NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 2f027d25-93c1-4af7-bfd1-36f2bbd24460
+    network_url: https://deims.org/2f027d25-93c1-4af7-bfd1-36f2bbd24460
+  status: ACTIVE
+  notes: 'NEON Domain: D05 (Great Lakes)'

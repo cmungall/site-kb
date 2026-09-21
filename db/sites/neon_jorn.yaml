@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-jorn
+  name: Jornada Experimental Range NEON
+  location:
+    latitude: 32.590694
+    longitude: -106.842542
+    country: United States
+    state_province: New Mexico
+  network_registrations:
+  - network: NEON
+    network_id: JORN
+    network_url: https://www.neonscience.org/field-sites/jorn
+    name: Jornada Experimental Range NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 9a9e1cb0-c43d-463a-87f4-e44697739d1a
+    network_url: https://deims.org/9a9e1cb0-c43d-463a-87f4-e44697739d1a
+  status: ACTIVE
+  notes: 'NEON Domain: D14 (Desert Southwest)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-tecr
+  name: Teakettle Creek - Watershed 2 NEON
+  location:
+    latitude: 36.955931
+    longitude: -119.027363
+    country: United States
+    state_province: California
+  network_registrations:
+  - network: NEON
+    network_id: TECR
+    network_url: https://www.neonscience.org/field-sites/tecr
+    name: Teakettle Creek - Watershed 2 NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: dd4fd34c-93af-4e87-acd2-70bbf210acd9
+    network_url: https://deims.org/dd4fd34c-93af-4e87-acd2-70bbf210acd9
+  status: ACTIVE
+  notes: 'NEON Domain: D17 (Pacific Southwest)'

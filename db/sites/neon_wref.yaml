@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-wref
+  name: Wind River Experimental Forest NEON
+  location:
+    latitude: 45.82049
+    longitude: -121.95191
+    country: United States
+    state_province: Washington
+  network_registrations:
+  - network: NEON
+    network_id: WREF
+    network_url: https://www.neonscience.org/field-sites/wref
+    name: Wind River Experimental Forest NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: da6fa957-137f-4f02-b27e-71a0e9008329
+    network_url: https://deims.org/da6fa957-137f-4f02-b27e-71a0e9008329
+  status: ACTIVE
+  notes: 'NEON Domain: D16 (Pacific Northwest)'

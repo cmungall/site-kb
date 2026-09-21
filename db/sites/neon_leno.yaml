@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-leno
+  name: Lenoir Landing NEON
+  location:
+    latitude: 31.853861
+    longitude: -88.161181
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: LENO
+    network_url: https://www.neonscience.org/field-sites/leno
+    name: Lenoir Landing NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 66448525-42c7-4d47-8f37-b29d0145935a
+    network_url: https://deims.org/66448525-42c7-4d47-8f37-b29d0145935a
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

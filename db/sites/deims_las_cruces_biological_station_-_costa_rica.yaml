@@ -1,0 +1,10 @@
+sites:
+- id: site_kb:deims-las_cruces_biological_station_-_costa_rica
+  name: Las Cruces Biological Station - Costa Rica
+  network_registrations:
+  - network: DEIMS
+    network_id: 013d0b70-032c-4555-b8ac-ef16319c1d0e
+    network_url: https://deims.org/013d0b70-032c-4555-b8ac-ef16319c1d0e
+    name: Las Cruces Biological Station - Costa Rica
+  notes: 'DEIMS country: Costa Rica; DEIMS average elevation: 1200 m'
+  status: ACTIVE

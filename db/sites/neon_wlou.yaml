@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-wlou
+  name: West St. Louis Creek NEON
+  location:
+    latitude: 39.891366
+    longitude: -105.915395
+    country: United States
+    state_province: Colorado
+  network_registrations:
+  - network: NEON
+    network_id: WLOU
+    network_url: https://www.neonscience.org/field-sites/wlou
+    name: West St. Louis Creek NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 40ef616f-702a-458b-bce1-9ba961260ef0
+    network_url: https://deims.org/40ef616f-702a-458b-bce1-9ba961260ef0
+  status: ACTIVE
+  notes: 'NEON Domain: D13 (Southern Rockies and Colorado Plateau)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-stei
+  name: Steigerwaldt-Chequamegon NEON
+  location:
+    latitude: 45.50894
+    longitude: -89.58637
+    country: United States
+    state_province: Wisconsin
+  network_registrations:
+  - network: NEON
+    network_id: STEI
+    network_url: https://www.neonscience.org/field-sites/stei
+    name: Steigerwaldt-Chequamegon NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: d9e0fbf0-9f84-4dc6-bb17-2adbfb714849
+    network_url: https://deims.org/d9e0fbf0-9f84-4dc6-bb17-2adbfb714849
+  status: ACTIVE
+  notes: 'NEON Domain: D05 (Great Lakes)'

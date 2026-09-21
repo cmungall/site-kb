@@ -1,0 +1,15 @@
+sites:
+- id: site_kb:deims-nakagawa_experimental_forest_-_north_hokkaido_experimental_forests_-_japan
+  name: Nakagawa Experimental Forest - North Hokkaido Experimental Forests - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    network_url: https://deims.org/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    name: Nakagawa Experimental Forest - North Hokkaido Experimental Forests - Japan
+  description: The typical vegetation of the forest is natural conifer-broadleaved
+    mixed forest, dominated by Betula ermanii, Abies sachalinensis, Picea glehnii,
+    Quercus crispula, and Acer mono, with dwarf bamboo species in the understory.
+    The mean annual temperature is 5.4 ºC and the mean annual precipitation is 1,449
+    mm.
+  notes: 'DEIMS country: Japan; DEIMS average elevation: 300 m'
+  status: ACTIVE

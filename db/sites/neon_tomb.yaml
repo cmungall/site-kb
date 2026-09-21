@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-tomb
+  name: Lower Tombigbee River NEON
+  location:
+    latitude: 31.853431
+    longitude: -88.158872
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: TOMB
+    network_url: https://www.neonscience.org/field-sites/tomb
+    name: Lower Tombigbee River NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 41c43648-ca35-479b-8712-b70341c8c653
+    network_url: https://deims.org/41c43648-ca35-479b-8712-b70341c8c653
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

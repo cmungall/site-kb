@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-syca
+  name: Sycamore Creek NEON
+  location:
+    latitude: 33.750993
+    longitude: -111.508091
+    country: United States
+    state_province: Arizona
+  network_registrations:
+  - network: NEON
+    network_id: SYCA
+    network_url: https://www.neonscience.org/field-sites/syca
+    name: Sycamore Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 0a35ab49-0896-47db-88fb-f1fe45eae3a2
+    network_url: https://deims.org/0a35ab49-0896-47db-88fb-f1fe45eae3a2
+  status: ACTIVE
+  notes: 'NEON Domain: D14 (Desert Southwest)'

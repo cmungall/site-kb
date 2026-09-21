@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-dela
+  name: Dead Lake NEON
+  location:
+    latitude: 32.541727
+    longitude: -87.803877
+    country: United States
+    state_province: Alabama
+  network_registrations:
+  - network: NEON
+    network_id: DELA
+    network_url: https://www.neonscience.org/field-sites/dela
+    name: Dead Lake NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: d08e33e3-c000-4572-87fd-553cf5296459
+    network_url: https://deims.org/d08e33e3-c000-4572-87fd-553cf5296459
+  status: ACTIVE
+  notes: 'NEON Domain: D08 (Ozarks Complex)'

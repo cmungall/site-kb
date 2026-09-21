@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-guan
+  name: Guánica Forest NEON
+  location:
+    latitude: 17.96955
+    longitude: -66.8687
+    country: United States
+    state_province: Puerto Rico
+  network_registrations:
+  - network: NEON
+    network_id: GUAN
+    network_url: https://www.neonscience.org/field-sites/guan
+    name: Guánica Forest NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 1d43e5d4-63fc-4fb2-97e0-040697927004
+    network_url: https://deims.org/1d43e5d4-63fc-4fb2-97e0-040697927004
+  status: ACTIVE
+  notes: 'NEON Domain: D04 (Atlantic Neotropical)'

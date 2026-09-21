@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-mcdi
+  name: McDiffett Creek NEON
+  location:
+    latitude: 38.945861
+    longitude: -96.443022
+    country: United States
+    state_province: Kansas
+  network_registrations:
+  - network: NEON
+    network_id: MCDI
+    network_url: https://www.neonscience.org/field-sites/mcdi
+    name: McDiffett Creek NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: e9b89882-d0a6-4492-80fd-8f1c510b8faf
+    network_url: https://deims.org/e9b89882-d0a6-4492-80fd-8f1c510b8faf
+  status: ACTIVE
+  notes: 'NEON Domain: D06 (Prairie Peninsula)'

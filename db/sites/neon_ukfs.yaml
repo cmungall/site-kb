@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-ukfs
+  name: KU Field Station NEON
+  location:
+    latitude: 39.040431
+    longitude: -95.19215
+    country: United States
+    state_province: Kansas
+  network_registrations:
+  - network: NEON
+    network_id: UKFS
+    network_url: https://www.neonscience.org/field-sites/ukfs
+    name: KU Field Station NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 23d337b5-793a-45ca-9c8d-382bd74cfaf2
+    network_url: https://deims.org/23d337b5-793a-45ca-9c8d-382bd74cfaf2
+  status: ACTIVE
+  notes: 'NEON Domain: D06 (Prairie Peninsula)'

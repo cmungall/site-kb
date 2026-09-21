@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-walk
+  name: Walker Branch NEON
+  location:
+    latitude: 35.957378
+    longitude: -84.279251
+    country: United States
+    state_province: Tennessee
+  network_registrations:
+  - network: NEON
+    network_id: WALK
+    network_url: https://www.neonscience.org/field-sites/walk
+    name: Walker Branch NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 73f969f7-15d6-469a-a7f3-a6a810a6f10e
+    network_url: https://deims.org/73f969f7-15d6-469a-a7f3-a6a810a6f10e
+  status: ACTIVE
+  notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'

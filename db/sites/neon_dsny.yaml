@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-dsny
+  name: Disney Wilderness Preserve NEON
+  location:
+    latitude: 28.12505
+    longitude: -81.43619
+    country: United States
+    state_province: Florida
+  network_registrations:
+  - network: NEON
+    network_id: DSNY
+    network_url: https://www.neonscience.org/field-sites/dsny
+    name: Disney Wilderness Preserve NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 2f2ec7d7-b5f2-4aea-b1d0-d59fe8543330
+    network_url: https://deims.org/2f2ec7d7-b5f2-4aea-b1d0-d59fe8543330
+  status: ACTIVE
+  notes: 'NEON Domain: D03 (Southeast)'

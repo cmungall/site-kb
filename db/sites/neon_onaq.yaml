@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-onaq
+  name: Onaqui NEON
+  location:
+    latitude: 40.177599
+    longitude: -112.452452
+    country: United States
+    state_province: Utah
+  network_registrations:
+  - network: NEON
+    network_id: ONAQ
+    network_url: https://www.neonscience.org/field-sites/onaq
+    name: Onaqui NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 4dfd3534-9b2b-45df-8307-bdb54bad3d10
+    network_url: https://deims.org/4dfd3534-9b2b-45df-8307-bdb54bad3d10
+  status: ACTIVE
+  notes: 'NEON Domain: D15 (Great Basin)'

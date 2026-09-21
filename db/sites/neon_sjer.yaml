@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-sjer
+  name: San Joaquin Experimental Range NEON
+  location:
+    latitude: 37.10878
+    longitude: -119.73228
+    country: United States
+    state_province: California
+  network_registrations:
+  - network: NEON
+    network_id: SJER
+    network_url: https://www.neonscience.org/field-sites/sjer
+    name: San Joaquin Experimental Range NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 94e73bd6-a98d-40f2-a764-447e38e31ec7
+    network_url: https://deims.org/94e73bd6-a98d-40f2-a764-447e38e31ec7
+  status: ACTIVE
+  notes: 'NEON Domain: D17 (Pacific Southwest)'

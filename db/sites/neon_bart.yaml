@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-bart
+  name: Bartlett Experimental Forest NEON
+  location:
+    latitude: 44.063889
+    longitude: -71.287375
+    country: United States
+    state_province: New Hampshire
+  network_registrations:
+  - network: NEON
+    network_id: BART
+    network_url: https://www.neonscience.org/field-sites/bart
+    name: Bartlett Experimental Forest NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 2aa216dd-e81f-4945-af90-99179d0024ca
+    network_url: https://deims.org/2aa216dd-e81f-4945-af90-99179d0024ca
+  status: ACTIVE
+  notes: 'NEON Domain: D01 (Northeast)'

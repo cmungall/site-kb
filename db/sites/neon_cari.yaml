@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-cari
+  name: Caribou Creek NEON
+  location:
+    latitude: 65.153224
+    longitude: -147.503973
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: CARI
+    network_url: https://www.neonscience.org/field-sites/cari
+    name: Caribou Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    network_url: https://deims.org/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+  status: ACTIVE
+  notes: 'NEON Domain: D19 (Taiga)'

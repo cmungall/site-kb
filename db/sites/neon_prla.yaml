@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-prla
+  name: Prairie Lake NEON
+  location:
+    latitude: 47.15909
+    longitude: -99.11388
+    country: United States
+    state_province: North Dakota
+  network_registrations:
+  - network: NEON
+    network_id: PRLA
+    network_url: https://www.neonscience.org/field-sites/prla
+    name: Prairie Lake NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 42eb952f-58d0-4089-90f1-d7784bf3679b
+    network_url: https://deims.org/42eb952f-58d0-4089-90f1-d7784bf3679b
+  status: ACTIVE
+  notes: 'NEON Domain: D09 (Northern Plains)'

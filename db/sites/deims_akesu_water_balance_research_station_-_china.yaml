@@ -1,0 +1,31 @@
+sites:
+- id: site_kb:deims-akesu_water_balance_research_station_-_china
+  name: Akesu Water Balance Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 2a58842f-e078-4450-a5dd-7b6f89ec83c1
+    network_url: https://deims.org/2a58842f-e078-4450-a5dd-7b6f89ec83c1
+    name: Akesu Water Balance Research Station - China
+  description: The station has a arid moderate climate, with a annual temperature
+    of 11.2 ℃ but higher in summer and lower in winter relative to areas with the
+    same latitude. Due to dramatic temperature fluctuation in spring and autumn, frozen
+    damage resulted from low temperature in spring and early cooling in autumn often
+    occurs. The annual mean precipitation is as low as 45.7 mm, thus rivers are charged
+    mainly by precipitation in mountains and snowmelt. Frozen-free day, sunshine duration
+    and annual mean wind velocity are, respectively, 207 d, 2940 h and 2.4 m/s. Disaster
+    weather includes dust storm in spring, hail and accidentally continuous high temperature
+    in summer.Aksu station (E80°51′, N40°37′, 1028 m a.s.l.), found in 1982 and affiliated
+    with Xinjiang Institute of Ecology and Geography, was listed in the top-5 stations
+    for irrigation experiment in Xinjiang and became a member of special environment
+    and disaster detection network, CAS in 2002. After development of years, it entered
+    National Field Station Network and Chinese Ecosystem Research Network (CERN) in
+    2005. The station is located in the source area of Tarim River where its three
+    headstreams (i.e., Aksu, Yeerqiang and Hetian River) converge, and the vastest
+    oasis develops in Tarim Basin under the hyperarid environments. This area is typical
+    of Tarim Basin for dramatic watercourse meandering and great agro-water consumption,
+    thus forming a ideal experimental field for monitoring and researching water,
+    salt and nutrient processes in oasis cropland system, as well as for exploring
+    sustainable oasis agriculture, theory and technologic demonstration of water-saving
+    irrigation.
+  notes: 'DEIMS country: China; DEIMS average elevation: 2940 m'
+  status: ACTIVE

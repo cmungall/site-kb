@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-oaes
+  name: Marvin Klemme Range Research Station NEON
+  location:
+    latitude: 35.410599
+    longitude: -99.058779
+    country: United States
+    state_province: Oklahoma
+  network_registrations:
+  - network: NEON
+    network_id: OAES
+    network_url: https://www.neonscience.org/field-sites/oaes
+    name: Marvin Klemme Range Research Station NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 9234a653-6e76-4ddc-aef1-a1ab2f2755ab
+    network_url: https://deims.org/9234a653-6e76-4ddc-aef1-a1ab2f2755ab
+  status: ACTIVE
+  notes: 'NEON Domain: D11 (Southern Plains)'

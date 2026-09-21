@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-mcra
+  name: McRae Creek NEON
+  location:
+    latitude: 44.259598
+    longitude: -122.165554
+    country: United States
+    state_province: Oregon
+  network_registrations:
+  - network: NEON
+    network_id: MCRA
+    network_url: https://www.neonscience.org/field-sites/mcra
+    name: McRae Creek NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: ed52a7dd-be16-4edd-ba35-cabf015e1036
+    network_url: https://deims.org/ed52a7dd-be16-4edd-ba35-cabf015e1036
+  status: ACTIVE
+  notes: 'NEON Domain: D16 (Pacific Northwest)'

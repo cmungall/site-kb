@@ -1,0 +1,21 @@
+sites:
+- id: site_kb:deims-takayama_site_-_japan
+  name: Takayama site - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: b6d98924-db1d-4444-9b52-93bc27a65c2b
+    network_url: https://deims.org/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    name: Takayama site - Japan
+  description: "Two sub sites are included.\r\n(1) TKY: Deciduous broadleaf forest,\
+    \ ca. 60 years. Canopy is dominated by Quercus cryspula, Betula ermanii and Betula\
+    \ platyphylla. Understory if dominated by an evergreen dwarf bamboo (Sasa kurinensis).\
+    \ CO2 flux measurements since 1994, net primary production (by bio-metric method)\
+    \ and soil respiration observations since 1999, plant ecophysiology since 2003,\
+    \ canopy phenological observations since 2004, linkage of in-situ and satellite\
+    \ observations since 2004.\r\n(2) TKC: Evergreen coniferous forest, ca. 50 years.\
+    \ Canopy is dominated by Cryptomeria japonica and Chamaecyparis obtusa. CO2, water\
+    \ and heat flux measurements since 2005, net promary production (by bio-metric\
+    \ method) and soil respiration observations since 2005, canopy phenological observations\
+    \ since 2005.\r\nBoth sites are also contributing to AsiaFlux."
+  notes: 'DEIMS country: Japan; DEIMS average elevation: 1010 m'
+  status: ACTIVE

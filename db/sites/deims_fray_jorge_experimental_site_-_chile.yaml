@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-fray_jorge_experimental_site_-_chile
+  name: Fray Jorge Experimental Site - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: 7fdabe1f-208a-449a-bc29-1e6ab2a1795b
+    network_url: https://deims.org/7fdabe1f-208a-449a-bc29-1e6ab2a1795b
+    name: Fray Jorge Experimental Site - Chile
+  description: The  Fray Jorge experimental site is located inside the Fray Jorge
+    National Park, in the Region of Coquimbo. Its characteristic vegetation is Mediterranean
+    and at the top of the coastal range exists evergreen temperate forests (cloud
+    forests). The climate is Mediterranean with coastal influence.
+  notes: 'DEIMS country: Chile; DEIMS average elevation: 230 m'
+  status: ACTIVE

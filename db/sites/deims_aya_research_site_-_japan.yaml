@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-aya_research_site_-_japan
+  name: Aya research site - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+    network_url: https://deims.org/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+    name: Aya research site - Japan
+  description: "evergreen broad-leaved forest\r\nThe mature and old-growth forests\
+    \ dominated by Distylium racemosum, Quercus acuta, Q. salicina, Percea thunbergii\
+    \ and other species. In total, more than 50 tree species are found in the 4-ha\
+    \ plot."
+  notes: 'DEIMS country: Japan; DEIMS average elevation: 450 m'
+  status: ACTIVE

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-blde
+  name: Blacktail Deer Creek NEON
+  location:
+    latitude: 44.95011
+    longitude: -110.58715
+    country: United States
+    state_province: Wyoming
+  network_registrations:
+  - network: NEON
+    network_id: BLDE
+    network_url: https://www.neonscience.org/field-sites/blde
+    name: Blacktail Deer Creek NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+    network_url: https://deims.org/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+  status: ACTIVE
+  notes: 'NEON Domain: D12 (Northern Rockies)'

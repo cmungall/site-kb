@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-liro
+  name: Little Rock Lake NEON
+  location:
+    latitude: 45.998269
+    longitude: -89.704767
+    country: United States
+    state_province: Wisconsin
+  network_registrations:
+  - network: NEON
+    network_id: LIRO
+    network_url: https://www.neonscience.org/field-sites/liro
+    name: Little Rock Lake NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 4f6cb674-72af-4597-afdd-7561ed66c68c
+    network_url: https://deims.org/4f6cb674-72af-4597-afdd-7561ed66c68c
+  status: ACTIVE
+  notes: 'NEON Domain: D05 (Great Lakes)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-deju
+  name: Delta Junction NEON
+  location:
+    latitude: 63.88112
+    longitude: -145.75136
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: DEJU
+    network_url: https://www.neonscience.org/field-sites/deju
+    name: Delta Junction NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 488ced79-07f7-4ebd-942d-c119d0f03c1b
+    network_url: https://deims.org/488ced79-07f7-4ebd-942d-c119d0f03c1b
+  status: ACTIVE
+  notes: 'NEON Domain: D19 (Taiga)'

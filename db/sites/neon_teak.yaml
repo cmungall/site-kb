@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-teak
+  name: Lower Teakettle NEON
+  location:
+    latitude: 37.00583
+    longitude: -119.00602
+    country: United States
+    state_province: California
+  network_registrations:
+  - network: NEON
+    network_id: TEAK
+    network_url: https://www.neonscience.org/field-sites/teak
+    name: Lower Teakettle NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: 16d02952-7cb5-487b-a5a3-7bc9ba0d557e
+    network_url: https://deims.org/16d02952-7cb5-487b-a5a3-7bc9ba0d557e
+  status: ACTIVE
+  notes: 'NEON Domain: D17 (Pacific Southwest)'

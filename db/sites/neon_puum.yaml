@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-puum
+  name: Puu Makaala Natural Area Reserve NEON
+  location:
+    latitude: 19.55309
+    longitude: -155.31731
+    country: United States
+    state_province: Hawaii
+  network_registrations:
+  - network: NEON
+    network_id: PUUM
+    network_url: https://www.neonscience.org/field-sites/puum
+    name: Puu Makaala Natural Area Reserve NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: dc4e374a-afe9-4f66-87e2-dbda8ce7d052
+    network_url: https://deims.org/dc4e374a-afe9-4f66-87e2-dbda8ce7d052
+  status: ACTIVE
+  notes: 'NEON Domain: D20 (Pacific Tropical)'

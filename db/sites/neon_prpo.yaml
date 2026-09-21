@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-prpo
+  name: Prairie Pothole NEON
+  location:
+    latitude: 47.129839
+    longitude: -99.253147
+    country: United States
+    state_province: North Dakota
+  network_registrations:
+  - network: NEON
+    network_id: PRPO
+    network_url: https://www.neonscience.org/field-sites/prpo
+    name: Prairie Pothole NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: f22236b4-e63c-44bc-b0bc-112a96453166
+    network_url: https://deims.org/f22236b4-e63c-44bc-b0bc-112a96453166
+  status: ACTIVE
+  notes: 'NEON Domain: D09 (Northern Plains)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-bona
+  name: Caribou-Poker Creeks Research Watershed NEON
+  location:
+    latitude: 65.15401
+    longitude: -147.50258
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: BONA
+    network_url: https://www.neonscience.org/field-sites/bona
+    name: Caribou-Poker Creeks Research Watershed NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 312fac70-04a7-4cab-8d03-68b1fe3192f4
+    network_url: https://deims.org/312fac70-04a7-4cab-8d03-68b1fe3192f4
+  status: ACTIVE
+  notes: 'NEON Domain: D19 (Taiga)'

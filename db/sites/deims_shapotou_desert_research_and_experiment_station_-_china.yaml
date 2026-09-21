@@ -1,0 +1,17 @@
+sites:
+- id: site_kb:deims-shapotou_desert_research_and_experiment_station_-_china
+  name: Shapotou Desert Research and Experiment Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+    network_url: https://deims.org/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+    name: Shapotou Desert Research and Experiment Station - China
+  description: Shapotou  Desert  Experimental Research Station of CAS founded in 1955,
+    locates in Zhongwei City of Ningxia Hui Autonomous Regions, the People’s Republic
+    of China, at the Southeastern edge of the Tengger Desert ；It was ratified as the
+    opening research station of CAS in 1990. Became membership of the Chinese Ecological
+    System Research Network (CERN) in 1992, as the National Key Field Scientific Observation
+    Station by Ministry of Science and Technology of the People’s Republic of China
+    in 2000.
+  notes: 'DEIMS country: China'
+  status: ACTIVE

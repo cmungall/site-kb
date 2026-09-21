@@ -1,0 +1,13 @@
+sites:
+- id: site_kb:deims-nagaura_tidalflats_kumamoto_university_-_japan
+  name: Nagaura Tidalflats, Kumamoto University - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: c57cae7d-4bfe-4b97-bd0d-9bd23d69da4a
+    network_url: https://deims.org/c57cae7d-4bfe-4b97-bd0d-9bd23d69da4a
+    name: Nagaura Tidalflats, Kumamoto University - Japan
+  description: Tidalflats, Rocky shore, Wetlands (containing saltmarshes) in Nagaura
+    Island, Kami-Amakusa, Kumamoto, Japan. It locates in Unzen-Amakusa National Park
+    at west-Kyushu.
+  notes: 'DEIMS country: Japan'
+  status: ACTIVE

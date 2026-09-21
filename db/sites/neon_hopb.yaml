@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-hopb
+  name: Lower Hop Brook NEON
+  location:
+    latitude: 42.471941
+    longitude: -72.329526
+    country: United States
+    state_province: Massachusetts
+  network_registrations:
+  - network: NEON
+    network_id: HOPB
+    network_url: https://www.neonscience.org/field-sites/hopb
+    name: Lower Hop Brook NEON
+    site_type: CORE
+  - network: DEIMS
+    network_id: 76912148-a3c7-4638-baa3-d251eb81961c
+    network_url: https://deims.org/76912148-a3c7-4638-baa3-d251eb81961c
+  status: ACTIVE
+  notes: 'NEON Domain: D01 (Northeast)'

@@ -1,0 +1,19 @@
+sites:
+- id: site_kb:neon-heal
+  name: Healy NEON
+  location:
+    latitude: 63.875798
+    longitude: -149.213347
+    country: United States
+    state_province: Alaska
+  network_registrations:
+  - network: NEON
+    network_id: HEAL
+    network_url: https://www.neonscience.org/field-sites/heal
+    name: Healy NEON
+    site_type: GRADIENT
+  - network: DEIMS
+    network_id: f530cc5c-712c-4439-9822-c391a513d792
+    network_url: https://deims.org/f530cc5c-712c-4439-9822-c391a513d792
+  status: ACTIVE
+  notes: 'NEON Domain: D19 (Taiga)'
