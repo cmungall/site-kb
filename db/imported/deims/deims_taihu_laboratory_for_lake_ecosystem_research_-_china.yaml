@@ -1,0 +1,38 @@
+sites:
+- id: site_kb:deims-taihu_laboratory_for_lake_ecosystem_research_-_china
+  name: Taihu Laboratory for Lake Ecosystem Research - China
+  network_registrations:
+  - network: DEIMS
+    network_id: cffcf04a-604c-41a2-9339-37822549995c
+    network_url: https://deims.org/cffcf04a-604c-41a2-9339-37822549995c
+    name: Taihu Laboratory for Lake Ecosystem Research - China
+  location:
+    latitude: 31.4
+    longitude: 120.217
+    country: China
+    elevation_meters: 7.0
+  description: not ready
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/cffcf04a-604c-41a2-9339-37822549995c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:07.516447+00:00'
+      source_modified_at: '2020-12-18T10:54:34+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/cffcf04a-604c-41a2-9339-37822549995c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:07.516447+00:00'
+      source_modified_at: '2020-12-18T10:54:34+01:00'
+  status: ACTIVE

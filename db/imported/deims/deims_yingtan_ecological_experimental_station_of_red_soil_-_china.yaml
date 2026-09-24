@@ -1,0 +1,112 @@
+sites:
+- id: site_kb:deims-yingtan_ecological_experimental_station_of_red_soil_-_china
+  name: Yingtan Ecological Experimental Station of Red Soil - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 1abc788a-2406-49b7-8e02-9f788719f03f
+    network_url: https://deims.org/1abc788a-2406-49b7-8e02-9f788719f03f
+    name: Yingtan Ecological Experimental Station of Red Soil - China
+  location:
+    latitude: 28.2058
+    longitude: 116.9283
+    country: China
+    elevation_meters: 45.0
+  description: "The red soil region in Southeastern (south to the Yandtze River and\
+    \ east to the Yungui plateau) covered an area of 1.13 million km2, which is 11.8%\
+    \ of the total area of China. Its climate is belong to tropical and subtropical\
+    \ mason climate, with an potential climatic production of 46-54 ton ha-1 year-1.\
+    \ The Abundant resources of light, temperature and water make this region an important\
+    \ base for the development of agriculture and economy in China. \r\nRed Soil Station\
+    \ is located at Liujiazhan, Yujiang County, Yingtan city, Jiangxi Province (116°5′30″and\
+    \ 28°5′30″, altitude 45 m a.s.l) ,135 km away from Nanchang city and 13 km away\
+    \ from Yingtan city. The Station has an typical subtropical moist climate, with\
+    \ an annual rainfall of 1785 mm, an annual mean air temperature of 17.8 ℃, an\
+    \ annual accumulative temperature (>10℃) of 5528℃, and 262 days free of frost.\
+    \ The main soil is slightly eroded barren land with sparse mason pine (Pinus massoniana\
+    \ L.) derived from Quaternary Red Clay. The vegetations is sparse mason pine (Pinus\
+    \ massoniana L.) and wild grasses, such as centipedegrass (Ere- mochloa ophiuroides\
+    \ ( Munro) Hack), tufted love-grass( Eragrostis psuch ilosa (L.) Beauv.), and\
+    \ needle-grass (mperata cylindrical (L.) Beauv. Var. major Hubb.) etc. before\
+    \ the station established. Double-rice is main cropping system in the paddy field\
+    \ and peanuts for upland in the local farms. Its environment is typical for the\
+    \ hilly region of red soil in Subtropical China, and suitable for research of\
+    \ this kind of ecosystem on experimental biology.\r\nMoreover, The Station covers\
+    \ 106 ha of land and 6 ha of water body, which are used for fuel forests, tea\
+    \ plantation, citrus orchards, pasture lands, pig farm, fish ponds, paddy fields,\
+    \ uplands, etc. and possesses  a comprehensive building of 3000 m2 including administration\
+    \ and guest offices, which equipped with computer, workstation and internet, and\
+    \ Laboratory building, which includes soil Physical-Chemical Analysis Lab., Microbial\
+    \ incubation Lab., Simulated Environment for Material-Cycling Lab equipped with\
+    \ precision instruments such as Atomic Absorption Spectrophotometer, Graphite\
+    \ Stove- Flame Spectrometer, Infrared Gas Analyzer, UV-Visible Spectrometer, Leaf\
+    \ Area Meter, Global Positioner, TDR Soil Moisture Meter, and field facilities\
+    \ such as Meteorological observatory, Nutrient Lysimeter Moisture Evapotranspiration\
+    \ Meter and Runoff plots."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:10.594551+00:00'
+      source_modified_at: '2021-03-12T15:32:03+01:00'
+  status: ACTIVE

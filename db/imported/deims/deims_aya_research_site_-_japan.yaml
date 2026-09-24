@@ -1,0 +1,96 @@
+sites:
+- id: site_kb:deims-aya_research_site_-_japan
+  name: Aya research site - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+    network_url: https://deims.org/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+    name: Aya research site - Japan
+  location:
+    latitude: 32.0667
+    longitude: 131.15
+    country: Japan
+    elevation_meters: 450.0
+  description: "evergreen broad-leaved forest\r\nThe mature and old-growth forests\
+    \ dominated by Distylium racemosum, Quercus acuta, Q. salicina, Percea thunbergii\
+    \ and other species. In total, more than 50 tree species are found in the 4-ha\
+    \ plot."
+  variables:
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: canopy gap area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: canopy gap area
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22077
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: disturbance pattern
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: disturbance pattern
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21473
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: forest structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: forest structure
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/21477
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  - name: tree basal area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree basal area
+      record_url: https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22301
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.132688+00:00'
+      source_modified_at: '2020-12-18T10:29:32+01:00'
+  status: ACTIVE

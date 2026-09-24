@@ -1,0 +1,765 @@
+sites:
+- id: site_kb:wwtp-mzar
+  name: M’ZAR wastewater treatment plant
+  aliases:
+  - MZ
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Anaerobic decantation.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code MZ
+    sampling_period: February and July 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+- id: site_kb:wwtp-aourir
+  name: AOURIR wastewater treatment plant
+  aliases:
+  - AR
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Activated sludge.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AR
+    sampling_period: February and July 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+- id: site_kb:wwtp-anza
+  name: ANZA wastewater treatment plant
+  aliases:
+  - AZ
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Lamellar decantation.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AZ
+    sampling_period: February and July 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+- id: site_kb:wwtp-drarga
+  name: DRARGA wastewater treatment plant
+  aliases:
+  - DR
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Infiltration-percolation on sand.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code DR
+    sampling_period: February and July 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+- id: site_kb:wwtp-tiznit
+  name: TIZNIT wastewater treatment plant
+  aliases:
+  - TZ
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Naturally aerobic lagoons.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code TZ
+    sampling_period: February and July 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+- id: site_kb:wwtp-ait-baha
+  name: AIT BAHA wastewater treatment plant
+  aliases:
+  - AB
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Morocco
+  description: 'Moroccan treatment plant included in the 2020 Agadir-region wastewater
+    study. Study-reported treatment: Naturally aerobic lagoons.'
+  variables:
+  - variable_id: site_kb:variable-morocco-ph
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+  - variable_id: site_kb:variable-morocco-temperature
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: °C
+  - variable_id: site_kb:variable-morocco-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-conductivity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: µS/cm
+  - variable_id: site_kb:variable-morocco-salinity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Multi 340i multiparameter instrument
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: psu
+  - variable_id: site_kb:variable-morocco-turbidity
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: LOVIBOND TB300 IR turbidimeter
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: NTU
+  - variable_id: site_kb:variable-morocco-cod
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Hanna instrument micro method
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-calcium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-hardness
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Volumetric titration
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: °F
+  - variable_id: site_kb:variable-morocco-magnesium
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: EDTA titration
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-tac
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Acid-base titration; source groups carbonates and bicarbonates
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-chlorides
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Argentometric titration
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-morocco-antimony
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+    method: Atomic absorption spectroscopy
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+    reported_units: mg/L
+  - variable_id: site_kb:variable-panbacterial-arg-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+  - variable_id: site_kb:variable-panbacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    method: Ion AmpliSeq Pan-Bacterial Research Panel; Ion GeneStudio S5
+    sample_context: Influent and effluent; study code AB
+    sampling_period: February 2020
+  datasets:
+  - title: Moroccan wastewater chemistry and targeted resistome study
+    url: https://doi.org/10.1038/s41598-024-76773-4
+    assay: Targeted ARG and bacterial-species amplicon panel plus 16S profiling
+    availability: ON_REQUEST
+    evidence:
+    - https://doi.org/10.1038/s41598-024-76773-4
+    notes: Article reports data available from the corresponding author on reasonable
+      request; no public sequence accession provided. Chemistry is tabulated in the
+      article. This is not untargeted shotgun metagenomics.
+  notes: Plant identity, treatment and sample code from Table 1; measured chemistry
+    from Table 3. https://doi.org/10.1038/s41598-024-76773-4. Coordinates omitted
+    pending verification. Sampling is historical, not an assertion of ongoing monitoring.
+    AIT BAHA was temporarily closed for maintenance in July 2020, so only February
+    was sampled.

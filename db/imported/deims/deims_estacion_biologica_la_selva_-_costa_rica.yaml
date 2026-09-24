@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-estacion_biologica_la_selva_-_costa_rica
+  name: Estacion Biologica La Selva - Costa Rica
+  network_registrations:
+  - network: DEIMS
+    network_id: c2112056-8962-4f09-9ab7-1f0d88b12fa3
+    network_url: https://deims.org/c2112056-8962-4f09-9ab7-1f0d88b12fa3
+    name: Estacion Biologica La Selva - Costa Rica
+  location:
+    latitude: 10.4256
+    longitude: -84.0211
+    country: Costa Rica
+    elevation_meters: 80.69
+  status: ACTIVE

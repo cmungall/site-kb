@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-changbai_mountain_forest_ecosystem_research_station_-_china
+  name: Changbai Mountain Forest Ecosystem Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+    network_url: https://deims.org/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+    name: Changbai Mountain Forest Ecosystem Research Station - China
+  location:
+    latitude: 42.4
+    longitude: 128.1
+    country: China
+  description: Changbai mountain station is located in National Nature Reserve of
+    Changbai Mountain,Jinlin Province.The zonal vegetation is broad leaved Korean
+    pine forest,There are more than 1000 kinds of plants.The main forest types are  broad
+    leaved Korean pine forest,Spruce fir forest,betula ermanii forest,alpine tundra.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:41.662845+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:41.662845+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:41.662845+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:41.662845+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:41.662845+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  status: ACTIVE

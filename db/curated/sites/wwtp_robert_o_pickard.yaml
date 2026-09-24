@@ -1,0 +1,59 @@
+sites:
+- id: site_kb:wwtp-robert-o-pickard
+  name: Robert O. Pickard Environmental Centre
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  aliases:
+  - ROPEC
+  - Green's Creek Pollution Control Centre
+  - Ottawa wastewater treatment plant
+  description: Municipal wastewater treatment facility in Ottawa, Ontario, Canada,
+    operated by the City of Ottawa. Provides secondary treatment and discharges treated
+    effluent to the Ottawa River. Also a sampling site for wastewater pathogen surveillance
+    and treatment research.
+  contacts:
+  - name: City of Ottawa
+    role: Facility operator
+    organization: City of Ottawa
+  - name: Delatolla Research Group
+    role: Wastewater surveillance research and analysis
+    organization: University of Ottawa
+  status: ACTIVE
+  variables:
+  - description: 'RT-qPCR measurements in primary clarified sludge, with PMMoV normalization,
+      documented in https://pmc.ncbi.nlm.nih.gov/articles/PMC9444583/. Sampling began
+      April 8, 2020; daily collection began September 10, 2020 during the study. Current
+      reporting: https://613covid.ca/wastewater/.'
+    variable_id: site_kb:variable-sars-cov-2-rna
+    evidence:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC9444583/
+    - https://613covid.ca/wastewater/
+  - description: 'PMMoV RNA used as a fecal normalization marker for viral signals.
+      Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10566629/.'
+    variable_id: site_kb:variable-pepper-mild-mottle-virus-rna
+    evidence:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC10566629/
+  - description: 'Measured in daily 24-hour composite primary clarified sludge samples
+      during February 2 to May 24, 2022. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9493155/.'
+    variable_id: site_kb:variable-influenza-a-virus-rna
+    evidence:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC9493155/
+  - description: 'Included in the 2022 primary-sludge influenza surveillance study.
+      Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9493155/.'
+    variable_id: site_kb:variable-influenza-b-virus-rna
+    evidence:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC9493155/
+  - description: 'RT-qPCR analysis of daily 24-hour composite primary clarified sludge
+      samples during August 1, 2022 to March 5, 2023. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10566629/.'
+    variable_id: site_kb:variable-respiratory-syncytial-virus-rna
+    evidence:
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC10566629/
+  notes: 'Curated 2026-09-21. Facility history and identity: https://ottawa.ca/en/living-ottawa/drinking-water-stormwater-and-wastewater/wastewater-and-sewers/wastewater-collection-and-treatment/ottawas-wastewater-treatment-plant.
+    Built in 1962; exact opening date not established. Address: 800 Green Creek Drive,
+    Ottawa, Ontario, Canada (https://app06.ottawa.ca/calendar/ottawa/citycouncil/pdc/2005/05-24/ACS2005-PWS-UTL-0017.htm).
+    Coordinates omitted pending authoritative verification. Surveillance program and
+    research group: https://613covid.ca/wastewater/. Variable descriptions document
+    study-specific observations; they do not assert uninterrupted daily sampling through
+    the present. See docs/research/robert-o-pickard.md for treatment, capacity, research
+    sources, data access, and unresolved metadata.'

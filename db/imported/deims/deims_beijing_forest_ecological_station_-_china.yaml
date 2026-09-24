@@ -1,0 +1,76 @@
+sites:
+- id: site_kb:deims-beijing_forest_ecological_station_-_china
+  name: Beijing Forest Ecological Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 9516fa76-79cc-4620-bc27-e721cdaf0db3
+    network_url: https://deims.org/9516fa76-79cc-4620-bc27-e721cdaf0db3
+    name: Beijing Forest Ecological Station - China
+  location:
+    latitude: 39.9667
+    longitude: 115.4333
+    country: China
+    elevation_meters: 1200.0
+  description: 'BJF is located in Xiao Long Men National Forest Garden of Mentougou
+    District, Beijing. The research objects of BJF is deciduous broad-leaved forests
+    in warm temperate zone. Research directions include: warm temperate forest ecosystem
+    structures and functions, the long-term dynamic of vegetation pattern, mechanism
+    of forest population maintenance, and forest biodiversity responses to global
+    change.'
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.759506+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.759506+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.759506+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.759506+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:39.759506+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  status: ACTIVE

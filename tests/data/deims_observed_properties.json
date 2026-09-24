@@ -1,0 +1,65 @@
+{
+  "title": "Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China",
+  "id": {
+    "prefix": "https://deims.org/",
+    "suffix": "13f23bec-9cc6-4b31-9032-fcbe850b448c"
+  },
+  "type": "site",
+  "changed": "2020-12-18T10:43:00+01:00",
+  "attributes": {
+    "geographic": {
+      "boundaries": "MULTIPOLYGON (((101.0275 24.5443, 101.0273 24.5444, 101.0273 24.5446, 101.0275 24.5446, 101.0275 24.5443)), ((101.02741428571 24.543871428571, 101.0273 24.5437, 101.027 24.5437, 101.0271 24.5442, 101.02744545455 24.544027272727, 101.0275 24.5443, 101.0276 24.5446, 101.0279 24.5451, 101.0283 24.5448, 101.0276 24.5437, 101.0274 24.5438, 101.02741428571 24.543871428571)))",
+      "coordinates": "POINT (101.0276 24.5439)",
+      "country": [
+        "China"
+      ],
+      "elevation": {
+        "avg": 2500,
+        "min": 2300,
+        "max": 2650,
+        "unit": "msl"
+      },
+      "size": {
+        "value": 6,
+        "unit": "ha"
+      },
+      "relatedLocations": null
+    },
+    "focusDesignScale": {
+      "experiments": {
+        "design": "mainly experimentation",
+        "scale": "plot scale"
+      },
+      "observations": {
+        "design": "mainly observation",
+        "scale": "plot within catchment"
+      },
+      "observedProperties": [
+        {
+          "label": "atmospheric parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+        },
+        {
+          "label": "biological parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+        },
+        {
+          "label": "ecosystem parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+        },
+        {
+          "label": "landscape parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+        },
+        {
+          "label": "soil parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+        },
+        {
+          "label": "water parameter",
+          "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+        }
+      ]
+    }
+  }
+}

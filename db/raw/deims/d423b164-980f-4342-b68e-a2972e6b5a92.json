@@ -1,0 +1,127 @@
+{
+  "source_url": "https://deims.org/api/sites/d423b164-980f-4342-b68e-a2972e6b5a92",
+  "retrieved_at": "2026-09-23T02:31:45.533257+00:00",
+  "record": {
+    "title": "Estacion Biologica Palo Verde - Costa Rica",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "d423b164-980f-4342-b68e-a2972e6b5a92"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:31:55+01:00",
+    "changed": "2020-03-13T10:20:19+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.ots.ac.cr/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": null,
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": null,
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Estacion Biologica Palo Verde",
+        "shortName": null,
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 27.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1850,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-85.3342973 10.3834132)",
+        "country": [
+          "Costa Rica"
+        ],
+        "elevation": {
+          "avg": 20,
+          "min": 0,
+          "max": 212,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

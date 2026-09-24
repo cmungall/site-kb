@@ -1,0 +1,14 @@
+sites:
+- id: site_kb:deims-estacion_biologica_palo_verde_-_costa_rica
+  name: Estacion Biologica Palo Verde - Costa Rica
+  network_registrations:
+  - network: DEIMS
+    network_id: d423b164-980f-4342-b68e-a2972e6b5a92
+    network_url: https://deims.org/d423b164-980f-4342-b68e-a2972e6b5a92
+    name: Estacion Biologica Palo Verde - Costa Rica
+  location:
+    latitude: 10.3834132
+    longitude: -85.3342973
+    country: Costa Rica
+    elevation_meters: 20.0
+  status: ACTIVE

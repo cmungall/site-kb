@@ -1,0 +1,284 @@
+{
+  "source_url": "https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b",
+  "retrieved_at": "2026-09-23T02:32:08.117648+00:00",
+  "record": {
+    "title": "Takayama site - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b6d98924-db1d-4444-9b52-93bc27a65c2b"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:06+01:00",
+    "changed": "2021-01-20T13:37:49+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER_EAP_JP_13",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "FLUXNet",
+            "uri": "https://fluxnet.org/"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Hiroyuki Muraoka",
+            "email": "muraoka@green.gifu-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Gifu University",
+            "url": "http://www.gifu-u.ac.jp/",
+            "ror": "https://ror.org/024exxj48"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Hiroyuki Muraoka",
+            "email": "muraoka@green.gifu-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Gifu University",
+            "url": "http://www.gifu-u.ac.jp/",
+            "ror": "https://ror.org/024exxj48"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "Takayama site portal",
+            "value": "http://sateco-archive.green.gifu-u.ac.jp/Newhtml/takayama_portal/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Two sub sites are included.\r\n(1) TKY: Deciduous broadleaf forest, ca. 60 years. Canopy is dominated by Quercus cryspula, Betula ermanii and Betula platyphylla. Understory if dominated by an evergreen dwarf bamboo (Sasa kurinensis). CO2 flux measurements since 1994, net primary production (by bio-metric method) and soil respiration observations since 1999, plant ecophysiology since 2003, canopy phenological observations since 2004, linkage of in-situ and satellite observations since 2004.\r\n(2) TKC: Evergreen coniferous forest, ca. 50 years. Canopy is dominated by Cryptomeria japonica and Chamaecyparis obtusa. CO2, water and heat flux measurements since 2005, net promary production (by bio-metric method) and soil respiration observations since 2005, canopy phenological observations since 2005.\r\nBoth sites are also contributing to AsiaFlux.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1993,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Takayama site",
+        "shortName": "TKY - TKC",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/TKY_tower.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/TKY_fluxtower.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/TKC_tower.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2275,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate coniferous forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate grasslands, savannas, and shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (137.333 36.15)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 1010,
+          "min": 800,
+          "max": 1420,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 5,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": "Costs for power supply, staff resources, and internet facility for data monitoring.",
+          "siteVisitInterval": 14
+        },
+        "notes": "Two towers owned by Gifu University and one by national institute. Towers take much cost and safety security needs to be considered as they are on the mountain.",
+        "collection": [
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "In canopy",
+            "uri": null
+          },
+          {
+            "label": "More than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

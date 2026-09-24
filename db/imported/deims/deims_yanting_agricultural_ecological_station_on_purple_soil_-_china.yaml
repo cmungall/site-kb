@@ -1,0 +1,119 @@
+sites:
+- id: site_kb:deims-yanting_agricultural_ecological_station_on_purple_soil_-_china
+  name: Yanting Agricultural Ecological Station on Purple Soil - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 0c20aa08-f120-4c37-bf26-cef5fcb34980
+    network_url: https://deims.org/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    name: Yanting Agricultural Ecological Station on Purple Soil - China
+  location:
+    latitude: 31.16
+    longitude: 105.27
+    country: China
+    elevation_meters: 420.0
+  description: "Yanting Agro-ecological Experimental Station of Purple Soil of CAS\
+    \ locates at LinShan, Yanting (105 º 27 'E, 31 º 16' N) in the north-central Sichuan\
+    \ Basin. It was established in 1980 and  became a member of the Chinese Ecosystem\
+    \ Research Network (CERN) in 1991. In 2005, it was selected to be a National Key\
+    \ Field Research Station. In 2007, the Station became one of the Soil and Water\
+    \ Conservation Sci-Tech Demonstration Zones under the Ministry of Water Resources.\
+    \ It is also one of the observatory sites of Global Terrestrial Observation System\
+    \ (GTOS) and a key field station under the Ministry of Agriculture.\r\n      Yanting\
+    \ has a humid subtropical monsoon climate, with an annual average temperature\
+    \ of 17.5 ℃ and an average annual rainfall of 826 mm, and its annual frost-free\
+    \ period is averagely 290 days.\r\n      Its landscape is featured by hills. The\
+    \ outcropped rock strata are purplish sand-mudstones formed in  Jurassic and Cretaceous\
+    \ period. The soil is called locally purple soil. It is classified as Eutric Regosols\
+    \ in the FAO Soil Taxonomy and as Pup-Orthic-Entisols in the Chinese Soil Taxonomy.\
+    \ Yanting Station represents typical farmland ecosystems dominated by purple soils\
+    \ in the Sichuan Basin in the subtropical region."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.987042+00:00'
+      source_modified_at: '2020-12-18T10:23:40+01:00'
+  status: ACTIVE

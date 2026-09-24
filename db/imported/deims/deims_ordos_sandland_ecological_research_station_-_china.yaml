@@ -1,0 +1,97 @@
+sites:
+- id: site_kb:deims-ordos_sandland_ecological_research_station_-_china
+  name: Ordos Sandland Ecological Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 683db6fd-cc96-4698-bcce-2fe015948a87
+    network_url: https://deims.org/683db6fd-cc96-4698-bcce-2fe015948a87
+    name: Ordos Sandland Ecological Research Station - China
+  location:
+    latitude: 39.4833
+    longitude: 110.183
+    country: China
+    elevation_meters: 1300.0
+  description: "The Ordos Sandland Ecological Research Station (OSERS, 39°29'37.6''\
+    \ N, 110°11'9.4'' E, 1300 m a.s.l.) is located in Yijinhuoluo County, Ordos City,\
+    \ Inner Mongolia, China. The OSERS is one of the member stations belonging to\
+    \ Chinese Ecosystem Research Network (CERN) and is also one of national field\
+    \ stations belonging to the Chinese National Ecosystem Observation and Research\
+    \ Network (CNERN). The representative ecosystems featured by OSERS are grassland\
+    \ ecosystems in steppe zone. OSERS now has a multi-function building of 2000 m2,\
+    \ an experimental area of 2133.33 hm2, a set of monitoring equipments, an internet\
+    \ service with 10 M flux and able to access digital resource of Chinese Academy\
+    \ of Sciences, especially Institute of Botany. In 2015, NFRS-OGE was successful\
+    \ in conducting all monitoring projects for CERN and CNERN and served about 245\
+    \ domestic and international researchers and academic visitors, which have worked\
+    \ at the station for more than 2,000 days. In 2015, OSERS was supported by 14\
+    \ projects from the Ministry of Science and Technology of China, CAS and the NNSF\
+    \ of China, published 28 academic papers, among which 22 were indexed by Science\
+    \ Citation Index (SCI), were applying for three patents, and write two monographs.\
+    \ The main work included four aspects as following:\r\n1) Monitoring: field monitoring\
+    \ and laboratory sample analysis tasks of water, soil, atmosphere and biological\
+    \ factors were accomplished on time according to CERN and CNERN requirements;\
+    \ at the same time we cooperated with each CERN sub-center to improve quality\
+    \ control system of stations monitoring data.\r\n2) Research: We made progress\
+    \ in mechanism of plant adaption to desert, leaf litter decomposability, C storage\
+    \ etc. \r\n3) Demonstration: The sandy plant resource was collected, cultured\
+    \ and tamed, and the project “Technology and demonstration of Ordos sandy ecosystem\
+    \ adapting to water stress” was launched.\r\n5) Science Popularization: We offered\
+    \ some science popularizing activities about Sandy Grassland Ecology for more\
+    \ than 200 students."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:01.474170+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:01.474170+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:01.474170+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:01.474170+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:01.474170+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  status: ACTIVE

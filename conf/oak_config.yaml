@@ -8,7 +8,7 @@
 
 ontology_adapters:
   # Environment ontology (ecosystems, biomes, habitats)
-  ENVO: sqlite:obo:envo
+  ENVO: simpleobo:cache/ontologies/envo.obo
 
   # Biome, Environment, and Research Variable Ontology
   BERVO: sqlite:obo:bervo
@@ -26,7 +26,10 @@ ontology_adapters:
   NCBITaxon: sqlite:obo:ncbitaxon
 
   # MIxS terms
-  MIXS: sqlite:obo:mixs
+  MIXS: simpleobo:cache/ontologies/mixs-labels.obo
+
+  # SKOS relation meanings used by crosswalk enums
+  skos: simpleobo:cache/ontologies/skos-labels.obo
 
   # Phenotype and Trait Ontology
   PATO: sqlite:obo:pato
@@ -38,7 +41,6 @@ ontology_adapters:
   linkml: ""
   schema: ""
   dcterms: ""
-  skos: ""
   xsd: ""
   rdf: ""
   rdfs: ""

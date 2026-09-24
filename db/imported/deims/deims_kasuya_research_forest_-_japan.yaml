@@ -1,0 +1,200 @@
+sites:
+- id: site_kb:deims-kasuya_research_forest_-_japan
+  name: Kasuya Research Forest - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 3a9bbd87-171b-4250-954e-7dc8916d95c1
+    network_url: https://deims.org/3a9bbd87-171b-4250-954e-7dc8916d95c1
+    name: Kasuya Research Forest - Japan
+  location:
+    latitude: 33.63829
+    longitude: 130.518235
+    country: Japan
+    elevation_meters: 242.0
+  description: The Kasuya Research Forest (KRF) is located in the northern part of
+    Kyushu Island. The elevation ranges from 30 to 553m. About 100ha of there forests
+    is on hilly Tertiary mountains lower than 100m in altitude, and other forests
+    are on the steep mountains over the Paleozoic strata. Most of the natural forests
+    consist of warm temperate evergreen broad-leaved trees such as Quercus sp., Castanopsis
+    sp., Machilus thunbergii, Morella rubra, etc. The drier ridge sites are covered
+    by deciduous broad-leaved trees such as Carpinus tschonoskii, Quercus serrata,
+    Castanea crenata, etc. Plantation forests composed predominantly of Cryptomeria
+    japonica and Chamaecyparis obtusa cover about 70% of the total forest area.
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: solar radiation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: solar radiation
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22284
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:54.448267+00:00'
+      source_modified_at: '2020-11-27T13:32:16+01:00'
+  status: ACTIVE

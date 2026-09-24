@@ -1,0 +1,107 @@
+sites:
+- id: site_kb:deims-naiman_desertification_research_station_-_china
+  name: Naiman Desertification Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 197ce284-30d0-421f-90d4-85ef9ac794d6
+    network_url: https://deims.org/197ce284-30d0-421f-90d4-85ef9ac794d6
+    name: Naiman Desertification Research Station - China
+  location:
+    latitude: 43.9167
+    longitude: 120.7
+    country: China
+  description: Naiman Desertification Research Station (NDRS), Cold and Arid Regions
+    Environmental and Engineering Research Institute (CAREERI),Chinese Academy of
+    Sciences (CAS) was officially estabilished in 1985, locating at Naiman County
+    Inner Mongolia. The station is also affiliated to the Chinese Ecosystems Research
+    Network (CERN) and Chinese National Ecosystem Research Network (CNERN).
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:59.940120+00:00'
+      source_modified_at: '2020-12-18T10:57:09+01:00'
+  status: ACTIVE

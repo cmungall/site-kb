@@ -1,0 +1,286 @@
+{
+  "source_url": "https://deims.org/api/sites/bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba",
+  "retrieved_at": "2026-09-23T02:31:44.381952+00:00",
+  "record": {
+    "title": "Donghu Experimental Station for Lake Ecosystem - China",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:31:44+01:00",
+    "changed": "2020-12-18T10:56:56+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "CERN (LTER China)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4dac034d-92d5-4c06-8e4e-aabafdbcedff"
+              }
+            },
+            "siteCode": "LTER-EAP-CN-35",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "jun CHEN",
+            "email": "chenjun@ihb.ac.cn",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "jun CHEN",
+            "email": "chenjun@ihb.ac.cn",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Donghu Experimental Station for Lake Ecosystem (Donghu Station) located in west of Donghu Lake, Wuhan, China.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1980,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Donghu Experimental Station for Lake Ecosystem",
+        "shortName": "Donghu Station",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/2570.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/slide0013_image097.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/2576.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 16,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1200,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (114.383 30.55)",
+        "country": [
+          "China"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 25,
+          "max": 29,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://dhl.cern.ac.cn/"
+              }
+            ],
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

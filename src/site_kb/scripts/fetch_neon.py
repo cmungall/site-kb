@@ -1,4 +1,4 @@
-"""Fetch site metadata from the NEON API and write to db/sites/."""
+"""Fetch site metadata from the NEON API and write to db/imported/neon/."""
 
 from pathlib import Path
 
@@ -7,7 +7,7 @@ import typer
 import yaml
 
 NEON_API = "https://data.neonscience.org/api/v0"
-OUTPUT_DIR = Path("db/sites")
+OUTPUT_DIR = Path("db/imported/neon")
 
 app = typer.Typer()
 

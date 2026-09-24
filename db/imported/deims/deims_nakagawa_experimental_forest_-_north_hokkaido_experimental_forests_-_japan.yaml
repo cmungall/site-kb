@@ -1,0 +1,130 @@
+sites:
+- id: site_kb:deims-nakagawa_experimental_forest_-_north_hokkaido_experimental_forests_-_japan
+  name: Nakagawa Experimental Forest - North Hokkaido Experimental Forests - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    network_url: https://deims.org/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    name: Nakagawa Experimental Forest - North Hokkaido Experimental Forests - Japan
+  location:
+    latitude: 44.7238
+    longitude: 142.2682
+    country: Japan
+    elevation_meters: 300.0
+  description: The typical vegetation of the forest is natural conifer-broadleaved
+    mixed forest, dominated by Betula ermanii, Abies sachalinensis, Picea glehnii,
+    Quercus crispula, and Acer mono, with dwarf bamboo species in the understory.
+    The mean annual temperature is 5.4 ºC and the mean annual precipitation is 1,449
+    mm.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: sky temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sky temperature
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22239
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:00.877375+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  status: ACTIVE

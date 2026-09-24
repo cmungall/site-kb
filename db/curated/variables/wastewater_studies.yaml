@@ -1,0 +1,123 @@
+variable_definitions:
+- id: site_kb:variable-morocco-ph
+  name: pH
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: pH
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-temperature
+  name: Temperature
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Temperature
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-dissolved-oxygen
+  name: Dissolved O2
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Dissolved O2
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-conductivity
+  name: Conductivity
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Conductivity
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-salinity
+  name: Salinity
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Salinity
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-turbidity
+  name: Turbidity
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Turbidity
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-cod
+  name: COD
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: COD
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-calcium
+  name: Calcium
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Calcium
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-hardness
+  name: Total Hardness
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Total Hardness
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-magnesium
+  name: Magnesium
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Magnesium
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-tac
+  name: TAC
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: TAC
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-chlorides
+  name: Chlorides
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Chlorides
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-morocco-antimony
+  name: Antimony (Sb)
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: Wardi et al. 2024
+    source_name: Antimony (Sb)
+    record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+- id: site_kb:variable-panbacterial-arg-profile
+  name: Targeted antibiotic resistance gene profile
+  declaration_kind: PARAMETER_GROUP
+  description: Resistance-gene panel results. Assay coverage is limited to targeted
+    loci.
+- id: site_kb:variable-panbacterial-16s-profile
+  name: 16S bacterial community profile
+  declaration_kind: PARAMETER_GROUP
+  description: Bacterial community composition from targeted 16S amplicons.
+- id: site_kb:variable-mag-completeness
+  name: MAG completeness score
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: ENA
+    source_id: completeness score
+    source_name: completeness score
+    record_url: https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
+- id: site_kb:variable-mag-contamination
+  name: MAG contamination score
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: ENA
+    source_id: contamination score
+    source_name: contamination score
+    record_url: https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
+- id: site_kb:variable-arg-presence
+  name: Antibiotic resistance gene presence
+  declaration_kind: PARAMETER_GROUP
+- id: site_kb:variable-taxonomic-profile
+  name: Metagenomic taxonomic profile
+  declaration_kind: PARAMETER_GROUP

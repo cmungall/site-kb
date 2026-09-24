@@ -1,0 +1,235 @@
+{
+  "source_url": "https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4",
+  "retrieved_at": "2026-09-23T02:31:39.132688+00:00",
+  "record": {
+    "title": "Aya research site - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:03+01:00",
+    "changed": "2020-12-18T10:29:32+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-3",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Satoshi Saito",
+            "email": "stetsu@affrc.go.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Satoshi Saito",
+            "email": "stetsu@affrc.go.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Aya research site",
+            "value": "http://www.ffpri-kys.affrc.go.jp/situ/eco/site/aya-e.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "evergreen broad-leaved forest\r\nThe mature and old-growth forests dominated by Distylium racemosum, Quercus acuta, Q. salicina, Percea thunbergii and other species. In total, more than 50 tree species are found in the 4-ha plot.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1989,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Aya research site",
+        "shortName": "Aya",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Location%2520of%2520Aya.png",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 15.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2829,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "evergreen_forest",
+        "ecosystemType": [
+          {
+            "label": "Evergreen Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Tropical and subtropical moist broadleaf forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (131.15 32.0667)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 450,
+          "min": 380,
+          "max": 520,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 4,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "canopy gap area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22077"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "forest structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21477"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The dataset provider is given a complete list of all products that make use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

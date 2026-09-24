@@ -1,0 +1,16 @@
+variable_definitions:
+- id: site_kb:variable-sars-cov-2-rna
+  name: SARS-CoV-2 RNA
+  declaration_kind: PROPERTY
+- id: site_kb:variable-pepper-mild-mottle-virus-rna
+  name: Pepper mild mottle virus RNA
+  declaration_kind: PROPERTY
+- id: site_kb:variable-influenza-a-virus-rna
+  name: Influenza A virus RNA
+  declaration_kind: PROPERTY
+- id: site_kb:variable-influenza-b-virus-rna
+  name: Influenza B virus RNA
+  declaration_kind: PROPERTY
+- id: site_kb:variable-respiratory-syncytial-virus-rna
+  name: Respiratory syncytial virus RNA
+  declaration_kind: PROPERTY

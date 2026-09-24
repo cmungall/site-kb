@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-xishuangbanna_research_station_of_tropical_forest_-_china
+  name: Xishuangbanna Research Station of Tropical Forest - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 2c657379-e12d-4885-8236-a6f1eb410d98
+    network_url: https://deims.org/2c657379-e12d-4885-8236-a6f1eb410d98
+    name: Xishuangbanna Research Station of Tropical Forest - China
+  location:
+    latitude: 21.9194
+    longitude: 101.2769
+    country: China
+  description: Xishuangbanna Research Station of Tropical Forest was located in Mengla
+    County, Yunnan Province, China. The annual mean air temperature was 21.5 °C, with
+    a minimum monthly mean temperature of 15.5°C in January. Average annual rainfall
+    was 1557 mm. The dominant tree species in the forest are Pometia tomentosa,Terminalia
+    myriocarpa Vaniot Huerck et Muell.-Arg.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:09.349821+00:00'
+      source_modified_at: '2020-12-18T10:55:07+01:00'
+  status: ACTIVE

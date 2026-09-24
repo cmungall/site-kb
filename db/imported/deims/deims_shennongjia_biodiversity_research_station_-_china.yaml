@@ -1,0 +1,661 @@
+sites:
+- id: site_kb:deims-shennongjia_biodiversity_research_station_-_china
+  name: Shennongjia Biodiversity Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+    network_url: https://deims.org/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+    name: Shennongjia Biodiversity Research Station - China
+  location:
+    latitude: 31.3228
+    longitude: 110.4854
+    country: China
+    elevation_meters: 1290.0
+  description: "Shennongjia Station is located in Xingshan County, Hubei Province,\
+    \ China. It is located in the southern slope of Mount Shennongjia. The altitude\
+    \ is 1290m above sea level. The typical forest types are the northern subtropical\
+    \ mixed evergreen and deciduous broadleaved forest.\r\nShennongjia Station was\
+    \ established in 1994, it became a station of National Field Research Station\
+    \ network running by the Ministry of Science and Technology of the People’s Republic\
+    \ of China in 2005, and became a member of Chinese Ecosystem Research Network\
+    \ (CERN), CAS in 2008."
+  variables:
+  - name: abiotic heterogeneity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: abiotic heterogeneity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21476
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: below ground autotrophic respiration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: below ground autotrophic respiration
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22066
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: carbon dioxide flux per soil horizon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide flux per soil horizon
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22083
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: carbon-to-nitrogen ratio
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon-to-nitrogen ratio
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/21350
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: cation exchange capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: cation exchange capacity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22084
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: crop growth rate
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: crop growth rate
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10058
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: date of start of physiological maturity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: date of start of physiological maturity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22098
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: date of start of stem elongation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: date of start of stem elongation
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22099
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: disturbance pattern
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: disturbance pattern
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/21473
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: emergence date
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: emergence date
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22114
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: flowering date
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: flowering date
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22096
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: germination date
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: germination date
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22097
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: ground water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ground water level
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: heat flow
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: heat flow
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/22129
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: leaf area ratio
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area ratio
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/22158
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: litter residence time
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: litter residence time
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/10048
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: microbial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial diversity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/22169
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: naturalness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: naturalness
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/24
+      source_id: http://vocabs.lter-europe.net/EnvThes/21492
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/25
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: normalized vegetation index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: normalized vegetation index
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/26
+      source_id: http://vocabs.lter-europe.net/EnvThes/22175
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: percent carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: percent carbon
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/27
+      source_id: http://vocabs.lter-europe.net/EnvThes/22181
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: plant carbon concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant carbon concentration
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/28
+      source_id: http://vocabs.lter-europe.net/EnvThes/22187
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: plant development stage
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant development stage
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/29
+      source_id: http://vocabs.lter-europe.net/EnvThes/22190
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/30
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: plant nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant nutrient
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/31
+      source_id: http://vocabs.lter-europe.net/EnvThes/22194
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: plant transpiration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant transpiration
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/32
+      source_id: http://vocabs.lter-europe.net/EnvThes/22197
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: root density
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root density
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/33
+      source_id: http://vocabs.lter-europe.net/EnvThes/22216
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: root growth rate
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root growth rate
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/34
+      source_id: http://vocabs.lter-europe.net/EnvThes/22218
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: root length
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root length
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/35
+      source_id: http://vocabs.lter-europe.net/EnvThes/22219
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: soil acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil acidity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/36
+      source_id: http://vocabs.lter-europe.net/EnvThes/22243
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: soil heat flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil heat flux
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/37
+      source_id: http://vocabs.lter-europe.net/EnvThes/22253
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: soil moisture field capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture field capacity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/38
+      source_id: http://vocabs.lter-europe.net/EnvThes/10396
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/39
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: soil solution concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil solution concentration
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/40
+      source_id: http://vocabs.lter-europe.net/EnvThes/22274
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: species turnover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species turnover
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/41
+      source_id: http://vocabs.lter-europe.net/EnvThes/22288
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: total carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total carbon
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/42
+      source_id: http://vocabs.lter-europe.net/EnvThes/22296
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/43
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/44
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree basal area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree basal area
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/45
+      source_id: http://vocabs.lter-europe.net/EnvThes/22301
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree condition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree condition
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/46
+      source_id: http://vocabs.lter-europe.net/EnvThes/22302
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/47
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/48
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/49
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: vegetation reflectance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: vegetation reflectance
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/50
+      source_id: http://vocabs.lter-europe.net/EnvThes/10118
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/51
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/52
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/53
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/54
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/55
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/56
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  - name: water volume
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water volume
+      record_url: https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e
+      field_path: /attributes/focusDesignScale/observedProperties/57
+      source_id: http://vocabs.lter-europe.net/EnvThes/22316
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:06.288494+00:00'
+      source_modified_at: '2020-06-29T10:45:00+02:00'
+  status: ACTIVE

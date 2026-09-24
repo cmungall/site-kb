@@ -26,7 +26,7 @@ prefixes:
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   PATO: http://purl.obolibrary.org/obo/PATO_
   IAO: http://purl.obolibrary.org/obo/IAO_
-  MIXS: http://purl.obolibrary.org/obo/MIXS_
+  MIXS: https://w3id.org/mixs/
   orcid: https://orcid.org/
   ror: https://ror.org/
   doi: https://doi.org/
@@ -41,6 +41,14 @@ classes:
     description: A collection of environmental research sites.
     tree_root: true
     attributes:
+      variable_definitions:
+        range: VariableDefinition
+        multivalued: true
+        inlined_as_list: true
+      profiles:
+        range: MeasurementProfile
+        multivalued: true
+        inlined_as_list: true
       sites:
         description: The sites in this collection.
         range: Site
@@ -68,9 +76,22 @@ classes:
         description: The geographic location of the site.
         range: Location
         inlined: true
+      site_type:
+        description: >-
+          High-level kind of physical site or facility, preferably an ENVO term
+          (e.g. wastewater treatment plant). Separate from ecosystems, sample
+          materials, network membership, and observation/research roles.
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
       ecosystem_terms:
         description: ENVO terms describing the ecosystem(s) at this site.
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         multivalued: true
         inlined_as_list: true
       network_registrations:
@@ -80,8 +101,14 @@ classes:
         multivalued: true
         inlined_as_list: true
       variables:
-        description: Variables measured or observed at this site.
+        description: >-
+          Observed-property declarations, including specific variables and broad
+          parameter groups. Declaration granularity is explicit when known.
         range: Variable
+        multivalued: true
+        inlined_as_list: true
+      datasets:
+        range: Dataset
         multivalued: true
         inlined_as_list: true
       contacts:
@@ -102,16 +129,14 @@ classes:
         description: Free-text notes about this site.
 
   Location:
-    description: A geographic location with coordinates and optional metadata.
+    description: A geographic location; coordinates may be omitted when only a region is verified.
     attributes:
       latitude:
         description: Latitude in decimal degrees (WGS84).
         range: float
-        required: true
       longitude:
         description: Longitude in decimal degrees (WGS84).
         range: float
-        required: true
       elevation_meters:
         description: Elevation above sea level in meters.
         range: float
@@ -122,6 +147,9 @@ classes:
       region_term:
         description: Ontology term for the geographic region (GAZ).
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         inlined: true
 
   NetworkRegistration:
@@ -148,34 +176,78 @@ classes:
 
   Variable:
     description: >-
-      A variable measured or observed at a site. Links to ontology terms
-      for semantic interoperability across networks.
+      An observed-property declaration at a site, with preserved source
+      identities and separately attributed ontology mapping assertions.
     attributes:
+      variable_id:
+        description: Reference to a shared definition; the builder expands it for display.
+        range: VariableDefinition
+        inlined: false
+      evidence:
+        description: Sources supporting collection or analysis at this particular site.
+        range: uri
+        multivalued: true
+      method:
+      sample_context:
+      sampling_period:
+        description: Source-reported study sampling window; not an ongoing monitoring claim.
+      reported_units:
+        description: Verbatim study units, not a validated ontology assignment.
       name:
-        description: Human-readable name of the variable.
-        required: true
+        description: Human-readable name; required unless variable_id resolves it.
       description:
         description: Description of what is measured and how.
+      declaration_kind:
+        description: >-
+          Granularity of the declaration. UNSPECIFIED means the source has not
+          distinguished a specific property from a parameter group; never infer
+          granularity solely from the label.
+        range: DeclarationKindEnum
+      source_variables:
+        description: Original source names, identifiers, and record provenance.
+        range: SourceVariable
+        multivalued: true
+        inlined_as_list: true
+      mappings:
+        description: >-
+          Explicit crosswalk assertions from a source variable to an ontology
+          concept, distinguishing source-supplied from curated mappings.
+        range: VariableMapping
+        multivalued: true
+        inlined_as_list: true
       term:
         description: >-
-          Primary ontology term for this variable (preferably BERVO,
-          also ENVO, OBI, or other relevant ontology).
+          Curator-selected primary ontology term (preferably BERVO).
+          Source terms and broad/narrow mappings must not automatically become
+          the primary term. Mapping provenance belongs in mappings.
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         inlined: true
       additional_terms:
         description: Additional ontology terms for this variable.
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         multivalued: true
         inlined_as_list: true
       units:
         description: Unit of measurement (UO term).
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         inlined: true
       capability:
         description: >-
           The instrument or platform capability that provides this
           measurement (OBI term).
         range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
         inlined: true
       temporal_resolution:
         description: >-
@@ -183,8 +255,243 @@ classes:
           "hourly", "daily", "monthly").
       network_variable_id:
         description: >-
-          The identifier for this variable in the source network's
-          data system.
+          Legacy single-source identifier. New ingestion uses source_variables
+          to preserve names, identifiers, and provenance together.
+
+  SourceVariable:
+    description: >-
+      The original declaration in a source registry or vocabulary. Names are
+      preserved verbatim and are not assumed to be current ontology labels.
+    attributes:
+      source:
+        description: Source registry name, e.g. DEIMS or NEON.
+        required: true
+      source_id:
+        description: Original identifier or vocabulary URI; absent if not supplied.
+      source_name:
+        description: Original source label, without harmonization.
+        required: true
+      vocabulary:
+        description: Source vocabulary name, when explicitly identifiable.
+      record_url:
+        description: Source record from which the declaration was retrieved.
+        range: uri
+      field_path:
+        description: JSON Pointer locating the declaration in the source record.
+      retrieved_at:
+        description: Time the source record was retrieved, in UTC.
+        range: datetime
+      source_modified_at:
+        description: Source-reported record modification time.
+        range: datetime
+
+  VariableMappingCollection:
+    description: Reusable curated mappings applied by source and source_id.
+    attributes:
+      mappings:
+        range: VariableMapping
+        multivalued: true
+        inlined_as_list: true
+        required: true
+        minimum_cardinality: 1
+
+  VariableMapping:
+    description: >-
+      A directed crosswalk from (source, source_id) to target. A BROAD mapping
+      means target is broader than source; a NARROW mapping means target is
+      narrower. Each assertion carries its origin and evidence.
+    attributes:
+      source:
+        description: Registry name matching SourceVariable.source.
+        required: true
+      source_id:
+        description: Identifier matching SourceVariable.source_id exactly.
+        required: true
+      source_name:
+        description: Source label at the time the mapping was asserted.
+      target:
+        description: Target ontology concept, e.g. a BERVO term.
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
+        required: true
+      relation:
+        range: MappingRelationEnum
+        required: true
+      origin:
+        description: Whether the assertion was supplied by a source or curated here.
+        range: MappingOriginEnum
+        required: true
+      evidence:
+        description: URLs documenting the mapping assertion, not just term existence.
+        range: uri
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+      attributed_to:
+        description: Person, organization, or upstream mapping resource responsible.
+      asserted_on:
+        description: Date of the mapping assertion.
+        range: date
+      notes:
+        description: Rationale or limitations of this mapping.
+
+  MeasurementProfileCollection:
+    description: Standards-derived candidate metadata, not site measurement claims.
+    attributes:
+      profiles:
+        range: MeasurementProfile
+        multivalued: true
+        inlined_as_list: true
+
+  MeasurementProfile:
+    description: A source-versioned set of candidate properties for future curation.
+    attributes:
+      name:
+        required: true
+      source_url:
+        range: uri
+        required: true
+      source_version:
+        required: true
+      extension:
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
+      applicability_scope:
+        description: Which aspect of an environment is classified by applies_to.
+        range: ApplicabilityScopeEnum
+      applies_to:
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
+      notes:
+      candidates:
+        range: CandidateProperty
+        multivalued: true
+        inlined_as_list: true
+
+  VariableDefinition:
+    description: Reusable variable identity, source crosswalks, and curated ontology
+      mappings; not evidence of collection at a site.
+    attributes:
+      id:
+        identifier: true
+        range: uriorcurie
+      name:
+        description: Human-readable name; required unless variable_id resolves it.
+        required: true
+      description:
+        description: Description of what is measured and how.
+      declaration_kind:
+        description: Granularity of the declaration. UNSPECIFIED means the source has
+          not distinguished a specific property from a parameter group; never infer
+          granularity solely from the label.
+        range: DeclarationKindEnum
+      source_variables:
+        description: Original source names, identifiers, and record provenance.
+        range: SourceVariable
+        multivalued: true
+        inlined_as_list: true
+      mappings:
+        description: Explicit crosswalk assertions from a source variable to an ontology
+          concept, distinguishing source-supplied from curated mappings.
+        range: VariableMapping
+        multivalued: true
+        inlined_as_list: true
+      term:
+        description: Curator-selected primary ontology term (preferably BERVO). Source
+          terms and broad/narrow mappings must not automatically become the primary
+          term. Mapping provenance belongs in mappings.
+        range: OntologyTerm
+        bindings:
+        - binds_value_of: id
+          range: ExternalOntologyTerm
+        inlined: true
+      additional_terms:
+        description: Additional ontology terms for this variable.
+        range: OntologyTerm
+        bindings:
+        - binds_value_of: id
+          range: ExternalOntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      units:
+        description: Unit of measurement (UO term).
+        range: OntologyTerm
+        bindings:
+        - binds_value_of: id
+          range: ExternalOntologyTerm
+        inlined: true
+      capability:
+        description: The instrument or platform capability that provides this measurement
+          (OBI term).
+        range: OntologyTerm
+        bindings:
+        - binds_value_of: id
+          range: ExternalOntologyTerm
+        inlined: true
+
+  VariableCatalog:
+    attributes:
+      variable_definitions:
+        range: VariableDefinition
+        multivalued: true
+        inlined_as_list: true
+        required: true
+
+  Dataset:
+    description: Study or archive associated with a site; availability and assay are explicit.
+    attributes:
+      title:
+        required: true
+      url:
+        range: uri
+        required: true
+      accession:
+      assay:
+        required: true
+      availability:
+        range: DataAvailabilityEnum
+        required: true
+      evidence:
+        range: uri
+        multivalued: true
+      notes:
+
+  CandidateProperty:
+    description: A standard field that might be relevant; not a site observation.
+    attributes:
+      variable_id:
+        required: true
+        range: VariableDefinition
+        inlined: false
+      source_slot:
+        required: true
+      term:
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
+      category:
+        description: Curated grouping distinguishing measurement, process, and sample context.
+        required: true
+      description:
+      source_range:
+      source_required:
+        range: boolean
+      source_multivalued:
+        range: boolean
+      source_preferred_unit:
+        description: Verbatim upstream annotation, not a validated unit assignment.
+      notes:
 
   Contact:
     description: A person or organization associated with a site.
@@ -221,6 +528,57 @@ classes:
         required: true
 
 enums:
+
+  DataAvailabilityEnum:
+    permissible_values:
+      PUBLIC:
+      ON_REQUEST:
+      UNRESOLVED:
+
+  ApplicabilityScopeEnum:
+    permissible_values:
+      FACILITY:
+      ECOSYSTEM:
+      SAMPLE_MATERIAL:
+
+  ExternalOntologyTerm:
+    description: >-
+      Open binding range; term existence and canonical labels are checked by
+      linkml-term-validator against the configured ontology adapters.
+
+  DeclarationKindEnum:
+    permissible_values:
+      PROPERTY:
+        description: A specific observed property or variable.
+      PARAMETER_GROUP:
+        description: A broad category of observed properties.
+      UNSPECIFIED:
+        description: Source declaration whose granularity has not been classified.
+
+  MappingRelationEnum:
+    permissible_values:
+      EXACT:
+        meaning: skos:exactMatch
+        title: has exact match
+      CLOSE:
+        meaning: skos:closeMatch
+        title: has close match
+      BROAD:
+        meaning: skos:broadMatch
+        title: has broader match
+      NARROW:
+        meaning: skos:narrowMatch
+        title: has narrower match
+      RELATED:
+        meaning: skos:relatedMatch
+        title: has related match
+
+  MappingOriginEnum:
+    permissible_values:
+      SOURCE:
+        description: Assertion supplied by an upstream source or crosswalk.
+      CURATED:
+        description: Assertion curated in site-kb.
 
   NetworkEnum:
     description: Environmental research and observation networks.

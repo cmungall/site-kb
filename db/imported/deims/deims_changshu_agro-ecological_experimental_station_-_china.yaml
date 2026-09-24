@@ -1,0 +1,94 @@
+sites:
+- id: site_kb:deims-changshu_agro-ecological_experimental_station_-_china
+  name: Changshu Agro-Ecological Experimental Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+    network_url: https://deims.org/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+    name: Changshu Agro-Ecological Experimental Station - China
+  location:
+    latitude: 31.5497
+    longitude: 120.6984
+    country: China
+    elevation_meters: 3.0
+  description: The Changshu Agro-Ecological Experimental station is located at Changshu,
+    Jiangsu province, China(31.5497N, 120.6984E), and mainly engaged in agriculture,
+    ecological and environmental monitor, research, demonstration and service.This
+    station belongs to  the Yangtze River Delta, which is characterized by subtropical
+    humid monsoon climate. The annual mean temperature in this region is 15.5 °C,
+    annual mean rainfall is 1,038 mm, and the frostfree period is 224 days. The main
+    crops are rice in summer and wheat in winter; these crops are planted on annual
+    rotation. The experimental site was planted with wheat in the previous winter
+    and spring. The soil was flooded, plowed, and puddled after the removal of the
+    crop. The soil in the site is classified as Gleyi-Stagnic Anthrosol (CRGCST 2001)
+    developed from lacustrine sediments and has a texture of silt clay. The main properties
+    of the soil at 0- to 15-cm depth are pH (1:1) of 7.35, 2.1 g kg−1 total N, 20.3
+    g kg−1 organic C, and bulk density of 1.11 g cm−3.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:42.294387+00:00'
+      source_modified_at: '2020-12-18T10:45:42+01:00'
+  status: ACTIVE

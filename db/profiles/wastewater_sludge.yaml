@@ -1,0 +1,364 @@
+profiles:
+- name: Wastewater and sludge candidate metadata
+  source_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  source_version: MIxS 7.0.1; commit 0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b
+  extension:
+    id: MIXS:0016013
+    label: WastewaterSludge
+  applies_to:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  notes: Candidate fields from the environmental extension, not a claim that ROPEC
+    or any other plant measures them. Canonical term labels follow the pinned RDF
+    rdfs:label (slot names), not human-readable titles. MIxS is a sample-context standard;
+    its string ranges and cardinalities describe submitted metadata, not physical
+    variable data types or sampling frequency. Category groupings are local curation.
+    No BERVO mappings inferred.
+  candidates:
+  - source_slot: samp_name
+    category: sample or study context
+    source_range: string
+    source_required: true
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0001107
+  - source_slot: project_name
+    category: sample or study context
+    source_range: string
+    source_required: true
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000092
+  - source_slot: depth
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: meter
+    variable_id: site_kb:variable-mixs-0000018
+  - source_slot: alkalinity
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: milliequivalent per liter, milligram per liter
+    variable_id: site_kb:variable-mixs-0000421
+  - source_slot: biochem_oxygen_dem
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: milligram per liter
+    variable_id: site_kb:variable-mixs-0000653
+  - source_slot: chem_administration
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    variable_id: site_kb:variable-mixs-0000751
+  - source_slot: chem_oxygen_dem
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: milligram per liter
+    variable_id: site_kb:variable-mixs-0000656
+  - source_slot: efficiency_percent
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: micromole per liter
+    notes: Upstream definition describes a percentage, but Preferred_unit says micromole
+      per liter. Inconsistent; no canonical unit or BERVO equivalence assigned. This
+      field is specifically digester volatile-solids removal, not general treatment
+      efficiency.
+    variable_id: site_kb:variable-mixs-0000657
+  - source_slot: emulsions
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: gram per liter
+    variable_id: site_kb:variable-mixs-0000660
+  - source_slot: gaseous_substances
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: micromole per liter
+    variable_id: site_kb:variable-mixs-0000661
+  - source_slot: indust_eff_percent
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: percentage
+    notes: Source proportion of industrial effluent; not removal efficiency.
+    variable_id: site_kb:variable-mixs-0000662
+  - source_slot: inorg_particles
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: mole per liter, milligram per liter
+    variable_id: site_kb:variable-mixs-0000664
+  - source_slot: misc_param
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    variable_id: site_kb:variable-mixs-0000752
+  - source_slot: nitrate
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: micromole per liter, milligram per liter, parts per million
+    variable_id: site_kb:variable-mixs-0000425
+  - source_slot: org_particles
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: gram per liter
+    variable_id: site_kb:variable-mixs-0000665
+  - source_slot: organism_count
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    variable_id: site_kb:variable-mixs-0000103
+  - source_slot: oxy_stat_samp
+    category: sample or study context
+    source_range: OxyStatSampEnum
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000753
+  - source_slot: ph
+    category: measurement
+    source_range: float
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0001001
+  - source_slot: perturbation
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    variable_id: site_kb:variable-mixs-0000754
+  - source_slot: phosphate
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: micromole per liter
+    variable_id: site_kb:variable-mixs-0000505
+  - source_slot: pre_treatment
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000348
+  - source_slot: primary_treatment
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000349
+  - source_slot: reactor_type
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000350
+  - source_slot: salinity
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: practical salinity unit, percentage
+    variable_id: site_kb:variable-mixs-0000183
+  - source_slot: samp_store_dur
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000116
+  - source_slot: samp_store_loc
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000755
+  - source_slot: samp_store_temp
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: degree Celsius
+    variable_id: site_kb:variable-mixs-0000110
+  - source_slot: samp_vol_we_dna_ext
+    category: sample or study context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: milliliter, gram, milligram, square centimeter
+    variable_id: site_kb:variable-mixs-0000111
+  - source_slot: secondary_treatment
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000351
+  - source_slot: sewage_type
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000215
+  - source_slot: sludge_retent_time
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: hours
+    variable_id: site_kb:variable-mixs-0000669
+  - source_slot: sodium
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: milligram per liter, parts per million
+    variable_id: site_kb:variable-mixs-0000428
+  - source_slot: soluble_inorg_mat
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: gram, microgram, mole per liter, gram per liter, parts
+      per million
+    variable_id: site_kb:variable-mixs-0000672
+  - source_slot: soluble_org_mat
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: gram, microgram, mole per liter, gram per liter, parts
+      per million
+    variable_id: site_kb:variable-mixs-0000673
+  - source_slot: suspend_solids
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: true
+    source_preferred_unit: gram, microgram, milligram per liter, mole per liter, gram
+      per liter, part per million
+    variable_id: site_kb:variable-mixs-0000150
+  - source_slot: temp
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: degree Celsius
+    variable_id: site_kb:variable-mixs-0000113
+  - source_slot: tertiary_treatment
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000352
+  - source_slot: tot_nitro
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: microgram per liter, micromole per liter, milligram per
+      liter
+    variable_id: site_kb:variable-mixs-0000102
+  - source_slot: tot_phosphate
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    source_preferred_unit: microgram per liter, micromole per liter
+    variable_id: site_kb:variable-mixs-0000689
+  - source_slot: wastewater_type
+    category: process or facility context
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000353
+  applicability_scope: FACILITY
+- name: Supplemental water chemistry candidates
+  source_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  source_version: MIxS 7.0.1; commit 0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b
+  extension:
+    id: MIXS:0016014
+    label: Water
+  notes: Selected supplemental chemistry fields for aqueous influent, effluent, or
+    receiving water; applicability depends on the sampled matrix. Not a claim of observation
+    at ROPEC.
+  candidates:
+  - source_slot: ammonium
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000427
+  - source_slot: nitrite
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000426
+  - source_slot: diss_oxygen
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000119
+  - source_slot: conduc
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000692
+  - source_slot: redox_potential
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000182
+  - source_slot: diss_org_carb
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000433
+  - source_slot: org_carb
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000508
+  - source_slot: diss_inorg_nitro
+    category: measurement
+    source_range: string
+    source_required: false
+    source_multivalued: false
+    variable_id: site_kb:variable-mixs-0000698
+- name: Sediment applicability guide
+  source_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  source_version: MIxS 7.0.1; commit 0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b
+  extension:
+    id: MIXS:0016011
+    label: Sediment
+  notes: Relevant when studying receiving-water sediments. Does not imply sludge and
+    sediment are equivalent.
+- name: BuiltEnvironment applicability guide
+  source_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  source_version: MIxS 7.0.1; commit 0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b
+  extension:
+    id: MIXS:0016001
+    label: BuiltEnvironment
+  notes: Relevant for facility surfaces or indoor environmental sampling, not a substitute
+    for the wastewater/sludge extension.

@@ -1,0 +1,92 @@
+sites:
+- id: site_kb:deims-haibei_research_station_of_alpine_meadow_ecosystem_-_china
+  name: Haibei Research Station of Alpine Meadow Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+    network_url: https://deims.org/5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+    name: Haibei Research Station of Alpine Meadow Ecosystem - China
+  location:
+    latitude: 37.6167
+    longitude: 101.317
+    country: China
+    elevation_meters: 3200.0
+  description: "The national field observation station of Haibei Alpine Meadow Ecosystem\
+    \ Research Station in Qinghai province (Haibei Station) was founded in 1976 by\
+    \ Northwest Plateau Institute of Biology, the Chinese Academy of Sciences (CAS).\
+    \ It was located in the northeast of Tibet in a large valley surrounded by the\
+    \ Qilian Mountains at latitude 37°29' - 37°45'N and longitude 101°12' - 101°23'E.\
+    \ The average altitude of the mountain area is 4000 m, and 2900 – 3500 m for the\
+    \ valley area. It is 160 km from Xining City.\r\nIt belongs to a typical plateau\
+    \ continental climate which is dominated by the southeast monsoon in summer and\
+    \ high pressure from Siberia in winter. There is no obvious seasonal changes,\
+    \ except only a short cool summer and a long severe cold winter. The annual average\
+    \ air temperature is -1.7℃ with extremes of maximum at 27.6℃ and minimum at -37.1℃.\
+    \ The annual precipitation ranges from 426 mm to 860 mm, 80% of which falls in\
+    \ the growing season from May to September. The annual average sunlight is 2462.7\
+    \ hours.\r\nThe soil types are dominated by Mat Cryic Cambisols (Alpine meadow\
+    \ soil), Mollic Cryic Cambisols (Alpine shrub soil), and Orthic Spodosols (Bog\
+    \ soil). They are underdeveloped gravel soil with a thin layer about 60 – 70 cm\
+    \ and characterized by high organic matter about 12 - 27%, rich in total nitrogen,\
+    \ phosphorus, and potassium but lacking available nutrients. Their parent material\
+    \ is loess and native rock is diluvium and alluvial deposil.\r\nWith a typical\
+    \ zonal vegetation of Tibet plateau, the alpine meadow on the sunny slope of mountain\
+    \ and plain areas is dominated by Kobresia humilis, Festuca ovina, and Elymus\
+    \ nulan. The alpine shrub meadow, located on mountain shadow slopes，is dominated\
+    \ by Potentilla fruticosa joined by Kobresia humilis, Festuca ovina, and Elymus\
+    \ nulan. The marsh vegetation distribution to depression consists primarily of\
+    \ Kobresia tibetica and Pedicularis longiflora. Their plant communities have features\
+    \ of simple structure, short growth period, few species, and low primary production.\r\
+    \nThe Tibetan sheep and yaks are the most important domesticated herbivorous animals\
+    \ in the region.\r\nHaibei Research Station has become one of the open stations\
+    \ of Chinese Ecosystem Research Network (CERN) since 1989, and one of the key\
+    \ stations of CERN since 1992. Moreover, it has become one of the field observation\
+    \ and testing stations of State Department of Science and Technology in China\
+    \ since 2001 and become a formal member in 2006. It is now a national and international\
+    \ important research base on alpine terrestrial ecosystem."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:48.578319+00:00'
+      source_modified_at: '2020-12-18T10:56:59+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:48.578319+00:00'
+      source_modified_at: '2020-12-18T10:56:59+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:48.578319+00:00'
+      source_modified_at: '2020-12-18T10:56:59+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5df1b130-e731-4f6f-84f1-b1fde48e2ea0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:48.578319+00:00'
+      source_modified_at: '2020-12-18T10:56:59+01:00'
+  status: ACTIVE

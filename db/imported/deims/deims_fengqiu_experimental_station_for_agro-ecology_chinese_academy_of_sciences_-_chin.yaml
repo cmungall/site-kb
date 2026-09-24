@@ -1,0 +1,98 @@
+sites:
+- id: site_kb:deims-fengqiu_experimental_station_for_agro-ecology_chinese_academy_of_sciences_-_chin
+  name: Fengqiu Experimental Station for Agro-ecology Chinese Academy of Sciences
+    - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5425446c-bfcb-448d-9f75-b06718df59ed
+    network_url: https://deims.org/5425446c-bfcb-448d-9f75-b06718df59ed
+    name: Fengqiu Experimental Station for Agro-ecology Chinese Academy of Sciences
+      - China
+  location:
+    latitude: 35.0167
+    longitude: 114.533
+    country: China
+    elevation_meters: 67.5
+  description: The Fengqiu Experimental Station for Agro-ecology Chinese Academy of
+    Sciences is located in the Pandian countryside, Fengqiu county, Henan Province,
+    China (114°24′E, 35°00′N), with flat terrain and an average altitude of 67.5 m
+    above sea level. This region has a typical monsoon climate with an average annual
+    temperature of 13.9 °C and average annual precipitation of approximately 615 mm.
+    The soil is derived from the alluvial sediments of the Yellow River and is classified
+    as an aquic inceptisol (a calcareous, fluvo-aquic sandy loam (Soil Survey Staff,
+    2010)), with a sandy loam texture at the plough layer (0-20 cm). The experimental
+    station is located in a region typical of the North China Plain, with the prevailing
+    cropping system of wheat-corn rotation. The Station has 9.41 hectares of experimental
+    fields, equipped with 1300 square meters of laboratories, 1500 square meters of
+    living rooms, complete experimental equipments and living facilities, and two
+    investigative cars. The Fengqiu Station is one of the main experimental field
+    base, deployed by the country and Chinese Academy of Sciences in the Huang-Huai-Hai
+    Plain and devoted to the agriculture, resource, ecology and environment research.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:46.126495+00:00'
+      source_modified_at: '2020-06-29T10:41:01+02:00'
+  status: ACTIVE

@@ -1,0 +1,223 @@
+{
+  "source_url": "https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98",
+  "retrieved_at": "2026-09-23T02:32:09.349821+00:00",
+  "record": {
+    "title": "Xishuangbanna Research Station of Tropical Forest - China",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2c657379-e12d-4885-8236-a6f1eb410d98"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:31:26+01:00",
+    "changed": "2020-12-18T10:55:07+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "CERN (LTER China)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4dac034d-92d5-4c06-8e4e-aabafdbcedff"
+              }
+            },
+            "siteCode": "LTER-EAP-CN-25",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "luxiang LIN",
+            "email": "linluxa@xtbg.ac.cn",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "luxiang LIN",
+            "email": "linluxa@xtbg.ac.cn",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Xishuangbanna Research Station of Tropical Forest was located in Mengla County, Yunnan Province, China. The annual mean air temperature was 21.5 °C, with a minimum monthly mean temperature of 15.5°C in January. Average annual rainfall was 1557 mm. The dominant tree species in the forest are Pometia tomentosa,Terminalia myriocarpa Vaniot Huerck et Muell.-Arg.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1959,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Xishuangbanna Research Station of Tropical Forest",
+        "shortName": "Xishuangbanna Station",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/BNF.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 21.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1557,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "rainforest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rainforest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (101.2769 21.9194)",
+        "country": [
+          "China"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 521,
+          "max": 792,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 35,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

@@ -74,14 +74,15 @@ clean: _clean_project
   rm -rf tmp
   rm -rf {{docdir}}/*.md
 
-# (Re-)Generate project and documentation locally
+# Build the static database browser
 [group('model development')]
-site: gen-project gen-doc
+site: validate-all
+  uv run python -m site_kb.scripts.render_site
 
-# Deploy documentation site to Github Pages
+# Publish through the GitHub Actions Pages workflow
 [group('deployment')]
-deploy: site
-  mkd-gh-deploy
+deploy:
+  gh workflow run pages.yml --ref main
 
 # Run all tests
 [group('model development')]

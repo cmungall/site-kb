@@ -1,0 +1,579 @@
+variable_definitions:
+- id: site_kb:variable-mixs-0001107
+  name: samp_name
+  term:
+    id: MIXS:0001107
+    label: samp_name
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0001107
+    source_name: samp_name
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: A local identifier or name that for the material sample used for extracting
+    nucleic acids, and subsequent sequencing. It can refer either to the original
+    material collected or to any derived sub-samples. It can have any format, but
+    we suggest that you make it concise, unique and consistent within your lab, and
+    as informative as possible. INSDC requires every sample name from a single Submitter
+    to be unique. Use of a globally unique identifier for the field source_mat_id
+    is recommended in addition to sample_name
+- id: site_kb:variable-mixs-0000092
+  name: project_name
+  term:
+    id: MIXS:0000092
+    label: project_name
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000092
+    source_name: project_name
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Name of the project within which the sequencing was organized
+- id: site_kb:variable-mixs-0000018
+  name: depth
+  term:
+    id: MIXS:0000018
+    label: depth
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000018
+    source_name: depth
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The vertical distance below local surface. For sediment or soil samples
+    depth is measured from sediment or soil surface, respectively. Depth can be reported
+    as an interval for subsurface samples
+- id: site_kb:variable-mixs-0000421
+  name: alkalinity
+  term:
+    id: MIXS:0000421
+    label: alkalinity
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000421
+    source_name: alkalinity
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Alkalinity, the ability of a solution to neutralize acids to the equivalence
+    point of carbonate or bicarbonate
+- id: site_kb:variable-mixs-0000653
+  name: biochem_oxygen_dem
+  term:
+    id: MIXS:0000653
+    label: biochem_oxygen_dem
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000653
+    source_name: biochem_oxygen_dem
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Amount of dissolved oxygen needed by aerobic biological organisms in
+    a body of water to break down organic material present in a given water sample
+    at certain temperature over a specific time period
+- id: site_kb:variable-mixs-0000751
+  name: chem_administration
+  term:
+    id: MIXS:0000751
+    label: chem_administration
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000751
+    source_name: chem_administration
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: List of chemical compounds administered to the host or site where sampling
+    occurred, and when (e.g. Antibiotics, n fertilizer, air filter); can include multiple
+    compounds. For chemical entities of biological interest ontology (chebi) (v 163),
+    http://purl.bioontology.org/ontology/chebi
+- id: site_kb:variable-mixs-0000656
+  name: chem_oxygen_dem
+  term:
+    id: MIXS:0000656
+    label: chem_oxygen_dem
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000656
+    source_name: chem_oxygen_dem
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: A measure of the capacity of water to consume oxygen during the decomposition
+    of organic matter and the oxidation of inorganic chemicals such as ammonia and
+    nitrite
+- id: site_kb:variable-mixs-0000657
+  name: efficiency_percent
+  term:
+    id: MIXS:0000657
+    label: efficiency_percent
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000657
+    source_name: efficiency_percent
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Percentage of volatile solids removed from the anaerobic digestor
+- id: site_kb:variable-mixs-0000660
+  name: emulsions
+  term:
+    id: MIXS:0000660
+    label: emulsions
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000660
+    source_name: emulsions
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Amount or concentration of substances such as paints, adhesives, mayonnaise,
+    hair colorants, emulsified oils, etc.; can include multiple emulsion types
+- id: site_kb:variable-mixs-0000661
+  name: gaseous_substances
+  term:
+    id: MIXS:0000661
+    label: gaseous_substances
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000661
+    source_name: gaseous_substances
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Amount or concentration of substances such as hydrogen sulfide, carbon
+    dioxide, methane, etc.; can include multiple substances
+- id: site_kb:variable-mixs-0000662
+  name: indust_eff_percent
+  term:
+    id: MIXS:0000662
+    label: indust_eff_percent
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000662
+    source_name: indust_eff_percent
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Percentage of industrial effluents received by wastewater treatment
+    plant
+- id: site_kb:variable-mixs-0000664
+  name: inorg_particles
+  term:
+    id: MIXS:0000664
+    label: inorg_particles
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000664
+    source_name: inorg_particles
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of particles such as sand, grit, metal particles, ceramics,
+    etc.; can include multiple particles
+- id: site_kb:variable-mixs-0000752
+  name: misc_param
+  term:
+    id: MIXS:0000752
+    label: misc_param
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000752
+    source_name: misc_param
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Any other measurement performed or parameter collected, that is not
+    listed here
+- id: site_kb:variable-mixs-0000425
+  name: nitrate
+  term:
+    id: MIXS:0000425
+    label: nitrate
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000425
+    source_name: nitrate
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of nitrate in the sample
+- id: site_kb:variable-mixs-0000665
+  name: org_particles
+  term:
+    id: MIXS:0000665
+    label: org_particles
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000665
+    source_name: org_particles
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of particles such as faeces, hairs, food, vomit, paper
+    fibers, plant material, humus, etc
+- id: site_kb:variable-mixs-0000103
+  name: organism_count
+  term:
+    id: MIXS:0000103
+    label: organism_count
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000103
+    source_name: organism_count
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: 'Total cell count of any organism (or group of organisms) per gram,
+    volume or area of sample, should include name of organism followed by count. The
+    method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also
+    be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)'
+- id: site_kb:variable-mixs-0000753
+  name: oxy_stat_samp
+  term:
+    id: MIXS:0000753
+    label: oxy_stat_samp
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000753
+    source_name: oxy_stat_samp
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Oxygenation status of sample
+- id: site_kb:variable-mixs-0001001
+  name: ph
+  term:
+    id: MIXS:0001001
+    label: ph
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0001001
+    source_name: ph
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: pH measurement of the sample, or liquid portion of sample, or aqueous
+    phase of the fluid
+- id: site_kb:variable-mixs-0000754
+  name: perturbation
+  term:
+    id: MIXS:0000754
+    label: perturbation
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000754
+    source_name: perturbation
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Type of perturbation, e.g. chemical administration, physical disturbance,
+    etc., coupled with perturbation regimen including how many times the perturbation
+    was repeated, how long each perturbation lasted, and the start and end time of
+    the entire perturbation period; can include multiple perturbation types
+- id: site_kb:variable-mixs-0000505
+  name: phosphate
+  term:
+    id: MIXS:0000505
+    label: phosphate
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000505
+    source_name: phosphate
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of phosphate
+- id: site_kb:variable-mixs-0000348
+  name: pre_treatment
+  term:
+    id: MIXS:0000348
+    label: pre_treatment
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000348
+    source_name: pre_treatment
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The process of pre-treatment removes materials that can be easily collected
+    from the raw wastewater
+- id: site_kb:variable-mixs-0000349
+  name: primary_treatment
+  term:
+    id: MIXS:0000349
+    label: primary_treatment
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000349
+    source_name: primary_treatment
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The process to produce both a generally homogeneous liquid capable
+    of being treated biologically and a sludge that can be separately treated or processed
+- id: site_kb:variable-mixs-0000350
+  name: reactor_type
+  term:
+    id: MIXS:0000350
+    label: reactor_type
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000350
+    source_name: reactor_type
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Anaerobic digesters can be designed and engineered to operate using
+    a number of different process configurations, as batch or continuous, mesophilic,
+    high solid or low solid, and single stage or multistage
+- id: site_kb:variable-mixs-0000183
+  name: salinity
+  term:
+    id: MIXS:0000183
+    label: salinity
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000183
+    source_name: salinity
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The total concentration of all dissolved salts in a liquid or solid
+    sample. While salinity can be measured by a complete chemical analysis, this method
+    is difficult and time consuming. More often, it is instead derived from the conductivity
+    measurement. This is known as practical salinity. These derivations compare the
+    specific conductance of the sample to a salinity standard such as seawater
+- id: site_kb:variable-mixs-0000116
+  name: samp_store_dur
+  term:
+    id: MIXS:0000116
+    label: samp_store_dur
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000116
+    source_name: samp_store_dur
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Duration for which the sample was stored. Indicate the duration for
+    which the sample was stored written in ISO 8601 format
+- id: site_kb:variable-mixs-0000755
+  name: samp_store_loc
+  term:
+    id: MIXS:0000755
+    label: samp_store_loc
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000755
+    source_name: samp_store_loc
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Location at which sample was stored, usually name of a specific freezer/room
+- id: site_kb:variable-mixs-0000110
+  name: samp_store_temp
+  term:
+    id: MIXS:0000110
+    label: samp_store_temp
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000110
+    source_name: samp_store_temp
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Temperature at which sample was stored, e.g. -80 degree Celsius
+- id: site_kb:variable-mixs-0000111
+  name: samp_vol_we_dna_ext
+  term:
+    id: MIXS:0000111
+    label: samp_vol_we_dna_ext
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000111
+    source_name: samp_vol_we_dna_ext
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: 'Volume (ml) or mass (g) of total collected sample processed for DNA
+    extraction. Note: total sample collected should be entered under the term Sample
+    Size (MIXS:0000001)'
+- id: site_kb:variable-mixs-0000351
+  name: secondary_treatment
+  term:
+    id: MIXS:0000351
+    label: secondary_treatment
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000351
+    source_name: secondary_treatment
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The process for substantially degrading the biological content of the
+    sewage
+- id: site_kb:variable-mixs-0000215
+  name: sewage_type
+  term:
+    id: MIXS:0000215
+    label: sewage_type
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000215
+    source_name: sewage_type
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Type of wastewater treatment plant as municipial or industrial
+- id: site_kb:variable-mixs-0000669
+  name: sludge_retent_time
+  term:
+    id: MIXS:0000669
+    label: sludge_retent_time
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000669
+    source_name: sludge_retent_time
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The time activated sludge remains in reactor
+- id: site_kb:variable-mixs-0000428
+  name: sodium
+  term:
+    id: MIXS:0000428
+    label: sodium
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000428
+    source_name: sodium
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Sodium concentration in the sample
+- id: site_kb:variable-mixs-0000672
+  name: soluble_inorg_mat
+  term:
+    id: MIXS:0000672
+    label: soluble_inorg_mat
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000672
+    source_name: soluble_inorg_mat
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of substances such as ammonia, road-salt, sea-salt, cyanide,
+    hydrogen sulfide, thiocyanates, thiosulfates, etc
+- id: site_kb:variable-mixs-0000673
+  name: soluble_org_mat
+  term:
+    id: MIXS:0000673
+    label: soluble_org_mat
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000673
+    source_name: soluble_org_mat
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of substances such as urea, fruit sugars, soluble proteins,
+    drugs, pharmaceuticals, etc
+- id: site_kb:variable-mixs-0000150
+  name: suspend_solids
+  term:
+    id: MIXS:0000150
+    label: suspend_solids
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000150
+    source_name: suspend_solids
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of substances including a wide variety of material, such
+    as silt, decaying plant and animal matter; can include multiple substances
+- id: site_kb:variable-mixs-0000113
+  name: temp
+  term:
+    id: MIXS:0000113
+    label: temp
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000113
+    source_name: temp
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Temperature of the sample at the time of sampling
+- id: site_kb:variable-mixs-0000352
+  name: tertiary_treatment
+  term:
+    id: MIXS:0000352
+    label: tertiary_treatment
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000352
+    source_name: tertiary_treatment
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The process providing a final treatment stage to raise the effluent
+    quality before it is discharged to the receiving environment
+- id: site_kb:variable-mixs-0000102
+  name: tot_nitro
+  term:
+    id: MIXS:0000102
+    label: tot_nitro
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000102
+    source_name: tot_nitro
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: 'Total nitrogen concentration of water samples, calculated by: total
+    nitrogen = total dissolved nitrogen + particulate nitrogen. Can also be measured
+    without filtering, reported as nitrogen'
+- id: site_kb:variable-mixs-0000689
+  name: tot_phosphate
+  term:
+    id: MIXS:0000689
+    label: tot_phosphate
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000689
+    source_name: tot_phosphate
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Total amount or concentration of phosphate
+- id: site_kb:variable-mixs-0000353
+  name: wastewater_type
+  term:
+    id: MIXS:0000353
+    label: wastewater_type
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000353
+    source_name: wastewater_type
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: The origin of wastewater such as human waste, rainfall, storm drains,
+    etc
+- id: site_kb:variable-mixs-0000427
+  name: ammonium
+  term:
+    id: MIXS:0000427
+    label: ammonium
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000427
+    source_name: ammonium
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of ammonium in the sample
+- id: site_kb:variable-mixs-0000426
+  name: nitrite
+  term:
+    id: MIXS:0000426
+    label: nitrite
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000426
+    source_name: nitrite
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of nitrite in the sample
+- id: site_kb:variable-mixs-0000119
+  name: diss_oxygen
+  term:
+    id: MIXS:0000119
+    label: diss_oxygen
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000119
+    source_name: diss_oxygen
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of dissolved oxygen
+- id: site_kb:variable-mixs-0000692
+  name: conduc
+  term:
+    id: MIXS:0000692
+    label: conduc
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000692
+    source_name: conduc
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Electrical conductivity of water
+- id: site_kb:variable-mixs-0000182
+  name: redox_potential
+  term:
+    id: MIXS:0000182
+    label: redox_potential
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000182
+    source_name: redox_potential
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Redox potential, measured relative to a hydrogen cell, indicating oxidation
+    or reduction potential
+- id: site_kb:variable-mixs-0000433
+  name: diss_org_carb
+  term:
+    id: MIXS:0000433
+    label: diss_org_carb
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000433
+    source_name: diss_org_carb
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of dissolved organic carbon in the sample, liquid portion
+    of the sample, or aqueous phase of the fluid
+- id: site_kb:variable-mixs-0000508
+  name: org_carb
+  term:
+    id: MIXS:0000508
+    label: org_carb
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000508
+    source_name: org_carb
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of organic carbon
+- id: site_kb:variable-mixs-0000698
+  name: diss_inorg_nitro
+  term:
+    id: MIXS:0000698
+    label: diss_inorg_nitro
+  source_variables:
+  - source: MIxS
+    source_id: MIXS:0000698
+    source_name: diss_inorg_nitro
+    record_url: https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  description: Concentration of dissolved inorganic nitrogen

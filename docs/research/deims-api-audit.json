@@ -1,0 +1,361 @@
+{
+  "review_date": "2026-09-22",
+  "scope": "The 50 DEIMS records currently imported in site-kb; not all DEIMS sites",
+  "records_checked": 50,
+  "records_with_observed_properties": 47,
+  "observed_property_assignments": 1113,
+  "distinct_property_uris": 248,
+  "assignments_missing_uri": 0,
+  "sites": [
+    {
+      "title": "Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China",
+      "deims_id": "13f23bec-9cc6-4b31-9032-fcbe850b448c",
+      "source_url": "https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c",
+      "source_changed": "2020-12-18T10:43:00+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Akesu Water Balance Research Station - China",
+      "deims_id": "2a58842f-e078-4450-a5dd-7b6f89ec83c1",
+      "source_url": "https://deims.org/api/sites/2a58842f-e078-4450-a5dd-7b6f89ec83c1",
+      "source_changed": "2020-12-18T10:43:58+01:00",
+      "observed_property_count": 28
+    },
+    {
+      "title": "Ansai Integrated Experimental Station on Water and Soil Conservation - China",
+      "deims_id": "970314a3-1e0e-4b35-9b35-a7fb3155b045",
+      "source_url": "https://deims.org/api/sites/970314a3-1e0e-4b35-9b35-a7fb3155b045",
+      "source_changed": "2020-06-29T10:38:55+02:00",
+      "observed_property_count": 22
+    },
+    {
+      "title": "Aya research site - Japan",
+      "deims_id": "3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4",
+      "source_url": "https://deims.org/api/sites/3fafd3e4-51aa-4f07-8dc0-d2b91be0c9e4",
+      "source_changed": "2020-12-18T10:29:32+01:00",
+      "observed_property_count": 7
+    },
+    {
+      "title": "Beijing Forest Ecological Station - China",
+      "deims_id": "9516fa76-79cc-4620-bc27-e721cdaf0db3",
+      "source_url": "https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3",
+      "source_changed": "2020-06-29T10:39:02+02:00",
+      "observed_property_count": 5
+    },
+    {
+      "title": "Beijing Urban Ecosystem Research Station - China",
+      "deims_id": "9d0a6146-2510-4701-98c4-801465336380",
+      "source_url": "https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380",
+      "source_changed": "2020-06-29T10:39:02+02:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Cele Desert Research Station - China",
+      "deims_id": "370e821b-f34e-4341-829f-d42d1532dc92",
+      "source_url": "https://deims.org/api/sites/370e821b-f34e-4341-829f-d42d1532dc92",
+      "source_changed": "2020-12-18T10:56:53+01:00",
+      "observed_property_count": 4
+    },
+    {
+      "title": "Changbai Mountain Forest Ecosystem Research Station - China",
+      "deims_id": "874f5aa9-f53a-4594-8eff-1f9a293cb8fb",
+      "source_url": "https://deims.org/api/sites/874f5aa9-f53a-4594-8eff-1f9a293cb8fb",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 5
+    },
+    {
+      "title": "Changshu Agro-Ecological Experimental Station - China",
+      "deims_id": "90e55d56-fb0a-44c3-aeb6-c750d0eeefc4",
+      "source_url": "https://deims.org/api/sites/90e55d56-fb0a-44c3-aeb6-c750d0eeefc4",
+      "source_changed": "2020-12-18T10:45:42+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Changwu Agro-Ecological Experimental Station in Loess Plateau - China",
+      "deims_id": "b72a0976-15c0-4c8e-9254-b3bcbb42f95f",
+      "source_url": "https://deims.org/api/sites/b72a0976-15c0-4c8e-9254-b3bcbb42f95f",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 52
+    },
+    {
+      "title": "Dinghu Mountain Research of Forest Ecosystem - China",
+      "deims_id": "9b883551-d6a5-42be-9c46-d785a1e38911",
+      "source_url": "https://deims.org/api/sites/9b883551-d6a5-42be-9c46-d785a1e38911",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 169
+    },
+    {
+      "title": "Donghu Experimental Station for Lake Ecosystem - China",
+      "deims_id": "bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba",
+      "source_url": "https://deims.org/api/sites/bdb9de0a-23c3-4bb9-92fb-06a00e0e4dba",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 19
+    },
+    {
+      "title": "Estacion Biologica La Selva - Costa Rica",
+      "deims_id": "c2112056-8962-4f09-9ab7-1f0d88b12fa3",
+      "source_url": "https://deims.org/api/sites/c2112056-8962-4f09-9ab7-1f0d88b12fa3",
+      "source_changed": "2019-12-05T09:54:25+01:00",
+      "observed_property_count": 0
+    },
+    {
+      "title": "Estacion Biologica Palo Verde - Costa Rica",
+      "deims_id": "d423b164-980f-4342-b68e-a2972e6b5a92",
+      "source_url": "https://deims.org/api/sites/d423b164-980f-4342-b68e-a2972e6b5a92",
+      "source_changed": "2020-03-13T10:20:19+01:00",
+      "observed_property_count": 0
+    },
+    {
+      "title": "Fengqiu Experimental Station for Agro-ecology Chinese Academy of Sciences - China",
+      "deims_id": "5425446c-bfcb-448d-9f75-b06718df59ed",
+      "source_url": "https://deims.org/api/sites/5425446c-bfcb-448d-9f75-b06718df59ed",
+      "source_changed": "2020-06-29T10:41:01+02:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Fray Jorge Experimental Site - Chile",
+      "deims_id": "7fdabe1f-208a-449a-bc29-1e6ab2a1795b",
+      "source_url": "https://deims.org/api/sites/7fdabe1f-208a-449a-bc29-1e6ab2a1795b",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 22
+    },
+    {
+      "title": "Fukang Desert Ecological Research Station - China",
+      "deims_id": "7e840801-4a73-4c93-9f11-62e8db5f0329",
+      "source_url": "https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329",
+      "source_changed": "2020-12-18T10:56:56+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Gongga Mountain Observation and Experimental Station of Alpine Ecosystem - China",
+      "deims_id": "90be04ce-6799-4f40-8749-17c2af123280",
+      "source_url": "https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280",
+      "source_changed": "2020-12-18T11:04:34+01:00",
+      "observed_property_count": 5
+    },
+    {
+      "title": "Haibei Research Station of Alpine Meadow Ecosystem - China",
+      "deims_id": "5df1b130-e731-4f6f-84f1-b1fde48e2ea0",
+      "source_url": "https://deims.org/api/sites/5df1b130-e731-4f6f-84f1-b1fde48e2ea0",
+      "source_changed": "2020-12-18T10:56:59+01:00",
+      "observed_property_count": 4
+    },
+    {
+      "title": "Hailun Agricultural Ecological Station - China",
+      "deims_id": "495881b0-52bc-410c-99b7-45575e08f80c",
+      "source_url": "https://deims.org/api/sites/495881b0-52bc-410c-99b7-45575e08f80c",
+      "source_changed": "2020-06-29T10:41:08+02:00",
+      "observed_property_count": 17
+    },
+    {
+      "title": "Heshan Mountain Integrated Experimental Station of Hilly Land - China",
+      "deims_id": "97137c3b-256d-4a9c-aeca-ed144bddc8ce",
+      "source_url": "https://deims.org/api/sites/97137c3b-256d-4a9c-aeca-ed144bddc8ce",
+      "source_changed": "2020-12-18T10:56:59+01:00",
+      "observed_property_count": 15
+    },
+    {
+      "title": "Huanjiang Observation and Research Station for Karst Ecosystems, Chinese Academy of Sciences - China",
+      "deims_id": "013f0ab4-a999-40ff-960d-2a8f89428969",
+      "source_url": "https://deims.org/api/sites/013f0ab4-a999-40ff-960d-2a8f89428969",
+      "source_changed": "2020-12-18T10:46:19+01:00",
+      "observed_property_count": 8
+    },
+    {
+      "title": "Huitong Research Station of Forest Ecosystem - China",
+      "deims_id": "3ebcafd9-1489-408c-a6a2-dd21f71e6c87",
+      "source_url": "https://deims.org/api/sites/3ebcafd9-1489-408c-a6a2-dd21f71e6c87",
+      "source_changed": "2020-12-18T10:29:46+01:00",
+      "observed_property_count": 71
+    },
+    {
+      "title": "Inner Mongolia Research Station of Grassland Ecosystem - China",
+      "deims_id": "6ed77ef3-acb4-4d46-b42c-1272fbed16c3",
+      "source_url": "https://deims.org/api/sites/6ed77ef3-acb4-4d46-b42c-1272fbed16c3",
+      "source_changed": "2020-12-18T10:47:25+01:00",
+      "observed_property_count": 48
+    },
+    {
+      "title": "Jiaozhou Bay Marine Ecosystem Research Station - China",
+      "deims_id": "d785f0be-0a48-4b5c-a57e-3660e960b53c",
+      "source_url": "https://deims.org/api/sites/d785f0be-0a48-4b5c-a57e-3660e960b53c",
+      "source_changed": "2020-12-18T10:57:03+01:00",
+      "observed_property_count": 25
+    },
+    {
+      "title": "Kasuya Research Forest - Japan",
+      "deims_id": "3a9bbd87-171b-4250-954e-7dc8916d95c1",
+      "source_url": "https://deims.org/api/sites/3a9bbd87-171b-4250-954e-7dc8916d95c1",
+      "source_changed": "2020-11-27T13:32:16+01:00",
+      "observed_property_count": 16
+    },
+    {
+      "title": "LTSER-Sabor - Portugal",
+      "deims_id": "45722713-80e3-4387-a47b-82c97a6ef62b",
+      "source_url": "https://deims.org/api/sites/45722713-80e3-4387-a47b-82c97a6ef62b",
+      "source_changed": "2025-01-07T11:14:56+01:00",
+      "observed_property_count": 72
+    },
+    {
+      "title": "Las Cruces Biological Station - Costa Rica",
+      "deims_id": "013d0b70-032c-4555-b8ac-ef16319c1d0e",
+      "source_url": "https://deims.org/api/sites/013d0b70-032c-4555-b8ac-ef16319c1d0e",
+      "source_changed": "2019-12-05T09:57:19+01:00",
+      "observed_property_count": 0
+    },
+    {
+      "title": "Lhasa Qing-Zang (Tibet) Plateau Ecosystem Research Station - China",
+      "deims_id": "26585ac0-674d-4c52-967f-45a8c5fea8dd",
+      "source_url": "https://deims.org/api/sites/26585ac0-674d-4c52-967f-45a8c5fea8dd",
+      "source_changed": "2020-12-18T10:57:03+01:00",
+      "observed_property_count": 27
+    },
+    {
+      "title": "Linze Inland River Basin Research Station - China",
+      "deims_id": "b14f4ada-d4d5-4241-ae85-400b46b73da9",
+      "source_url": "https://deims.org/api/sites/b14f4ada-d4d5-4241-ae85-400b46b73da9",
+      "source_changed": "2020-12-18T10:57:03+01:00",
+      "observed_property_count": 5
+    },
+    {
+      "title": "Luancheng Agricultural Ecological Station - China",
+      "deims_id": "5de9ae4c-c705-4cd5-b55a-2195c936f7fb",
+      "source_url": "https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb",
+      "source_changed": "2020-06-29T10:42:52+02:00",
+      "observed_property_count": 12
+    },
+    {
+      "title": "Maoxian Mountain Ecosystem Research Station - China",
+      "deims_id": "1cc2296d-afd0-4de8-90af-ef79927c0e9f",
+      "source_url": "https://deims.org/api/sites/1cc2296d-afd0-4de8-90af-ef79927c0e9f",
+      "source_changed": "2020-12-18T10:49:31+01:00",
+      "observed_property_count": 1
+    },
+    {
+      "title": "Nagaura Tidalflats, Kumamoto University - Japan",
+      "deims_id": "c57cae7d-4bfe-4b97-bd0d-9bd23d69da4a",
+      "source_url": "https://deims.org/api/sites/c57cae7d-4bfe-4b97-bd0d-9bd23d69da4a",
+      "source_changed": "2020-06-29T10:43:38+02:00",
+      "observed_property_count": 20
+    },
+    {
+      "title": "Naiman Desertification Research Station - China",
+      "deims_id": "197ce284-30d0-421f-90d4-85ef9ac794d6",
+      "source_url": "https://deims.org/api/sites/197ce284-30d0-421f-90d4-85ef9ac794d6",
+      "source_changed": "2020-12-18T10:57:09+01:00",
+      "observed_property_count": 8
+    },
+    {
+      "title": "Nakagawa Experimental Forest - North Hokkaido Experimental Forests - Japan",
+      "deims_id": "24a1be3a-6378-4306-88ea-b17bdc32a2b4",
+      "source_url": "https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4",
+      "source_changed": "2020-06-29T10:43:38+02:00",
+      "observed_property_count": 10
+    },
+    {
+      "title": "Ordos Sandland Ecological Research Station - China",
+      "deims_id": "683db6fd-cc96-4698-bcce-2fe015948a87",
+      "source_url": "https://deims.org/api/sites/683db6fd-cc96-4698-bcce-2fe015948a87",
+      "source_changed": "2020-06-29T10:43:43+02:00",
+      "observed_property_count": 5
+    },
+    {
+      "title": "Qianyanzhou Agricultural Experimental Station of Red Soil and Hilly Land - China",
+      "deims_id": "54077767-c77e-42e4-8fde-4cc112af92a4",
+      "source_url": "https://deims.org/api/sites/54077767-c77e-42e4-8fde-4cc112af92a4",
+      "source_changed": "2020-12-18T10:57:15+01:00",
+      "observed_property_count": 31
+    },
+    {
+      "title": "Sanjiang Plain Marsh Ecological Experimental Station - China",
+      "deims_id": "c9ba2a84-6fb3-4061-a9ec-529954b948c8",
+      "source_url": "https://deims.org/api/sites/c9ba2a84-6fb3-4061-a9ec-529954b948c8",
+      "source_changed": "2020-12-18T10:57:15+01:00",
+      "observed_property_count": 43
+    },
+    {
+      "title": "Sanya Tropical Marine Boplogical Research Station - China",
+      "deims_id": "24d01731-4775-48cd-932c-5009cf742357",
+      "source_url": "https://deims.org/api/sites/24d01731-4775-48cd-932c-5009cf742357",
+      "source_changed": "2020-12-18T10:57:15+01:00",
+      "observed_property_count": 27
+    },
+    {
+      "title": "Senda Darwin Biological Station - Chile",
+      "deims_id": "133ec196-71c4-4f33-a230-56723bee35fb",
+      "source_url": "https://deims.org/api/sites/133ec196-71c4-4f33-a230-56723bee35fb",
+      "source_changed": "2020-06-29T10:44:57+02:00",
+      "observed_property_count": 24
+    },
+    {
+      "title": "Shapotou Desert Research and Experiment Station - China",
+      "deims_id": "5ddc53e5-e43b-48fc-a62a-81de7e38e3f1",
+      "source_url": "https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1",
+      "source_changed": "2020-12-18T10:57:15+01:00",
+      "observed_property_count": 8
+    },
+    {
+      "title": "Shennongjia Biodiversity Research Station - China",
+      "deims_id": "ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e",
+      "source_url": "https://deims.org/api/sites/ace99c59-cd3d-4194-8dc8-cf8b8bc51e1e",
+      "source_changed": "2020-06-29T10:45:00+02:00",
+      "observed_property_count": 58
+    },
+    {
+      "title": "Shenyang Experimental Station of Ecology - China",
+      "deims_id": "5251a2c7-d44e-4ec1-892e-bf77b8bc3450",
+      "source_url": "https://deims.org/api/sites/5251a2c7-d44e-4ec1-892e-bf77b8bc3450",
+      "source_changed": "2020-12-18T10:57:15+01:00",
+      "observed_property_count": 1
+    },
+    {
+      "title": "Taihu Laboratory for Lake Ecosystem Research - China",
+      "deims_id": "cffcf04a-604c-41a2-9339-37822549995c",
+      "source_url": "https://deims.org/api/sites/cffcf04a-604c-41a2-9339-37822549995c",
+      "source_changed": "2020-12-18T10:54:34+01:00",
+      "observed_property_count": 2
+    },
+    {
+      "title": "Takayama site - Japan",
+      "deims_id": "b6d98924-db1d-4444-9b52-93bc27a65c2b",
+      "source_url": "https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b",
+      "source_changed": "2021-01-20T13:37:49+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Taoyuan Agricultural Ecological Station - China",
+      "deims_id": "9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5",
+      "source_url": "https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5",
+      "source_changed": "2020-12-18T10:57:18+01:00",
+      "observed_property_count": 7
+    },
+    {
+      "title": "Xishuangbanna Research Station of Tropical Forest - China",
+      "deims_id": "2c657379-e12d-4885-8236-a6f1eb410d98",
+      "source_url": "https://deims.org/api/sites/2c657379-e12d-4885-8236-a6f1eb410d98",
+      "source_changed": "2020-12-18T10:55:07+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Yanting Agricultural Ecological Station on Purple Soil - China",
+      "deims_id": "0c20aa08-f120-4c37-bf26-cef5fcb34980",
+      "source_url": "https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980",
+      "source_changed": "2020-12-18T10:23:40+01:00",
+      "observed_property_count": 8
+    },
+    {
+      "title": "Yingtan Ecological Experimental Station of Red Soil - China",
+      "deims_id": "1abc788a-2406-49b7-8e02-9f788719f03f",
+      "source_url": "https://deims.org/api/sites/1abc788a-2406-49b7-8e02-9f788719f03f",
+      "source_changed": "2021-03-12T15:32:03+01:00",
+      "observed_property_count": 6
+    },
+    {
+      "title": "Yucheng Comprehensive Experiment Station - China",
+      "deims_id": "5b374ace-5bc3-4e07-8dbc-ff0914302ae6",
+      "source_url": "https://deims.org/api/sites/5b374ace-5bc3-4e07-8dbc-ff0914302ae6",
+      "source_changed": "2020-06-29T10:46:08+02:00",
+      "observed_property_count": 154
+    }
+  ]
+}

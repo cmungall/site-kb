@@ -1,0 +1,97 @@
+sites:
+- id: site_kb:deims-beijing_urban_ecosystem_research_station_-_china
+  name: Beijing Urban Ecosystem Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 9d0a6146-2510-4701-98c4-801465336380
+    network_url: https://deims.org/9d0a6146-2510-4701-98c4-801465336380
+    name: Beijing Urban Ecosystem Research Station - China
+  location:
+    latitude: 40.008579
+    longitude: 116.3378
+    country: China
+    elevation_meters: 43.5
+  description: "Beijing Urban Ecosystem Research Station is located in Beijing. Urban\
+    \ ecosystem is a complex social-economic-ecological system dominated by human\
+    \ beings. Urban ecological elements, including climate, atmosphere, hydrology,\
+    \ soil, organisms, etc, and ecological process such as material flow, energy flow,\
+    \ etc, are products of interaction between human activity and natural environment.\
+    \ These will evolve with variation of the human-nature relation as well. Beijing\
+    \ is the center of policy, economy, culture, science and technology in China and\
+    \ it is also an international metropolis. Beijing covers 16,400 km2 (built area\
+    \ is 1204 km2) with population of more than 15, 810,000 in 2006.\r\n\r\nBeijing\
+    \ urban ecosystem research station was based on State Key Laboratory of Urban\
+    \ and regional Ecology, Research Center for Eco-Environmental Sciences, Chinese\
+    \ Academy of Sciences and started constructing in 2001, consisting of monitoring\
+    \ net, indoor specimen analysis and conservation room, information data management\
+    \ and analysis room and official documentation room. Up till now, laboratories\
+    \ concerning air, water, soil and microorganism have been set up engaging in research\
+    \ of Beijing urban ecosystem’s structure, typical process and function."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:40.408634+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  status: ACTIVE

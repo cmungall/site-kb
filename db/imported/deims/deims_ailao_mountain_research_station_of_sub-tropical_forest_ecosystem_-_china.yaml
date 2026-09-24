@@ -1,0 +1,87 @@
+sites:
+- id: site_kb:deims-ailao_mountain_research_station_of_sub-tropical_forest_ecosystem_-_china
+  name: Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 13f23bec-9cc6-4b31-9032-fcbe850b448c
+    network_url: https://deims.org/13f23bec-9cc6-4b31-9032-fcbe850b448c
+    name: Ailao Mountain Research Station of Sub-tropical Forest Ecosystem - China
+  location:
+    latitude: 24.5439
+    longitude: 101.0276
+    country: China
+    elevation_meters: 2500.0
+  description: Located in Jingdong County, Yunnan Province, China. The annual mean
+    air temperature was 11.3 °C, with a minimum monthly mean temperature of 5.7 °C
+    in January and a maximum monthly mean temperature of 15.6 °C in July. Average
+    annual rainfall was 1778 mm, with 86.0% of this falling in the rainy season (May–October).
+    The dominant tree species in the forest are Lithocarpus xylocarpus, Lithocarpus
+    hancei, and Castanopsis wattii.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/13f23bec-9cc6-4b31-9032-fcbe850b448c
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:37.220533+00:00'
+      source_modified_at: '2020-12-18T10:43:00+01:00'
+  status: ACTIVE

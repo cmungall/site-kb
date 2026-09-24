@@ -1,0 +1,639 @@
+{
+  "retrieved_on": "2026-09-23",
+  "seed": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13509523/",
+  "run_source": "https://www.ebi.ac.uk/ena/portal/api/filereport",
+  "runs": [
+    {
+      "run_accession": "ERR2592273",
+      "study_accession": "PRJEB13831",
+      "sample_accession": "SAMEA4527663",
+      "secondary_sample_accession": "ERS1426842",
+      "sample_title": "wastewater metagenome",
+      "library_strategy": "WGS",
+      "fastq_md5": "d312c9dd4f90b1c299b8558cd98d8b9d;50ae7e6ba484f3fc5030807623603af2"
+    },
+    {
+      "run_accession": "ERR1713395",
+      "study_accession": "PRJEB13831",
+      "sample_accession": "SAMEA4527663",
+      "secondary_sample_accession": "ERS1426842",
+      "sample_title": "wastewater metagenome",
+      "library_strategy": "WGS",
+      "fastq_md5": "2bcd688953ae0b59ab6525d4a058f614;1b687e6d51eb974273d756b5416b71a1"
+    },
+    {
+      "run_accession": "ERR1726009",
+      "study_accession": "PRJEB13831",
+      "sample_accession": "SAMEA4527663",
+      "secondary_sample_accession": "ERS1426842",
+      "sample_title": "wastewater metagenome",
+      "library_strategy": "WGS",
+      "fastq_md5": "b6421db38f8ad9c1e510c644000ab766;6e159f7045bcb8ec561633a52224de78"
+    },
+    {
+      "run_accession": "ERR2607547",
+      "study_accession": "PRJEB27054",
+      "sample_accession": "SAMEA4700868",
+      "secondary_sample_accession": "ERS2521037",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "aa560e8e15a38f727982d59338f3cb87;053753f2ee325b18c1a0c3eb06c4a81d"
+    },
+    {
+      "run_accession": "ERR2607548",
+      "study_accession": "PRJEB27054",
+      "sample_accession": "SAMEA4700869",
+      "secondary_sample_accession": "ERS2521038",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "3f7d505370ff673e3e4f2bd14a0480ca;0d93a6a3e30b356744a9b7e53a65e6b7"
+    },
+    {
+      "run_accession": "ERR2607549",
+      "study_accession": "PRJEB27054",
+      "sample_accession": "SAMEA4700870",
+      "secondary_sample_accession": "ERS2521039",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "a25ef145e4af32658b705c1a99e31ea9;c2a4cd87ea323f5930c828c58a8817e5"
+    },
+    {
+      "run_accession": "ERR4678594",
+      "study_accession": "PRJEB40798",
+      "sample_accession": "SAMEA7426294",
+      "secondary_sample_accession": "ERS5184512",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "d83bc0b9fc077fc84492ad63f15d0e20;9f75d3e4fb927abe910051b385816ee7"
+    },
+    {
+      "run_accession": "ERR14141077",
+      "study_accession": "PRJEB84064",
+      "sample_accession": "SAMEA117579351",
+      "secondary_sample_accession": "ERS22875090",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "f8d1468ad48fc5dc158eddde4d1852e0;4d68bf8f4da293ca52cb771641df8938"
+    },
+    {
+      "run_accession": "ERR14149368",
+      "study_accession": "PRJEB84064",
+      "sample_accession": "SAMEA117579518",
+      "secondary_sample_accession": "ERS22875257",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "6f89616b2865edffc0a7a7b54f5f2197;54b769faa78711713b76aaaaba2339fa"
+    },
+    {
+      "run_accession": "ERR14173499",
+      "study_accession": "PRJEB84064",
+      "sample_accession": "SAMEA117579663",
+      "secondary_sample_accession": "ERS22875402",
+      "sample_title": "",
+      "library_strategy": "WGS",
+      "fastq_md5": "713b4e00b7f77092d004c70dfdc21990;344ae18a18d5a6680861bc55f39215d6"
+    }
+  ],
+  "samples": [
+    {
+      "accession": "SAMEA117579351",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA117579351",
+      "attributes": [
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000036"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collection date",
+          "value": "2020-01-03"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "36.16"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "36.2"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "sewage type",
+          "value": "wastewater treatment plant"
+        },
+        {
+          "tag": "investigation type",
+          "value": "metagenome"
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA117579518",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA117579518",
+      "attributes": [
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000036"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collection date",
+          "value": "2020-11-30"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "36.16"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "36.2"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "sewage type",
+          "value": "wastewater treatment plant"
+        },
+        {
+          "tag": "investigation type",
+          "value": "metagenome"
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA117579663",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA117579663",
+      "attributes": [
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000036"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collection date",
+          "value": "2021-04-16"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "36.16"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "36.2"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "sewage type",
+          "value": "wastewater treatment plant"
+        },
+        {
+          "tag": "investigation type",
+          "value": "metagenome"
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA4527663",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA4527663",
+      "attributes": [
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000036"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2019-01-31T17:02:41Z"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2016-10-31T11:12:18Z"
+        },
+        {
+          "tag": "name of the sampling site",
+          "value": "Tatlar Wastewater Treatment Plant"
+        },
+        {
+          "tag": "collection date",
+          "value": "2016-02-03"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "32.8597� E"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "39.9334� N"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "sewage type",
+          "value": "wastewater treatment plant"
+        },
+        {
+          "tag": "investigation type",
+          "value": "metagenome"
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2019-01-31"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2016-10-31"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA4700868",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA4700868",
+      "attributes": [
+        {
+          "tag": "strain",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000029"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "environmental_sample",
+          "value": "Yes"
+        },
+        {
+          "tag": "host health state",
+          "value": "not applicable"
+        },
+        {
+          "tag": "host scientific name",
+          "value": "not applicable"
+        },
+        {
+          "tag": "collection date",
+          "value": "2016-03-02"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "32.4536389"
+        },
+        {
+          "tag": "isolation source non-host-associated",
+          "value": "wastewater"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "39.8983889"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collected_by",
+          "value": "Global sewage consortium"
+        },
+        {
+          "tag": "isolate",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14T17:03:25Z"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31T13:35:08Z"
+        },
+        {
+          "tag": "Is the sequenced pathogen host associated?",
+          "value": "No"
+        },
+        {
+          "tag": "serovar",
+          "value": ""
+        },
+        {
+          "tag": "isolation source host-associated",
+          "value": ""
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA4700869",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA4700869",
+      "attributes": [
+        {
+          "tag": "strain",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000029"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "environmental_sample",
+          "value": "Yes"
+        },
+        {
+          "tag": "host health state",
+          "value": "not applicable"
+        },
+        {
+          "tag": "host scientific name",
+          "value": "not applicable"
+        },
+        {
+          "tag": "collection date",
+          "value": "2016-03-02"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "32.4536389"
+        },
+        {
+          "tag": "isolation source non-host-associated",
+          "value": "wastewater"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "39.8983889"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collected_by",
+          "value": "Global sewage consortium"
+        },
+        {
+          "tag": "isolate",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14T17:03:25Z"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31T13:35:08Z"
+        },
+        {
+          "tag": "Is the sequenced pathogen host associated?",
+          "value": "No"
+        },
+        {
+          "tag": "serovar",
+          "value": ""
+        },
+        {
+          "tag": "isolation source host-associated",
+          "value": ""
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA4700870",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA4700870",
+      "attributes": [
+        {
+          "tag": "strain",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000029"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "environmental_sample",
+          "value": "Yes"
+        },
+        {
+          "tag": "host health state",
+          "value": "not applicable"
+        },
+        {
+          "tag": "host scientific name",
+          "value": "not applicable"
+        },
+        {
+          "tag": "collection date",
+          "value": "2016-03-02"
+        },
+        {
+          "tag": "geographic location (longitude)",
+          "value": "32.4536389"
+        },
+        {
+          "tag": "isolation source non-host-associated",
+          "value": "wastewater"
+        },
+        {
+          "tag": "geographic location (latitude)",
+          "value": "39.8983889"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collected_by",
+          "value": "Global sewage consortium"
+        },
+        {
+          "tag": "isolate",
+          "value": "TUR.46"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14T17:03:25Z"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31T13:35:08Z"
+        },
+        {
+          "tag": "Is the sequenced pathogen host associated?",
+          "value": "No"
+        },
+        {
+          "tag": "serovar",
+          "value": ""
+        },
+        {
+          "tag": "isolation source host-associated",
+          "value": ""
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2018-06-14"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2018-05-31"
+        }
+      ]
+    },
+    {
+      "accession": "SAMEA7426294",
+      "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA7426294",
+      "attributes": [
+        {
+          "tag": "strain",
+          "value": "DTU_2018_836_1_MG_TR_HA_520"
+        },
+        {
+          "tag": "ENA-CHECKLIST",
+          "value": "ERC000011"
+        },
+        {
+          "tag": "collection_date",
+          "value": "2018-12-04"
+        },
+        {
+          "tag": "organism",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "environmental_sample",
+          "value": "Yes"
+        },
+        {
+          "tag": "host health state",
+          "value": "not applicable"
+        },
+        {
+          "tag": "host scientific name",
+          "value": "not applicable"
+        },
+        {
+          "tag": "isolation source non-host-associated",
+          "value": "wastewater"
+        },
+        {
+          "tag": "scientific_name",
+          "value": "wastewater metagenome"
+        },
+        {
+          "tag": "collected_by",
+          "value": "Global sewage consortium"
+        },
+        {
+          "tag": "isolate",
+          "value": "DTU_2018_836_1_MG_TR_HA_520"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2021-06-24T12:26:13Z"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2021-06-24T12:26:13Z"
+        },
+        {
+          "tag": "Is the sequenced pathogen host associated?",
+          "value": "No"
+        },
+        {
+          "tag": "serovar",
+          "value": ""
+        },
+        {
+          "tag": "isolation source host-associated",
+          "value": ""
+        },
+        {
+          "tag": "geographic location (country and/or sea)",
+          "value": "Turkey"
+        },
+        {
+          "tag": "ENA-FIRST-PUBLIC",
+          "value": "2021-06-24"
+        },
+        {
+          "tag": "ENA-LAST-UPDATE",
+          "value": "2021-06-24"
+        }
+      ]
+    }
+  ]
+}

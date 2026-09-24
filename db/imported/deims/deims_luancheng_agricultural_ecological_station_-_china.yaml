@@ -1,0 +1,163 @@
+sites:
+- id: site_kb:deims-luancheng_agricultural_ecological_station_-_china
+  name: Luancheng Agricultural Ecological Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+    network_url: https://deims.org/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+    name: Luancheng Agricultural Ecological Station - China
+  location:
+    latitude: 37.8833
+    longitude: 114.683
+    country: China
+    elevation_meters: 50.1
+  description: "Luancheng station, established in 1981, is one of the field stations\
+    \ of the Chinese Ecosystem Research Network (CERN) and a member of Global Terrestrial\
+    \ Observation System (GTOS). The station is also a demonstration base for modern\
+    \ agricultural technologies in Hebei province. In 2005, the station became one\
+    \ of the stations of the China National Ecosystem Observation and Research Network（CNERN）.\r\
+    \n    Luancheng Station is located in Luancheng county of Hebei province (37°53'\
+    \ N, 114°41'E and elevation at 50.1 m), represents the typical high production\
+    \ area in the northern part of the North China Plain. The rapid declining groundwater\
+    \ table has become the main problem that threatens the sustainable agricultural\
+    \ development in this area.\r\n    The researches conducted at the station focus\
+    \ on the long-term investigations of farmland ecosystem, water and nutrients transfer\
+    \ and regulation mechanisms, modern water-saving technologies, molecular breeding,\
+    \ precision agriculture and regional sustainable agro-ecosystem demonstration\
+    \ models etc.. The station has 28 ha land for field research and provides accommodation\
+    \ for scientists and students to stay. There are laboratories, field research\
+    \ infrastructure and equipments to be used for different experiments."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: air water vapour pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air water vapour pressure
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22037
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: dew point
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dew point
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22104
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: nutrient availability
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nutrient availability
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/21457
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  - name: sky temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sky temperature
+      record_url: https://deims.org/api/sites/5de9ae4c-c705-4cd5-b55a-2195c936f7fb
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22239
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:58.070063+00:00'
+      source_modified_at: '2020-06-29T10:42:52+02:00'
+  status: ACTIVE

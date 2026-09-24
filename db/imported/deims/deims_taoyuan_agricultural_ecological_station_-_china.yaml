@@ -1,0 +1,106 @@
+sites:
+- id: site_kb:deims-taoyuan_agricultural_ecological_station_-_china
+  name: Taoyuan Agricultural Ecological Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+    network_url: https://deims.org/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+    name: Taoyuan Agricultural Ecological Station - China
+  location:
+    latitude: 28.9167
+    longitude: 111.4333
+    country: China
+  description: 'Taoyuan Station of Agro-ecosystem Research(TYA) is located in Taoyuan
+    county, Hunan province (111o27’E, 28o55’N) and was established in 1978, a section
+    of the Institute of Subtropical Agriculture（ISA）. TYA represents southern combined
+    ecosystem of agriculture and forestry in hilly region with red clay soil, and
+    is responsible for the monitoring the successions of agro-ecosystem in the region.
+    The main research fields cover: the succession of agro-ecosystem and key environmental
+    elements; the variations and adjustments of soil nutrient cycling and soil fertility;
+    irrigation techniques and increase of water use efficiency in agricultural system;
+    the biogeochemical processes and microbial functions of soil carbon and nitrogen
+    cycling and restoration of degraded ecosystem. As a base for researches for agricultural
+    and forestry ecosystems in red-earth hilly region, It has been certified as a
+    member of the Chinese Ecosystem Research Network (CERN), the National Field Research
+    Stations of China (CNERN)and International Long Term Ecological Research（ILTER）.
+    Besides, the station was qualified as a national base of scientific training for
+    teenagers.'
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9518c7f8-d3f2-4e57-b6a7-67bb4a20f1e5
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:08.737235+00:00'
+      source_modified_at: '2020-12-18T10:57:18+01:00'
+  status: ACTIVE

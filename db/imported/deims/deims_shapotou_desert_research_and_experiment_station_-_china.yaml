@@ -1,0 +1,109 @@
+sites:
+- id: site_kb:deims-shapotou_desert_research_and_experiment_station_-_china
+  name: Shapotou Desert Research and Experiment Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+    network_url: https://deims.org/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+    name: Shapotou Desert Research and Experiment Station - China
+  location:
+    latitude: 37.4601
+    longitude: 105.0001
+    country: China
+  description: Shapotou  Desert  Experimental Research Station of CAS founded in 1955,
+    locates in Zhongwei City of Ningxia Hui Autonomous Regions, the People’s Republic
+    of China, at the Southeastern edge of the Tengger Desert ；It was ratified as the
+    opening research station of CAS in 1990. Became membership of the Chinese Ecological
+    System Research Network (CERN) in 1992, as the National Key Field Scientific Observation
+    Station by Ministry of Science and Technology of the People’s Republic of China
+    in 2000.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5ddc53e5-e43b-48fc-a62a-81de7e38e3f1
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:32:05.457250+00:00'
+      source_modified_at: '2020-12-18T10:57:15+01:00'
+  status: ACTIVE

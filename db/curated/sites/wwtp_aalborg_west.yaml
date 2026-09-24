@@ -1,0 +1,49 @@
+sites:
+- id: site_kb:wwtp-aalborg-west
+  name: Aalborg West wastewater treatment plant
+  aliases:
+  - Aalborg West WWTP
+  - AalW
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 57.049513
+    longitude: 9.864788
+  description: Danish wastewater treatment plant with deposited metagenomes, metagenome-assembled
+    genomes and metatranscriptomes in the Glomicave project.
+  datasets:
+  - title: Aalborg West metagenomes, MAGs and metatranscriptomes
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJEB67571
+    accession: PRJEB67571
+    assay: Shotgun metagenomics and metatranscriptomics
+    availability: PUBLIC
+    evidence:
+    - https://www.ncbi.nlm.nih.gov/bioproject/1249737
+    - https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
+    notes: 'Project description reports 214 MAGs and 179 transcriptomic samples: 39
+      from the full-scale plant and 140 from batch experiments. These are project-level
+      counts, not all direct plant samples. SAMEA115986499 is a derived MAG, linked
+      to source metagenome ERS16511554.'
+  variables:
+  - variable_id: site_kb:variable-mag-completeness
+    evidence:
+    - https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
+    method: CheckM1 genome quality estimation
+    sample_context: Derived MAG AalW_0078 from aeration-tank activated sludge; quality
+      metric of the recovered genome, not water chemistry.
+    sampling_period: '2021-11-02'
+    reported_units: '%'
+  - variable_id: site_kb:variable-mag-contamination
+    evidence:
+    - https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
+    method: CheckM1 genome quality estimation
+    sample_context: Derived MAG AalW_0078 from aeration-tank activated sludge; quality
+      metric of the recovered genome, not water chemistry.
+    sampling_period: '2021-11-02'
+    reported_units: '%'
+  notes: Coordinates and sampling context follow the deposited MAG BioSample https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499.
+    The MAG sample reports completeness 88.15% and contamination 2.57%; these do not
+    justify interpreting all project MAGs as above 90% complete. Plant and batch experiment
+    samples must be distinguished in future sample-level ingestion.

@@ -11,6 +11,7 @@ uv.lock
 
 # Generated project artifacts
 project/
+db/sites/
 
 # Generated datamodel (except __init__.py)
 src/site_kb/datamodel/*.py

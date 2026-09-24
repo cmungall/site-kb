@@ -1,0 +1,91 @@
+sites:
+- id: site_kb:deims-fukang_desert_ecological_research_station_-_china
+  name: Fukang Desert Ecological Research Station - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 7e840801-4a73-4c93-9f11-62e8db5f0329
+    network_url: https://deims.org/7e840801-4a73-4c93-9f11-62e8db5f0329
+    name: Fukang Desert Ecological Research Station - China
+  location:
+    latitude: 44.2833
+    longitude: 87.9167
+    country: China
+  description: Fukang Station in the hinterland of the Eurasian continent (44o17'N,
+    87o56'E and 475 m a.s.l.). The station is 8 km from the southern edge of the Gurbantonggut
+    Desert and 72 km south of the highest peak of the eastern Tianshan Mountains (5445
+    m a.s.l.). The study area is fairly flat (slope < 1o), and the groundwater table
+    fluctuates between 2-5m depth. The soil is a silty clay-loam, consisting of 7%
+    clay, 32% sand and 61% silt, with total nitrogen and C contents of 0.068 and 1.064%,
+    respectively. The local climate is temperate continental arid with hot summers
+    and cold winters. The winter extends from November to late March; and includes
+    a snow cover of 20-30 cm. The growing season usually starts in early May and ends
+    in late October. Mean annual air temperature is 6.6°C. Mean annual precipitation
+    is 163 mm, with the majority of it (60-70%) falling between May and September.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/7e840801-4a73-4c93-9f11-62e8db5f0329
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-09-23T02:31:47.360257+00:00'
+      source_modified_at: '2020-12-18T10:56:56+01:00'
+  status: ACTIVE
