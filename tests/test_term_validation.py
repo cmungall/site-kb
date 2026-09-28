@@ -48,3 +48,19 @@ def test_catalog_terms_are_checked_even_without_site_references(tmp_path):
     assert validator.validate(data, target_class='SiteCollection').results
     data['variable_definitions'][0]['term']['label'] = 'wastewater treatment plant'
     assert not validator.validate(data, target_class='SiteCollection').results
+
+
+def test_bervo_mapping_target_rejects_wrong_canonical_label(tmp_path):
+    # Canonical capitalization from BERVO releases/2026-09-03, independent of mappings.
+    ontology = tmp_path / 'bervo.obo'
+    ontology.write_text('format-version: 1.2\nontology: bervo\n\n[Term]\nid: BERVO:8000133\nname: Temperature\n')
+    config = tmp_path / 'oak.yaml'
+    config.write_text(yaml.safe_dump({'ontology_adapters': {'BERVO': 'simpleobo:' + str(ontology)}}))
+    plugin = BindingValidationPlugin(oak_config_path=config, cache_labels=False, cache_dir=tmp_path / 'cache')
+    validator = Validator(schema=str(SCHEMA), validation_plugins=[plugin])
+    data = {'mappings': [{'source': 'site-kb', 'source_id': 'site_kb:temperature',
+            'target': {'id': 'BERVO:8000133', 'label': 'Air temperature'},
+            'relation': 'BROAD', 'origin': 'CURATED', 'evidence': ['https://example.org/review']}]}
+    assert validator.validate(data, target_class='VariableMappingCollection').results
+    data['mappings'][0]['target']['label'] = 'Temperature'
+    assert not validator.validate(data, target_class='VariableMappingCollection').results

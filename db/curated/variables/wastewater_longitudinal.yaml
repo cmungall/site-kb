@@ -1,0 +1,123 @@
+variable_definitions:
+- id: site_kb:variable-bacterial-16s-profile
+  name: Bacterial community composition (16S amplicons)
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1128/msystems.01333-23
+    source_name: 16S rRNA
+    record_url: https://doi.org/10.1128/msystems.01333-23
+- id: site_kb:variable-wwtp-temperature
+  name: Wastewater treatment temperature
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01333-23
+    source_name: temperature
+    record_url: https://doi.org/10.1128/msystems.01333-23
+- id: site_kb:variable-mean-cell-residence-time
+  name: Mean cell residence time
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01333-23
+    source_name: mean cell residence time
+    record_url: https://doi.org/10.1128/msystems.01333-23
+- id: site_kb:variable-hydraulic-retention-time
+  name: Hydraulic retention time
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01333-23
+    source_name: hydraulic retention time
+    record_url: https://doi.org/10.1128/msystems.01333-23
+- id: site_kb:variable-arg-per-million-bases
+  name: ARG abundance per million base pairs
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1186/s40168-019-0663-0
+    source_name: ARG number per million base pairs
+    record_url: https://doi.org/10.1186/s40168-019-0663-0
+  description: Sequence-normalized ARG abundance; not an absolute concentration per
+    volume of wastewater.
+- id: site_kb:variable-arg-genetic-context
+  name: ARG genetic location and host assignment
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1186/s40168-019-0663-0
+    source_name: genetic location
+    record_url: https://doi.org/10.1186/s40168-019-0663-0
+- id: site_kb:variable-eukaryotic-relative-abundance
+  name: Eukaryotic community relative abundance
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1093/ismejo/wraf058
+    source_name: relative abundance/coverage of eukaryotic, prokaryotic, and viral
+      contigs
+    record_url: https://doi.org/10.1093/ismejo/wraf058
+- id: site_kb:variable-eukaryotic-rna-dna-ratio
+  name: Eukaryotic RNA/DNA abundance ratio
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1093/ismejo/wraf058
+    source_name: RNA/DNA
+    record_url: https://doi.org/10.1093/ismejo/wraf058
+- id: site_kb:variable-antiviral-defense-abundance
+  name: Complete antiviral defense-system contig abundance
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1093/ismejo/wraf051
+    source_name: abundance of DSs
+    record_url: https://doi.org/10.1093/ismejo/wraf051
+- id: site_kb:variable-crispr-spacer-density
+  name: CRISPR spacer density
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1093/ismejo/wraf051
+    source_name: CRISPR spacer density
+    record_url: https://doi.org/10.1093/ismejo/wraf051
+- id: site_kb:variable-bnr-filtered-total-phosphorus
+  name: Filtered total phosphorus
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: TP
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-bnr-filtered-tkn
+  name: Filtered total Kjeldahl nitrogen
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: TKN
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-bnr-filtered-nitrate
+  name: Filtered nitrate nitrogen
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: NO3−
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-bnr-filtered-nitrite
+  name: Filtered nitrite nitrogen
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: NO2−
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-bnr-dissolved-oxygen
+  name: Pilot-reactor dissolved oxygen
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: Dissolved oxygen (DO)
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-bnr-ammonium
+  name: Pilot-reactor ammonium nitrogen
+  declaration_kind: PROPERTY
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: ammonium (NH4+)
+    record_url: https://doi.org/10.1128/msystems.01188-23
+- id: site_kb:variable-accumulibacter-relative-abundance
+  name: Accumulibacter species relative abundance
+  declaration_kind: PARAMETER_GROUP
+  source_variables:
+  - source: 10.1128/msystems.01188-23
+    source_name: Relative abundance of “Ca. Accumulibacter” species
+    record_url: https://doi.org/10.1128/msystems.01188-23

@@ -31,7 +31,7 @@ sites:
     method: DeepARG analysis of assembled genomes; presence/absence profiling
     sample_context: Sewage metagenome runs ERR2592273, ERR1713395 and ERR1726009;
       one shared BioSample.
-    sampling_period: 2016-02-03 according to ENA; date differs from the paper supplement.
+    sampling_period: 2016-02-03 according to ENA and Table S1.
   - variable_id: site_kb:variable-taxonomic-profile
     evidence:
     - https://pmc.ncbi.nlm.nih.gov/articles/PMC13509523/
@@ -39,7 +39,7 @@ sites:
     method: Kraken2 and Bracken metagenomic profiling
     sample_context: Sewage metagenome runs ERR2592273, ERR1713395 and ERR1726009;
       one shared BioSample.
-    sampling_period: 2016-02-03 according to ENA; date differs from the paper supplement.
+    sampling_period: 2016-02-03 according to ENA and Table S1.
   notes: Facility name is explicitly reported by https://www.ebi.ac.uk/ena/browser/view/SAMEA4527663.
     Coordinates omitted because the named sample gives 39.9334 N, 32.8597 E whereas
     other Ankara samples in the paper give 39.8983889 N, 32.4536389 E; these records

@@ -9,6 +9,7 @@ import shutil
 import typer
 import yaml
 
+from site_kb.scripts.bervo_view import build_bervo_view
 from site_kb.scripts.build_db import assemble, read_records
 
 app = typer.Typer()
@@ -49,6 +50,8 @@ def term(value):
     url = identifier if identifier.startswith(('http://', 'https://')) else None
     if identifier.startswith('MIXS:'):
         url = 'https://w3id.org/mixs/' + identifier.split(':', 1)[1]
+    elif identifier.startswith('BERVO:'):
+        url = 'https://w3id.org/bervo/BERVO_' + identifier.split(':', 1)[1]
     elif re.fullmatch(r'[A-Za-z]+:\d+', identifier):
         url = 'https://purl.obolibrary.org/obo/' + identifier.replace(':', '_')
     label = f"{value['label']} · {identifier}"
@@ -161,6 +164,15 @@ def detail(site, origin, input_paths):
 
 def catalog_page(collection):
     definitions = {v['id']: v for v in collection.get('variable_definitions', [])}
+    bervo = build_bervo_view(collection)
+    groups = []
+    for group in bervo['groups']:
+        definitions_html = ''.join(f'<li><a href="#{slug(v["id"])}">{esc(v["name"])}</a> · {esc(v["relation"])}</li>' for v in group['definitions'])
+        sites_html = ''.join(f'<li><a href="sites/{slug(v["site_id"])}.html">{esc(v["site_name"])}</a> — {esc(v["variable_name"])} · {esc(v["relation"])}</li>' for v in group['site_declarations'])
+        groups.append(f'<section class="panel"><h3>{term(group["term"])}</h3><ul>{definitions_html}</ul><details><summary>{len(group["site_declarations"])} site declarations</summary><ul>{sites_html}</ul></details></section>')
+    summary = bervo['summary']
+    unmapped = ''.join(f'<li><a href="#{slug(v["id"])}">{esc(v["name"])}</a></li>' for v in bervo['unmapped_catalog_definitions'])
+    bervo_html = f'<h2>Browse by BERVO</h2><p>{summary["mapped_catalog_definition_count"]} of {summary["catalog_definition_count"]} shared definitions and {summary["mapped_site_declaration_count"]} of {summary["site_declaration_count"]} site declarations have BERVO annotations. <a href="data/bervo.json">Download BERVO index</a></p><p>EXACT indicates equivalent properties; CLOSE indicates similar scope; BROAD means the BERVO target is more general. Sharing a broader term does not make measurements interchangeable.</p>' + ''.join(groups) + f'<details class="panel"><summary>{len(bervo["unmapped_catalog_definitions"])} shared definitions without BERVO mappings</summary><ul>{unmapped}</ul></details>'
     profiles = []
     for profile in collection.get('profiles', []):
         candidates = []
@@ -173,7 +185,7 @@ def catalog_page(collection):
     for identifier, variable in sorted(definitions.items(), key=lambda item: item[1]['name'].casefold()):
         site_links = ''.join(f'<li><a href="sites/{slug(site["id"])}.html">{esc(site["name"])}</a></li>' for site in collection['sites'] if any(v.get('variable_id') == identifier for v in site.get('variables', [])))
         entries.append(f'<article class="panel" id="{slug(identifier)}"><h2>{esc(variable["name"])}</h2><p class="muted">{esc(identifier)}</p><p>{prose(variable.get("description", ""))}</p><p>{term(variable.get("term"))}</p>{variable_provenance(variable)}<h3>Documented at sites</h3><ul>{site_links}</ul>{"" if site_links else "<p>No site declarations reference this definition yet.</p>"}</article>')
-    body = '<main id="main" class="detail-main"><div class="page-heading"><div><h1>Variables & environment profiles</h1><p>Shared definitions preserve source identities and reviewed mappings. Profiles describe possible fields; only explicit site declarations establish collection.</p></div></div><h2>Candidate profiles</h2>' + ''.join(profiles) + '<h2>Shared variable definitions</h2>' + ''.join(entries) + '</main>'
+    body = '<main id="main" class="detail-main"><div class="page-heading"><div><h1>Variables & environment profiles</h1><p>Shared definitions preserve source identities and reviewed mappings. Profiles describe possible fields; only explicit site declarations establish collection.</p></div></div><h2>Candidate profiles</h2>' + ''.join(profiles) + bervo_html + '<h2>Shared variable definitions</h2>' + ''.join(entries) + '</main>'
     return shell('Variables and profiles', body)
 
 
@@ -235,6 +247,7 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(path, destination)
     (output / 'variables.html').write_text(catalog_page(collection))
+    (output / 'data/bervo.json').write_text(json.dumps(build_bervo_view(collection), ensure_ascii=False, indent=2))
     (output / 'data/sites.json').write_text(json.dumps(collection, ensure_ascii=False, indent=2, default=str))
     for site in sites:
         (output / 'sites' / (slug(site['id']) + '.html')).write_text(detail(site, origins[site['id']], paths[site['id']]))

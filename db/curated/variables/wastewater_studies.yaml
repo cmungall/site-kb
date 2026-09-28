@@ -6,6 +6,9 @@ variable_definitions:
   - source: Wardi et al. 2024
     source_name: pH
     record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  term:
+    id: BERVO:8000261
+    label: pH
 - id: site_kb:variable-morocco-temperature
   name: Temperature
   declaration_kind: PROPERTY
@@ -27,6 +30,9 @@ variable_definitions:
   - source: Wardi et al. 2024
     source_name: Conductivity
     record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  term:
+    id: BERVO:8000348
+    label: Conductivity
 - id: site_kb:variable-morocco-salinity
   name: Salinity
   declaration_kind: PROPERTY
@@ -34,6 +40,9 @@ variable_definitions:
   - source: Wardi et al. 2024
     source_name: Salinity
     record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  term:
+    id: BERVO:8000427
+    label: Salinity
 - id: site_kb:variable-morocco-turbidity
   name: Turbidity
   declaration_kind: PROPERTY
@@ -41,6 +50,9 @@ variable_definitions:
   - source: Wardi et al. 2024
     source_name: Turbidity
     record_url: https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  term:
+    id: BERVO:8000294
+    label: Turbidity
 - id: site_kb:variable-morocco-cod
   name: COD
   declaration_kind: PROPERTY

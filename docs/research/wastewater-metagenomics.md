@@ -88,3 +88,9 @@ The reported SRA identifier SUB14264437 is a submission identifier, not a verifi
 public BioProject/run accession. These remain leads pending accession and
 supplementary site metadata resolution. Taiwan sites are identified only by
 codes ZN, WS and FS in the main text; no facility identities were invented.
+
+## Subsequent expansion
+
+[Nine additional facilities and five studies](wastewater-expansion-2026-09.md)
+extend coverage to Hong Kong, Nanjing and the Nine Springs pilot systems, with
+archive checks and distinctions between metagenomes, amplicons and RNA datasets.

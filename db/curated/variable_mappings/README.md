@@ -23,3 +23,9 @@ lists, so an override of `variables` also replaces their assembled mappings.
 No BERVO crosswalk is seeded yet: the DEIMS JSON supplies EnvThes identity, not
 BERVO equivalence. Add mappings only after verifying target concepts and relations.
 Run `just validate-db` and `just validate-terms` after editing.
+
+Mappings with `source: site-kb` and `source_id: site_kb:variable-…` target a
+shared catalog definition directly. They propagate to referencing declarations
+without inventing an upstream source identity. `bervo.yaml` supplies the first
+reviewed BERVO set, including explicit provisional CLOSE and broader matches.
+See `docs/research/bervo-integration.md` for source pinning and review limits.

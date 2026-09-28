@@ -10,8 +10,8 @@ ontology_adapters:
   # Environment ontology (ecosystems, biomes, habitats)
   ENVO: simpleobo:cache/ontologies/envo.obo
 
-  # Biome, Environment, and Research Variable Ontology
-  BERVO: sqlite:obo:bervo
+  # Biological and Environmental Research Variable Ontology
+  BERVO: simpleobo:cache/ontologies/bervo-normalized.obo
 
   # Ontology for Biomedical Investigations (instruments, assays)
   OBI: sqlite:obo:obi

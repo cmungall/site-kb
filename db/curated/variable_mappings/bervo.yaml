@@ -1,0 +1,263 @@
+mappings:
+- source: site-kb
+  source_id: site_kb:variable-morocco-ph
+  source_name: pH
+  target:
+    id: BERVO:8000261
+    label: pH
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The measured property agrees with the BERVO definition.
+- source: site-kb
+  source_id: site_kb:variable-morocco-conductivity
+  source_name: Conductivity
+  target:
+    id: BERVO:8000348
+    label: Conductivity
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The measured property agrees with the BERVO definition.
+- source: site-kb
+  source_id: site_kb:variable-morocco-salinity
+  source_name: Salinity
+  target:
+    id: BERVO:8000427
+    label: Salinity
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The measured property agrees with the BERVO definition.
+- source: site-kb
+  source_id: site_kb:variable-morocco-turbidity
+  source_name: Turbidity
+  target:
+    id: BERVO:8000294
+    label: Turbidity
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The measured property agrees with the BERVO definition.
+- source: site-kb
+  source_id: site_kb:variable-morocco-temperature
+  source_name: Temperature
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1038/s41598-024-76773-4#Tab3
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: BERVO Temperature is broader than the water/treatment-specific measurement.
+    No equivalence or air/soil-temperature mapping is asserted.
+- source: site-kb
+  source_id: site_kb:variable-wwtp-temperature
+  source_name: Wastewater treatment temperature
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://doi.org/10.1128/msystems.01333-23
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: BERVO Temperature is broader than the water/treatment-specific measurement.
+    No equivalence or air/soil-temperature mapping is asserted.
+- source: MIxS
+  source_id: MIXS:0001001
+  source_name: ph
+  target:
+    id: BERVO:8000261
+    label: pH
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Mapping concerns the described measured property; MIxS submission range and
+    cardinality remain on the candidate field. It is not evidence that a site measures
+    it.
+- source: MIxS
+  source_id: MIXS:0000113
+  source_name: temp
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Mapping concerns the described measured property; MIxS submission range and
+    cardinality remain on the candidate field. It is not evidence that a site measures
+    it.
+- source: MIxS
+  source_id: MIXS:0000183
+  source_name: salinity
+  target:
+    id: BERVO:8000427
+    label: Salinity
+  relation: EXACT
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://github.com/GenomicsStandardsConsortium/mixs/blob/0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b/src/mixs/schema/mixs.yaml
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Mapping concerns the described measured property; MIxS submission range and
+    cardinality remain on the candidate field. It is not evidence that a site measures
+    it.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22035
+  source_name: air temperature
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22035
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Reviewed the preserved DEIMS source label/scope against the BERVO definition.
+    The live EnvThes definition was unavailable; CLOSE is provisional and does not
+    establish exact equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22264
+  source_name: soil pH
+  target:
+    id: BERVO:0000882
+    label: Soil pH
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22264
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Reviewed the preserved DEIMS source label/scope against the BERVO definition.
+    The live EnvThes definition was unavailable; CLOSE is provisional and does not
+    establish exact equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22278
+  source_name: soil temperature
+  target:
+    id: BERVO:0001477
+    label: Soil temperature
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22278
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Reviewed the preserved DEIMS source label/scope against the BERVO definition.
+    The live EnvThes definition was unavailable; CLOSE is provisional and does not
+    establish exact equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22313
+  source_name: water temperature
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22313
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The source label specifies an aquatic context; the BERVO property is more
+    general. Live EnvThes definition unavailable; this is a conservative broader-property
+    mapping, not equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/10011
+  source_name: lake temperature
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/10011
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The source label specifies an aquatic context; the BERVO property is more
+    general. Live EnvThes definition unavailable; this is a conservative broader-property
+    mapping, not equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22089
+  source_name: conductivity
+  target:
+    id: BERVO:8000348
+    label: Conductivity
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22089
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Reviewed the preserved DEIMS source label/scope against the BERVO definition.
+    The live EnvThes definition was unavailable; CLOSE is provisional and does not
+    establish exact equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/10308
+  source_name: water salinity
+  target:
+    id: BERVO:8000427
+    label: Salinity
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/10308
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: The source label specifies an aquatic context; the BERVO property is more
+    general. Live EnvThes definition unavailable; this is a conservative broader-property
+    mapping, not equivalence.
+- source: DEIMS
+  source_id: http://vocabs.lter-europe.net/EnvThes/22289
+  source_name: specific conductivity
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - http://vocabs.lter-europe.net/EnvThes/22289
+  attributed_to: site-kb curation
+  asserted_on: '2026-09-23'
+  notes: Reviewed the preserved DEIMS source label/scope against the BERVO definition.
+    The live EnvThes definition was unavailable; CLOSE is provisional and does not
+    establish exact equivalence.

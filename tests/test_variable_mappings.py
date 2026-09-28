@@ -87,3 +87,18 @@ def test_schema_requires_evidence_and_valid_relation(mapping_schema):
     for edit in ({'evidence': []}, {'relation': 'SAME'}, {'target': {'id': 'BERVO:9999999'}}):
         with pytest.raises(jsonschema.ValidationError):
             jsonschema.validate({'mappings': [{**example_mapping(), **edit}]}, mapping_schema)
+
+
+def test_local_definition_mapping_is_inherited_without_fabricating_source_identity(tmp_path):
+    imported, curated = tmp_path / 'imported', tmp_path / 'curated'
+    definition = {'id': 'site_kb:variable-x', 'name': 'Local measurement'}
+    mapping = {**example_mapping(), 'source': 'site-kb', 'source_id': definition['id']}
+    write(curated / 'variables/x.yaml', {'variable_definitions': [definition]})
+    write(curated / 'sites/x.yaml', {'sites': [{'id': 'site_kb:x', 'name': 'X',
+          'variables': [{'variable_id': definition['id'], 'evidence': ['https://example.org/study']}]}]})
+    write(curated / 'variable_mappings/x.yaml', {'mappings': [mapping]})
+    result = assemble(imported, curated)
+    for v in (result['variable_definitions'][0], result['sites'][0]['variables'][0]):
+        assert v['mappings'] == [mapping]
+        assert 'source_variables' not in v
+        assert 'term' not in v

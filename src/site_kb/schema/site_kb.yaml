@@ -19,7 +19,7 @@ prefixes:
   dcterms: http://purl.org/dc/terms/
   skos: http://www.w3.org/2004/02/skos/core#
   ENVO: http://purl.obolibrary.org/obo/ENVO_
-  BERVO: http://purl.obolibrary.org/obo/BERVO_
+  BERVO: https://w3id.org/bervo/BERVO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   UO: http://purl.obolibrary.org/obo/UO_
   GAZ: http://purl.obolibrary.org/obo/GAZ_

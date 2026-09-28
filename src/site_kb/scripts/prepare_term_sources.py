@@ -8,13 +8,16 @@ from rdflib import Graph, RDFS
 
 CACHE = Path('cache/ontologies')
 MIXS_COMMIT = '0bc3c221b4a368ed7939d9a1fe4cbd8f407a221b'
+BERVO_COMMIT = '23b551635d42614ec09a5670866d714007039011'
 SOURCES = {
+    'bervo.obo': f'https://raw.githubusercontent.com/bioepic-data/bervo/{BERVO_COMMIT}/bervo.obo',
     'envo.obo': 'https://raw.githubusercontent.com/EnvironmentOntology/envo/v2026-06-26/envo.obo',
     'mixs.owl.ttl': f'https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/{MIXS_COMMIT}/project/owl/mixs.owl.ttl',
     'mixs.yaml': f'https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/{MIXS_COMMIT}/src/mixs/schema/mixs.yaml',
     'skos.rdf': 'https://www.w3.org/2009/08/skos-reference/skos.rdf',
 }
 CHECKSUMS = {
+    'bervo.obo': 'c953baea499057cf0c04bd92749af21608b0941d0f611694e37fbbb799185b9c',
     'envo.obo': '7f5a6580d1b59166da07a54f9aa907a76f86079b7082e089192f04df91fd7d5b',
     'mixs.owl.ttl': '817d8993b54ffa256da2cc177322d48859557d3565834ae1e4ab165a1078b23e',
     'mixs.yaml': '4e7755dc52227d1c9f1abe7ebe2852054bcf8085edf997d6b85c54e59968c329',
@@ -35,6 +38,10 @@ def prepare():
         if digest != CHECKSUMS[filename]:
             raise ValueError(f'Checksum mismatch for {destination}; inspect or remove the cache before retrying')
         manifest[filename] = {'url': url, 'sha256': digest}
+    # BERVO's OBO serialization uses bervo:BERVO_NNNNNNN for its w3id IRIs.
+    # Normalize that CURIE spelling for OAK; retain definitions and hierarchy.
+    bervo = (CACHE / 'bervo.obo').read_text()
+    (CACHE / 'bervo-normalized.obo').write_text(bervo.replace('bervo:BERVO_', 'BERVO:'))
     # MIxS terms are RDF properties as well as classes, with w3id rather than
     # OBO PURLs. A label-only OBO projection lets OAK validate both consistently.
     # Labels come from pinned upstream RDF, never from candidate data being checked.
@@ -54,7 +61,7 @@ def prepare():
             skos_lines.extend(['[Term]', f'id: {identifier}', f'name: {label}', ''])
     (CACHE / 'skos-labels.obo').write_text('\n'.join(skos_lines))
     (CACHE / 'sources.json').write_text(json.dumps(manifest, indent=2) + '\n')
-    print(f'Prepared ENVO, SKOS, and {len(labels)} MIxS canonical labels from pinned upstream sources.')
+    print(f'Prepared BERVO, ENVO, SKOS, and {len(labels)} MIxS canonical labels from pinned upstream sources.')
 
 
 if __name__ == '__main__':

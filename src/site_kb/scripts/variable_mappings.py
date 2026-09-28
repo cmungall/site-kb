@@ -44,7 +44,12 @@ def apply_mappings(sites: dict[str, dict], mappings: list[dict]) -> None:
         by_source.setdefault((mapping["source"], mapping["source_id"]), []).append(mapping)
     for site in sites.values():
         for variable in site.get("variables", []):
-            for source in variable.get("source_variables", []):
+            # Local definition IDs are mapping subjects, not fabricated upstream IDs.
+            identifier = variable.get("variable_id") or variable.get("id")
+            sources = list(variable.get("source_variables", []))
+            if identifier:
+                sources.append({"source": "site-kb", "source_id": identifier})
+            for source in sources:
                 for mapping in by_source.get((source["source"], source.get("source_id")), []):
                     assertions = variable.setdefault("mappings", [])
                     if mapping not in assertions:

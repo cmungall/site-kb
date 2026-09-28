@@ -217,3 +217,17 @@ separate ingestion gap. No BERVO equivalences were inferred during this change.
 and metatranscriptomes must remain distinguishable. Location can record a country
 without inventing coordinates. See [treatment-site research](docs/research/wastewater-metagenomics.md)
 for the seed-paper audit and the newly curated plants.
+
+## BERVO harmonization
+
+Reviewed BERVO assertions live in `db/curated/variable_mappings/bervo.yaml`.
+They match preserved upstream source IDs or local catalog definition IDs
+(`source: site-kb`). Exact, close and broader mappings remain distinct; assembly
+does not replace source names or automatically choose primary ontology terms.
+The Variables & profiles browser groups annotations by BERVO target and exposes
+unmapped definitions, with a downloadable `data/bervo.json` index.
+
+The validator uses a checksum-pinned BERVO release with its canonical labels.
+Run `just site` to validate mappings and regenerate the browser. See the
+[BERVO integration notes](docs/research/bervo-integration.md) for the approach
+adapted from `nmdc-sfas-brcs`, the initial mappings and remaining coverage gaps.

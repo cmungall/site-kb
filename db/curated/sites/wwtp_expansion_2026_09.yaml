@@ -1,0 +1,708 @@
+sites:
+- id: site_kb:wwtp-sha-tin
+  name: Sha Tin Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+    latitude: 22.407
+    longitude: 114.214
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code ST
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code ST
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code ST
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code ST
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code ST
+    sampling_period: June 2007 to December 2019
+  - variable_id: site_kb:variable-arg-per-million-bases
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code ST
+    reported_units: ARG number per million base pairs
+  - variable_id: site_kb:variable-arg-genetic-context
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code ST
+  - variable_id: site_kb:variable-eukaryotic-rna-dna-ratio
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metatranscriptomic read filtering with SortMeRNA and CoverM mapping relative
+      to DNA abundance
+    sample_context: Twelve Sha Tin activated-sludge RNA samples
+    sampling_period: April 2017 to March 2018
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  - title: Mobile antibiotic resistome in wastewater treatment plants revealed by
+      Nanopore metagenomic sequencing
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA505617
+    accession: PRJNA505617
+    assay: Illumina shotgun metagenomics; associated Nanopore metagenomics reported
+      in the article
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    notes: PRJNA505617 currently returns Illumina runs, including repeated BioSamples
+      and an influent mixed-culture library. Article separately cites SAMN09603371–SAMN09603381
+      for the Nanopore-associated data. Project totals are not independent environmental-sample
+      counts.
+  - title: Sha Tin metatranscriptomes used in the eukaryote study
+    url: https://doi.org/10.1093/ismejo/wraf058
+    assay: Metatranscriptomics
+    availability: UNRESOLVED
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Study reports twelve RNA samples. Its cited project PRJNA432264 currently
+      returns only WGS-labelled runs in ENA; RNA run accessions have not been independently
+      resolved.
+  aliases:
+  - ST
+  - Shatin WWTP
+  - Sha Tin WWTP
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates from Che et al. 2019 sampling methods. Sha Tin
+    and Tai Po are described as treating saline sewage associated with seawater toilet
+    flushing. Shared project accessions must be filtered by site/sample; publications
+    can reuse the same reads.
+- id: site_kb:wwtp-shek-wu-hui
+  name: Shek Wu Hui Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+    latitude: 22.51
+    longitude: 114.119
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code SWH
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SWH
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SWH
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SWH
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code SWH
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-arg-per-million-bases
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code SWH
+    reported_units: ARG number per million base pairs
+  - variable_id: site_kb:variable-arg-genetic-context
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code SWH
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  - title: Mobile antibiotic resistome in wastewater treatment plants revealed by
+      Nanopore metagenomic sequencing
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA505617
+    accession: PRJNA505617
+    assay: Illumina shotgun metagenomics; associated Nanopore metagenomics reported
+      in the article
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    notes: PRJNA505617 currently returns Illumina runs, including repeated BioSamples
+      and an influent mixed-culture library. Article separately cites SAMN09603371–SAMN09603381
+      for the Nanopore-associated data. Project totals are not independent environmental-sample
+      counts.
+  aliases:
+  - SWH
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates from Che et al. 2019 sampling methods. Shared
+    project accessions must be filtered by site/sample; publications can reuse the
+    same reads.
+- id: site_kb:wwtp-stanley
+  name: Stanley Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+    latitude: 22.219
+    longitude: 114.21
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code STL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code STL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code STL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code STL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code STL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-arg-per-million-bases
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code STL
+    reported_units: ARG number per million base pairs
+  - variable_id: site_kb:variable-arg-genetic-context
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    method: Nanopore and Illumina sequence analysis
+    sample_context: Influent, activated sludge and effluent; code STL
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  - title: Mobile antibiotic resistome in wastewater treatment plants revealed by
+      Nanopore metagenomic sequencing
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA505617
+    accession: PRJNA505617
+    assay: Illumina shotgun metagenomics; associated Nanopore metagenomics reported
+      in the article
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1186/s40168-019-0663-0
+    notes: PRJNA505617 currently returns Illumina runs, including repeated BioSamples
+      and an influent mixed-culture library. Article separately cites SAMN09603371–SAMN09603381
+      for the Nanopore-associated data. Project totals are not independent environmental-sample
+      counts.
+  aliases:
+  - STL
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates from Che et al. 2019 sampling methods. Stanley
+    includes an integrated fixed-film/activated-sludge process in the 2024 study.
+    Shared project accessions must be filtered by site/sample; publications can reuse
+    the same reads.
+- id: site_kb:wwtp-tai-po
+  name: Tai Po Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code TP
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code TP
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code TP
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code TP
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code TP
+    sampling_period: '2018-01-05'
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  aliases:
+  - TP
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates omitted pending verification. Sha Tin and Tai
+    Po are described as treating saline sewage associated with seawater toilet flushing.
+    Shared project accessions must be filtered by site/sample; publications can reuse
+    the same reads.
+- id: site_kb:wwtp-yuen-long
+  name: Yuen Long Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code YL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code YL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code YL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code YL
+    sampling_period: January 2018 to January 2019
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code YL
+    sampling_period: '2018-01-05'
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  aliases:
+  - YL
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates omitted pending verification. Shared project
+    accessions must be filtered by site/sample; publications can reuse the same reads.
+- id: site_kb:wwtp-sai-kung
+  name: Sai Kung Sewage Treatment Works
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Hong Kong
+  variables:
+  - variable_id: site_kb:variable-bacterial-16s-profile
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: 16S rRNA amplicon sequencing and OTU analysis
+    sample_context: Influent, activated sludge and final-sedimentation-tank effluent;
+      study site code SK
+    sampling_period: January 2018 to January 2019; Sai Kung sampling suspended after
+      September 2018 typhoon damage
+  - variable_id: site_kb:variable-wwtp-temperature
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SK
+    sampling_period: January 2018 to January 2019; Sai Kung sampling suspended after
+      September 2018 typhoon damage
+  - variable_id: site_kb:variable-mean-cell-residence-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SK
+    sampling_period: January 2018 to January 2019; Sai Kung sampling suspended after
+      September 2018 typhoon damage
+  - variable_id: site_kb:variable-hydraulic-retention-time
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    method: Operational records supplied by the Hong Kong Drainage Services Department;
+      study RDA analysis
+    sample_context: Plant operational covariates; study site code SK
+    sampling_period: January 2018 to January 2019; Sai Kung sampling suspended after
+      September 2018 typhoon damage
+  - variable_id: site_kb:variable-eukaryotic-relative-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    method: Metagenomic contig classification and CoverM read mapping
+    sample_context: Aerobic activated sludge; study site code SK
+    sampling_period: '2018-01-05'
+  datasets:
+  - title: Effects of operational parameters on bacterial communities in Hong Kong
+      and global wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1012295
+    accession: PRJNA1012295
+    assay: 16S rRNA amplicon sequencing
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01333-23
+    notes: 222 public amplicon runs across six plants; this is not a shotgun sequencing
+      dataset. Site/sample mapping is retained in the accession metadata snapshot.
+  - title: Longitudinal dynamics and cross-domain interactions of eukaryotic populations
+      in wastewater treatment plants
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA432264
+    accession: PRJNA432264
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf058
+    notes: Project reused and extended across publications. Article reports 143 longitudinal
+      Sha Tin samples, one-year series at Stanley and Shek Wu Hui, and one activated-sludge
+      sample each from Tai Po, Yuen Long and Sai Kung. Current ENA run counts do not
+      resolve the full published sample inventory; do not assign every project run
+      to each plant.
+  aliases:
+  - SK
+  description: Hong Kong secondary sewage treatment works studied for microbial community
+    composition and its association with operating conditions.
+  notes: Study-specific observations do not assert uninterrupted monitoring or current
+    operating conditions. Coordinates omitted pending verification. Shared project
+    accessions must be filtered by site/sample; publications can reuse the same reads.
+- id: site_kb:wwtp-dachang-nanjing
+  name: Dachang wastewater treatment plant
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Jiangsu
+  variables:
+  - variable_id: site_kb:variable-antiviral-defense-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    method: DefenseFinder complete-system detection; CoverM with BWA-MEM contig abundance
+    sample_context: Aerobic-tank activated sludge; WWTP-DC
+    sampling_period: January 2013 to September 2018
+    reported_units: RPKM
+  - variable_id: site_kb:variable-crispr-spacer-density
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    method: CRISPR spacer extraction from metagenomic reads and sequence analysis
+    sample_context: Aerobic-tank activated sludge; WWTP-DC
+    sampling_period: January 2013 to September 2018
+  datasets:
+  - title: Long-term metagenomic insights into the roles of antiviral defense systems
+      in stabilizing activated sludge bacterial communities
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1149857
+    accession: PRJNA1149857
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    notes: 134 public metagenomic runs across both Nanjing plants. Article reports
+      69 Dachang and 65 Jiangxinzhou datasets; four Jiangxinzhou samples failed quality
+      control. Counts are study-specific, not current monitoring coverage.
+  aliases:
+  - WWTP-DC
+  description: 'Nanjing municipal wastewater treatment plant, studied over a multiyear
+    activated-sludge metagenomic series. Study-reported process: oxidation ditch.'
+  notes: Monthly sampling is reported for the historical study window. Phage-defense
+    metrics are sequence-derived, not direct chemical assays. Coordinates omitted
+    because the inspected archive sample was not independently assigned to one of
+    the two plants. The 134-run project must not be assigned wholesale to either plant.
+- id: site_kb:wwtp-jiangxinzhou
+  name: Jiangxinzhou wastewater treatment plant
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: China
+    state_province: Jiangsu
+  variables:
+  - variable_id: site_kb:variable-antiviral-defense-abundance
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    method: DefenseFinder complete-system detection; CoverM with BWA-MEM contig abundance
+    sample_context: Aerobic-tank activated sludge; WWTP-JXZ
+    sampling_period: January 2013 to September 2018
+    reported_units: RPKM
+  - variable_id: site_kb:variable-crispr-spacer-density
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    method: CRISPR spacer extraction from metagenomic reads and sequence analysis
+    sample_context: Aerobic-tank activated sludge; WWTP-JXZ
+    sampling_period: January 2013 to September 2018
+  datasets:
+  - title: Long-term metagenomic insights into the roles of antiviral defense systems
+      in stabilizing activated sludge bacterial communities
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1149857
+    accession: PRJNA1149857
+    assay: Shotgun metagenomics
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wraf051
+    notes: 134 public metagenomic runs across both Nanjing plants. Article reports
+      69 Dachang and 65 Jiangxinzhou datasets; four Jiangxinzhou samples failed quality
+      control. Counts are study-specific, not current monitoring coverage.
+  aliases:
+  - WWTP-JXZ
+  description: 'Nanjing municipal wastewater treatment plant, studied over a multiyear
+    activated-sludge metagenomic series. Study-reported process: anaerobic-anoxic-oxic.'
+  notes: Monthly sampling is reported for the historical study window. Phage-defense
+    metrics are sequence-derived, not direct chemical assays. Coordinates omitted
+    because the inspected archive sample was not independently assigned to one of
+    the two plants. The 134-run project must not be assigned wholesale to either plant.
+- id: site_kb:wwtp-nine-springs
+  name: Nine Springs wastewater treatment plant
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: United States
+    state_province: Wisconsin
+  variables:
+  - variable_id: site_kb:variable-bnr-filtered-total-phosphorus
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Nutrient analysis reported in Table 1; samples filtered at 0.45 µm
+    sample_context: Filtered influent and effluent, four pilot treatment trains
+    reported_units: mgP/L
+  - variable_id: site_kb:variable-bnr-filtered-tkn
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Nutrient analysis reported in Table 1; samples filtered at 0.45 µm
+    sample_context: Filtered influent and effluent, four pilot treatment trains
+    reported_units: mgN/L
+  - variable_id: site_kb:variable-bnr-filtered-nitrate
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Nutrient analysis reported in Table 1; samples filtered at 0.45 µm
+    sample_context: Filtered effluent, four pilot treatment trains
+    reported_units: mgN/L
+  - variable_id: site_kb:variable-bnr-filtered-nitrite
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Nutrient analysis reported in Table 1; samples filtered at 0.45 µm
+    sample_context: Filtered effluent, four pilot treatment trains
+    reported_units: mgN/L
+  - variable_id: site_kb:variable-bnr-dissolved-oxygen
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Dissolved-oxygen sensors used for aeration control
+    sample_context: Aerated tanks in UCTca, AOia, AO-G and AO-FF pilot trains
+    reported_units: mg/L
+  - variable_id: site_kb:variable-bnr-ammonium
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Ammonium sensors used for ammonia-based aeration control
+    sample_context: UCTca and AOia pilot trains; not asserted for all four pilots
+    reported_units: mgNH4+-N/L
+  - variable_id: site_kb:variable-accumulibacter-relative-abundance
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    method: Metagenomic read mapping to representative species genomes
+    sample_context: Activated sludge in four on-site pilot configurations
+  datasets:
+  - title: Refinement of the “Candidatus Accumulibacter” genus based on metagenomic
+      analysis of biological nutrient removal (BNR) pilot-scale plants operated with
+      reduced aeration
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA1037153
+    accession: PRJNA1037153
+    assay: Shotgun metagenomics of pilot-reactor activated sludge
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1128/msystems.01188-23
+    notes: Umbrella project; ENA returns runs with individual child BioProject accessions.
+      The paper also links JGI GOLD study Gs0156633. Four pilot configurations are
+      UCTca, AOia, AO-G and AO-FF; none is a separate municipal plant.
+  aliases:
+  - Nine Springs WWTP
+  description: Madison wastewater treatment facility hosting pilot-scale biological
+    nutrient removal experiments with reduced aeration. The registered study measurements
+    concern the on-site pilot reactors.
+  notes: Pilot trains treated primary effluent from the full-scale plant. Study observations
+    and aeration settings must not be generalized to the entire Nine Springs facility.
+    Experiments lasted 731 days and 505 days for the two pairs of pilots; exact date
+    bounds are not inferred from duration. Coordinates omitted pending verification.
